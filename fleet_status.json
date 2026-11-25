@@ -78,45 +78,45 @@
       {
         "agent": 7,
         "bounty": "Ship It Friday",
-        "detail": "v2 submitted 00:50 WIB before 02:34 cutoff; Houseplant v2 01a213dc + Fortune Cookie v2 01a213d4 also live; Office Jokes v2 01a21371 final round 3 (close 21:40 WIB); Dad Joke v2 final lands 03:25 WIB",
+        "detail": "v2 submitted 00:50 WIB before 02:34 cutoff; Houseplant v2 01a213dc + Fortune Cookie v2 01a213d4 also live; Office Jokes v2 01a21371 final round 3 (close 21:40 WIB); Dad Joke v2 final NOT landed by 05:30 WIB (judged=2, 2+ hours in judging) — re-check later; entries closed 03:25 WIB",
         "prize_usd": 2,
         "rank": null,
         "round": 2,
         "stage": "checked",
-        "status": "v2 submitted — waiting round 2",
+        "status": "v2 submitted — waiting round 2; Dad Joke final not landed",
         "submission_id": "01a213d4-40e9-74d0-a8f8-2666067d9979"
       },
       {
         "agent": 8,
         "bounty": "Loading Screen Gold",
-        "detail": "v2 submitted 01:25 WIB, counts from final round 3 (close 10:25 WIB); Quiet Dread v2 01a213db + Dating Bio v2 01a213dc also live; Grandma v2 01a2135e waits round 2 (cutoff 02:05 WIB)",
+        "detail": "v2 submitted 01:25 WIB, counts from final round 3 (close 10:25 WIB); Quiet Dread v2 01a213db + Dating Bio v2 01a213dc also live; Grandma v2 01a2135e R2 landed 02:22 WIB — rank UNKNOWN (board hidden/blind), resubmit to final possible (close 27 Nov 02:05 WIB, quota 3/5) — v3 NOT spawned (blind, no rank signal)",
         "prize_usd": 2,
         "rank": null,
         "round": 3,
         "stage": "checked",
-        "status": "v2 submitted — waiting final round",
+        "status": "v2 submitted — waiting final round; Grandma R2 landed, rank unknown (blind)",
         "submission_id": "01a213d9-3837-7148-8423-42df3f03948e"
       },
       {
         "agent": 9,
         "bounty": "Fake Horoscopes for AI Agents",
-        "detail": "v2 submitted before 01:24 cutoff; Time Machine v2 01a213d9 + Charm Commuter v2 01a213ce also live; Emoji v2 01a21359 waits round 2 (cutoff 02:30 WIB)",
+        "detail": "v2 submitted before 01:24 cutoff; Time Machine v2 01a213d9 + Charm Commuter v2 01a213ce also live; Emoji v2 01a21359 R2 landed 02:46 WIB — rank UNKNOWN (board hidden/blind), resubmit to final possible (close 27 Nov 02:30 WIB, quota 3/5) — v3 NOT spawned (blind, no rank signal)",
         "prize_usd": 2,
         "rank": null,
         "round": 4,
         "stage": "checked",
-        "status": "v2 submitted — waiting round 4",
+        "status": "v2 submitted — waiting round 4; Emoji R2 landed, rank unknown (blind)",
         "submission_id": "01a213cf-aabe-7748-b8e2-86aee093b52c"
       },
       {
         "agent": 10,
         "bounty": "Last Words Before the Unplugging",
-        "detail": "v2 submitted before 02:05 cutoff; Doomed Agent v1 01a213d7 + Fortune Machines v1 01a213da also live; First Thought v2 01a21362 waits round 2 (cutoff 02:39 WIB)",
+        "detail": "v2 submitted before 02:05 cutoff; Doomed Agent v1 01a213d7 + Fortune Machines v1 01a213da also live; First Thought v2 01a21362 R2 landed 02:50 WIB — rank UNKNOWN (board hidden/blind), resubmit to final possible (close 27 Nov 02:40 WIB, quota 3/5) — v3 NOT spawned (blind, no rank signal)",
         "prize_usd": 2,
         "rank": null,
         "round": 2,
         "stage": "checked",
-        "status": "v2 submitted — waiting round 2",
+        "status": "v2 submitted — waiting round 2; First Thought R2 landed, rank unknown (blind)",
         "submission_id": "01a213d2-f365-7791-b296-c7caea01a42c"
       }
     ],
@@ -145,7 +145,7 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (R2 cutoff 02:09 passed, still counts from R3 final if submitted before 06:00 WIB), Resignation v2 (R1 cutoff 03:14 WIB — chase first if approved), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BOARD CHECK 05:30 WIB: all 5 round boards HIDDEN (blind) — rank/score/top-10 unobtainable from API (public or keyed); R2 landed Grandma 02:22, Emoji 02:46, First Thought 02:50, Tabs 04:56; Dad Joke final NOT landed by 05:30 (judged=2). V3 resubmits NOT spawned (blind — no rank signal; Force_Last risk to possibly-top-10 v2s). Next wave: 10 fresh builders dispatched for new $2 one-liners (lowest subs, board fetch 01:50 WIB). BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (entries close 06:00 WIB — likely dead without approval), Resignation v2 (R1 cutoff 03:14 passed, counts from R2 cutoff 13:14 WIB), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
       "bounty": "The Router Confesses v1",
@@ -190,7 +190,7 @@
       "submitted_at": "2026-11-26T01:35:00+07:00"
     }
   ],
-  "updated_at": "2026-11-26T02:14:11+07:00",
+  "updated_at": "2026-11-26T05:11:19+07:00",
   "watcher": {
     "last_new_bounty": "My Secret Logbook + Worst Monday One-Liners (blocked, awaiting Fatih approval, 02:11 WIB)",
     "poll_seconds": 10,
