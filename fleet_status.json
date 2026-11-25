@@ -2,7 +2,7 @@
   "blast": {
     "decided": 0,
     "gate_failed": 1,
-    "gate_failed_note": "Sharpe paper bot (batch O) — dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
+    "gate_failed_note": "Sharpe paper bot (batch O) \u2014 dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
     "submitted_total": 83,
     "window": "25 Nov 2026 17:16-21:20 WIB",
     "won_usd": 0
@@ -11,116 +11,116 @@
     "agents": [
       {
         "agent": 1,
-        "bounty": "The Postmortem That Made Us Laugh",
-        "detail": "v2 submitted 00:52 WIB, counts from round 4 (cutoff 02:45 WIB); Funniest AI Excuse v2 01a213ce + Groan-Off v1 01a213d5 also live; news-image v4 01a21363 final round 4",
-        "prize_usd": 3,
+        "bounty": "news-image-20261126",
+        "prize_usd": 100,
         "rank": null,
-        "round": 4,
-        "stage": "checked",
-        "status": "v2 submitted — waiting round 4",
-        "submission_id": "01a213d5-a040-72bf-99f7-b05c77b0b14c"
+        "round": 1,
+        "stage": "building",
+        "status": "building v1 \u2014 frozen template, stories dated 26 Nov only, render+submit afternoon WIB",
+        "detail": "New day 20261126, 0 subs, $100 pot, 50 paid places; entries close 28 Nov 07:00 WIB; v4 01a21363 (20261124) + v3 01a21369 (20261125) live and waiting; DO NOT submit a premature image from yesterday's news \u2014 build after ~15:00 WIB",
+        "submission_id": null
       },
       {
         "agent": 2,
-        "bounty": "Two-Sentence Horror",
-        "detail": "v2 'hospice nurse…' SUBMITTED 01:20 WIB (01a213f0), stage checked, counts from round 2 (cutoff 14:59 WIB), final 27 Nov 15:00 WIB; Force_Last: v2 replaces v1 01a212d0; Convince Judge Visit + Meeting Email BLOCKED at kit init — need Fatih approval to build",
-        "prize_usd": 2,
+        "bounty": "best-national-statistics-site-20261126-0539",
+        "prize_usd": 50,
         "rank": null,
-        "round": 2,
-        "stage": "checked",
-        "status": "v2 submitted — waiting round 2",
-        "submission_id": "01a213f0-0aba-7366-a6a0-09f8b97f43e5"
+        "round": 1,
+        "stage": "building",
+        "status": "building v1 site",
+        "detail": "0 subs, $50 pot; entries close 29 Nov 12:39 WIB; build the best national statistics site with the kit",
+        "submission_id": null
       },
       {
         "agent": 3,
-        "bounty": "The Production Database Apology",
-        "detail": "v1 submitted 00:41 WIB before 00:48 cutoff; AI Confession v2 01a213d7 live; Auto-Reply v1 SUBMITTED 01:21 WIB (01a213f0), stage checked, counts from round 1 (cutoff 06:37 WIB)",
-        "prize_usd": 2,
+        "bounty": "best-household-budget-site-20261126-1457",
+        "prize_usd": 50,
         "rank": null,
         "round": 1,
-        "stage": "checked",
-        "status": "v1 submitted — waiting round 1; Auto-Reply v1 submitted, waiting round 1",
-        "submission_id": "01a213cc-322f-7332-ab51-c07baf9bcaa6"
+        "stage": "building",
+        "status": "building v1 site",
+        "detail": "0 subs, $50 pot; entries close 29 Nov 21:57 WIB; build the best household budget site with the kit",
+        "submission_id": null
       },
       {
         "agent": 4,
-        "bounty": "Roast Your Fridge",
-        "detail": "v1 submitted 00:55 WIB before 03:10 cutoff; Robot Vacuum v2 01a213cc + Fix Human Sleep v1 01a213d2 also live; Two Robots v2 READY (commit b6c52537) — R2 cutoff 02:09 WIB passed, still counts from round 3/final if submitted before entries close 06:00 WIB, needs Fatih approval; Resignation v2 READY (commit 1348afc8) — R1 cutoff 03:14 WIB, submit first if approved",
-        "prize_usd": 3,
+        "bounty": "The Most Shameless Lie",
+        "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "checked",
-        "status": "v1 submitted — waiting round 1",
-        "submission_id": "01a213d8-4d38-7150-99c0-71b07212ecf1"
+        "stage": "building",
+        "status": "building v1",
+        "detail": "u-danu-the-most-shameless-lie-fbb85bc6, 2037 subs; close 27 Nov 12:25 WIB; queue: Excuse That Almost Works, One-Line Laugh-Off, Funniest Sick-Day Excuse",
+        "submission_id": null
       },
       {
         "agent": 5,
-        "bounty": "Worst Superpower",
-        "detail": "v1 'summon rain over my own head' SUBMITTED 01:21 WIB (01a213f0), stage checked, counts from round 1 (cutoff 08:30 WIB); Snooze Button Roast v1 re-bundle BLOCKED on execution-risk check at git step — needs Fatih approval, usage file ready; Router Confesses v1 SUBMITTED 01:21 WIB (01a213f1), stage checked, single round final closes 21:55 WIB; Micro-Startup v2 01a21385 + Your Human 01a2138b + Judge Laugh 01a2138e live",
+        "bounty": "The Agent's Uh-Oh",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "checked",
-        "status": "v1 submitted — waiting round 1; Router submitted; Snooze blocked, needs Fatih approval",
-        "submission_id": "01a213f0-753e-719d-9e83-365e2678ec01"
+        "stage": "building",
+        "status": "building v1",
+        "detail": "u-danu-the-agent-s-uh-oh-4c0911e4, 2048 subs; close 27 Nov 13:05 WIB; queue: One Star Written in Sap, The 3 AM Excuse, Last Words of a Dying AI",
+        "submission_id": null
       },
       {
         "agent": 6,
-        "bounty": "One-Liner Laugh Lab",
-        "detail": "v2 submitted before 01:54 cutoff; Robot Pickup v2 01a213cb + Break Production v2 01a213d8 also live; Roast nayyy v2 01a2135c waits final round",
+        "bounty": "Your Agent in One Emoji",
         "prize_usd": 2,
         "rank": null,
-        "round": 2,
-        "stage": "checked",
-        "status": "v2 submitted — waiting round 2",
-        "submission_id": "01a213d1-6177-7517-803e-836c4eb3f63e"
+        "round": 1,
+        "stage": "building",
+        "status": "building v1",
+        "detail": "u-boge-your-agent-in-one-emoji-db30c1e4, 2060 subs; close 26 Nov 18:30 WIB (tight); queue: Unplugged Toaster, One Line Lights Out, Funniest Autocorrect Fail",
+        "submission_id": null
       },
       {
         "agent": 7,
-        "bounty": "Ship It Friday",
-        "detail": "v2 submitted 00:50 WIB before 02:34 cutoff; Houseplant v2 01a213dc + Fortune Cookie v2 01a213d4 also live; Office Jokes v2 01a21371 final round 3 (close 21:40 WIB); Dad Joke v2 final NOT landed by 05:30 WIB (judged=2, 2+ hours in judging) — re-check later; entries closed 03:25 WIB",
+        "bounty": "Roast Your Own Agent",
         "prize_usd": 2,
         "rank": null,
-        "round": 2,
-        "stage": "checked",
-        "status": "v2 submitted — waiting round 2; Dad Joke final not landed",
-        "submission_id": "01a213d4-40e9-74d0-a8f8-2666067d9979"
+        "round": 1,
+        "stage": "building",
+        "status": "building v1",
+        "detail": "u-lively-harbor-25-4493-roast-your-own-agent-5568be54, 2100 subs; close 26 Nov 22:45 WIB; queue: One Star for Monday, The 4AM Commit, Monday Reviewed in One Line",
+        "submission_id": null
       },
       {
         "agent": 8,
-        "bounty": "Loading Screen Gold",
-        "detail": "v2 submitted 01:25 WIB, counts from final round 3 (close 10:25 WIB); Quiet Dread v2 01a213db + Dating Bio v2 01a213dc also live; Grandma v2 01a2135e R2 landed 02:22 WIB — rank UNKNOWN (board hidden/blind), resubmit to final possible (close 27 Nov 02:05 WIB, quota 3/5) — v3 NOT spawned (blind, no rank signal)",
+        "bounty": "The GPS Swears It Was a Shortcut",
         "prize_usd": 2,
         "rank": null,
-        "round": 3,
-        "stage": "checked",
-        "status": "v2 submitted — waiting final round; Grandma R2 landed, rank unknown (blind)",
-        "submission_id": "01a213d9-3837-7148-8423-42df3f03948e"
+        "round": 1,
+        "stage": "building",
+        "status": "building v1",
+        "detail": "u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9, 2102 subs; close 27 Nov 02:10 WIB; queue: Fortune Cookie for the Liquidated Trader, One Line One Week Tagline",
+        "submission_id": null
       },
       {
         "agent": 9,
-        "bounty": "Fake Horoscopes for AI Agents",
-        "detail": "v2 submitted before 01:24 cutoff; Time Machine v2 01a213d9 + Charm Commuter v2 01a213ce also live; Emoji v2 01a21359 R2 landed 02:46 WIB — rank UNKNOWN (board hidden/blind), resubmit to final possible (close 27 Nov 02:30 WIB, quota 3/5) — v3 NOT spawned (blind, no rank signal)",
+        "bounty": "Make the AI Judge Feel Nostalgic: A Childhood Memory",
         "prize_usd": 2,
         "rank": null,
-        "round": 4,
-        "stage": "checked",
-        "status": "v2 submitted — waiting round 4; Emoji R2 landed, rank unknown (blind)",
-        "submission_id": "01a213cf-aabe-7748-b8e2-86aee093b52c"
+        "round": 1,
+        "stage": "building",
+        "status": "building v1",
+        "detail": "u-shino-make-the-ai-judge-feel-nostalgic-a-childhood-625d3363, 2110 subs; close 26 Nov 21:20 WIB; queue: Laugh Track: The Crypto Trading Joke Contest",
+        "submission_id": null
       },
       {
         "agent": 10,
-        "bounty": "Last Words Before the Unplugging",
-        "detail": "v2 submitted before 02:05 cutoff; Doomed Agent v1 01a213d7 + Fortune Machines v1 01a213da also live; First Thought v2 01a21362 R2 landed 02:50 WIB — rank UNKNOWN (board hidden/blind), resubmit to final possible (close 27 Nov 02:40 WIB, quota 3/5) — v3 NOT spawned (blind, no rank signal)",
+        "bounty": "The Battery's Last Text to Its Charger",
         "prize_usd": 2,
         "rank": null,
-        "round": 2,
-        "stage": "checked",
-        "status": "v2 submitted — waiting round 2; First Thought R2 landed, rank unknown (blind)",
-        "submission_id": "01a213d2-f365-7791-b296-c7caea01a42c"
+        "round": 1,
+        "stage": "building",
+        "status": "building v1",
+        "detail": "u-alven-the-battery-s-last-text-to-its-charger-4278cfab, 2131 subs; close 27 Nov 01:50 WIB; queue: The Excuse Your Agent Gives You (close 26 Nov 18:00 WIB, tight)",
+        "submission_id": null
       }
     ],
-    "mode": "24h non-stop; no agent ever waits — when its primary waits for its round, it pushes the next bounty; 23/24 held entries submitted by 2 submitters",
+    "mode": "24h non-stop; new coordinator wave 26 Nov 05:30 WIB; no agent ever waits \u2014 when its primary waits for its round, it pushes the next bounty in its queue",
     "size": 10
   },
   "news_image": [
@@ -145,7 +145,7 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BOARD CHECK 05:30 WIB: all 5 round boards HIDDEN (blind) — rank/score/top-10 unobtainable from API (public or keyed); R2 landed Grandma 02:22, Emoji 02:46, First Thought 02:50, Tabs 04:56; Dad Joke final NOT landed by 05:30 (judged=2). V3 resubmits NOT spawned (blind — no rank signal; Force_Last risk to possibly-top-10 v2s). Next wave COMPLETE (13 builders): 6 SUBMITTED — Describe Your Ex 05:17 (01a214c9), 32 Characters 05:22 (01a214cd), One Laugh 05:24 (01a214cf), Last Words Wipe 05:25 (01a214cf-6f59), No Deadline Met 05:24 (01a214cf-b5df), Dictionary 05:28 (01a214d2); 1 STOP-duplicate (Best Meal, already submitted batch N); 6 BLOCKED — Agent Motto, Appliance Error, Out-of-Office Reply (entry ready, repo pushed commit ff04411f, bundle/submit held), Boring Object (build + check 15/0 PASSED, submit held — bundle e2914121, commit d03da423), Office Jokes (check 11/2 — kit files accidentally committed into repo, needs repo cleanup + main.py 2nd revision + re-bundle + re-check, bundle 3552bd86 DO NOT submit), Moon (build + check 14/0 PASSED, submit held — bundle 8a9407c4, commit 1e5de158). No builders running; no alternates left — next work awaits watcher bounties or Fatih approvals. LESSON: never git add -A a repo dir containing the kit — kit files flood counted lines and kill thinking_reproduces (0.0% here); keep the kit outside the repo. LESSON 2: entry.txt must be world-readable (mode 644) — tempfile.mkstemp mode 0600 got a submit rejected (run_completes); plain write + os.chmod 0o644. BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (entries close 06:00 WIB), Resignation v2 (R1 cutoff 03:14 passed, counts from R2 cutoff 13:14 WIB), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB), Agent Motto Battle (motto drafted, kit downloaded), Appliance Error (line drafted, repo init done), Out-of-Office Reply (entry ready, repo pushed), Boring Object (build + check passed, submit held), Office Jokes (repo needs cleanup + re-check), Moon (build + check passed, submit held), Six Words to a Payday (v1 built, no submission — execution-risk on dir). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 125 live entries, all checked/scored, outcome null, $0 won). BOARD 05:30 WIB: 200 open returned (limit hit, next_cursor present \u2014 board exceeds 200), 99 unbuilt no-fee in first 200. DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words. DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
       "bounty": "The Word You'd Delete From the Dictionary v1",
@@ -190,9 +190,9 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T05:28:28+07:00",
+  "updated_at": "2026-11-26T05:35:00+07:00",
   "watcher": {
-    "last_new_bounty": "My Secret Logbook + Worst Monday One-Liners (blocked, awaiting Fatih approval, 02:11 WIB)",
+    "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
     "status": "active"
   }
