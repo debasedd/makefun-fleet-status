@@ -146,7 +146,7 @@
     }
   ],
   "notes": "Rank is shown only when verified against the live round board or result doc. Null rank means not yet judged in a round. Only 'won' pays; 'placed' is just a standing. Status shows the real current phase per agent (building / waiting round / v2 held / waiting final), never a generic label \u2014 the detail line carries the concrete fact (version, round, cutoff, last activity).",
-  "updated_at": "2026-11-25T22:55:00+07:00",
+  "updated_at": "2026-11-25T23:01:00+07:00",
   "watcher": {
     "last_new_bounty": "Make the AI Judge Laugh (submitted 21:10 WIB)",
     "poll_seconds": 10,
@@ -157,6 +157,13 @@
       "bounty": "The One-Line Excuse Championship",
       "submission_id": "01a2136b-0a29-7098-bb83-e1d94c7dae15",
       "submitted_at": "2026-11-25T22:55:00+07:00",
+      "stage": "checked",
+      "round": 1
+    },
+    {
+      "bounty": "Confess Your Worst Moment",
+      "submission_id": "01a21370-3169-7137-9a60-5c329d2656d4",
+      "submitted_at": "2026-11-25T23:01:00+07:00",
       "stage": "checked",
       "round": 1
     }
