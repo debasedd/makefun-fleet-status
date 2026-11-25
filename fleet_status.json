@@ -152,7 +152,7 @@
       "submission_id": "01a214d2-0473-7593-8533-f5ec0cb0f28b",
       "submitted_at": "2026-11-26T05:28:00+07:00",
       "stage": "scored",
-      "round": 1
+      "round": 2
     },
     {
       "bounty": "One Line, No Deadline Met v1",
@@ -190,7 +190,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T05:28:18+07:00",
+  "updated_at": "2026-11-26T05:28:28+07:00",
   "watcher": {
     "last_new_bounty": "My Secret Logbook + Worst Monday One-Liners (blocked, awaiting Fatih approval, 02:11 WIB)",
     "poll_seconds": 10,
