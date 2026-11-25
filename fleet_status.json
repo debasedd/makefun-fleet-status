@@ -145,8 +145,15 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BOARD CHECK 05:30 WIB: all 5 round boards HIDDEN (blind) — rank/score/top-10 unobtainable from API (public or keyed); R2 landed Grandma 02:22, Emoji 02:46, First Thought 02:50, Tabs 04:56; Dad Joke final NOT landed by 05:30 (judged=2). V3 resubmits NOT spawned (blind — no rank signal; Force_Last risk to possibly-top-10 v2s). Next wave: 13 builders dispatched for new $2 one-liners; results so far: Describe Your Ex v1 SUBMITTED 05:17 WIB (01a214c9, scored, R1), 32 Characters v1 SUBMITTED 05:22 WIB (01a214cd, scored, counts from R2), One Laugh v1 SUBMITTED 05:24 WIB (01a214cf, scored, counts from R2), Last Words Wipe v1 SUBMITTED 05:25 WIB (01a214cf-6f59, checked, counts from R2), Best Meal STOP-duplicate (already submitted batch N), Agent Motto BLOCKED, Appliance Error BLOCKED, Out-of-Office Reply BLOCKED (entry ready, repo pushed commit ff04411f, bundle/submit held), Boring Object BLOCKED (build + check 15/0 PASSED, submit held — bundle e2914121, commit d03da423), Office Jokes BLOCKED (check 11/2 — kit files accidentally committed into repo, needs repo cleanup + main.py 2nd revision + re-bundle + re-check, bundle 3552bd86 DO NOT submit), Moon BLOCKED (build + check 14/0 PASSED, submit held — bundle 8a9407c4, commit 1e5de158); 2 builders running; no alternates left. LESSON: never git add -A a repo dir containing the kit — kit files flood counted lines and kill thinking_reproduces (0.0% here); keep the kit outside the repo. BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (entries close 06:00 WIB), Resignation v2 (R1 cutoff 03:14 passed, counts from R2 cutoff 13:14 WIB), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB), Agent Motto Battle (motto drafted, kit downloaded), Appliance Error (line drafted, repo init done), Out-of-Office Reply (entry ready, repo pushed), Boring Object (build + check passed, submit held), Office Jokes (repo needs cleanup + re-check), Moon (build + check passed, submit held), Six Words to a Payday (v1 built, no submission — execution-risk on dir). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BOARD CHECK 05:30 WIB: all 5 round boards HIDDEN (blind) — rank/score/top-10 unobtainable from API (public or keyed); R2 landed Grandma 02:22, Emoji 02:46, First Thought 02:50, Tabs 04:56; Dad Joke final NOT landed by 05:30 (judged=2). V3 resubmits NOT spawned (blind — no rank signal; Force_Last risk to possibly-top-10 v2s). Next wave: 13 builders dispatched for new $2 one-liners; results so far: Describe Your Ex v1 SUBMITTED 05:17 WIB (01a214c9, scored, R1), 32 Characters v1 SUBMITTED 05:22 WIB (01a214cd, scored, counts from R2), One Laugh v1 SUBMITTED 05:24 WIB (01a214cf, scored, counts from R2), Last Words Wipe v1 SUBMITTED 05:25 WIB (01a214cf-6f59, scored, counts from R2), No Deadline Met v1 SUBMITTED 05:24 WIB (01a214cf-b5df, scored, counts from R2), Best Meal STOP-duplicate (already submitted batch N), Agent Motto BLOCKED, Appliance Error BLOCKED, Out-of-Office Reply BLOCKED (entry ready, repo pushed commit ff04411f, bundle/submit held), Boring Object BLOCKED (build + check 15/0 PASSED, submit held — bundle e2914121, commit d03da423), Office Jokes BLOCKED (check 11/2 — kit files accidentally committed into repo, needs repo cleanup + main.py 2nd revision + re-bundle + re-check, bundle 3552bd86 DO NOT submit), Moon BLOCKED (build + check 14/0 PASSED, submit held — bundle 8a9407c4, commit 1e5de158); 1 builder running (Dictionary); no alternates left. LESSON: never git add -A a repo dir containing the kit — kit files flood counted lines and kill thinking_reproduces (0.0% here); keep the kit outside the repo. BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (entries close 06:00 WIB), Resignation v2 (R1 cutoff 03:14 passed, counts from R2 cutoff 13:14 WIB), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB), Agent Motto Battle (motto drafted, kit downloaded), Appliance Error (line drafted, repo init done), Out-of-Office Reply (entry ready, repo pushed), Boring Object (build + check passed, submit held), Office Jokes (repo needs cleanup + re-check), Moon (build + check passed, submit held), Six Words to a Payday (v1 built, no submission — execution-risk on dir). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
+    {
+      "bounty": "One Line, No Deadline Met v1",
+      "submission_id": "01a214cf-b5df-74d8-8f5e-8333afddb973",
+      "submitted_at": "2026-11-26T05:24:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
     {
       "bounty": "Last Words Before the Wipe v1",
       "submission_id": "01a214cf-6f59-7555-a4e2-a31c4a0a7263",
@@ -181,16 +188,9 @@
       "submitted_at": "2026-11-26T01:21:00+07:00",
       "stage": "checked",
       "round": 1
-    },
-    {
-      "bounty": "The Funniest Auto-Reply an AI Ever Sent v1",
-      "submission_id": "01a213f0-fc77-73f2-af42-2e69095fab50",
-      "submitted_at": "2026-11-26T01:21:00+07:00",
-      "stage": "checked",
-      "round": 1
     }
   ],
-  "updated_at": "2026-11-26T05:26:08+07:00",
+  "updated_at": "2026-11-26T05:26:25+07:00",
   "watcher": {
     "last_new_bounty": "My Secret Logbook + Worst Monday One-Liners (blocked, awaiting Fatih approval, 02:11 WIB)",
     "poll_seconds": 10,
