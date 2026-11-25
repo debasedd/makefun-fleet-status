@@ -45,7 +45,7 @@
       {
         "agent": 4,
         "bounty": "Roast Your Fridge",
-        "detail": "v1 submitted 00:55 WIB before 03:10 cutoff; Robot Vacuum v2 01a213cc + Fix Human Sleep v1 01a213d2 also live; Two Robots v2 HELD (needs Fatih approval)",
+        "detail": "v1 submitted 00:55 WIB before 03:10 cutoff; Robot Vacuum v2 01a213cc + Fix Human Sleep v1 01a213d2 also live; Two Robots v2 READY (commit b6c52537) — R2 cutoff 02:09 WIB passed, still counts from round 3/final if submitted before entries close 06:00 WIB, needs Fatih approval; Resignation v2 READY (commit 1348afc8) — R1 cutoff 03:14 WIB, submit first if approved",
         "prize_usd": 3,
         "rank": null,
         "round": 1,
@@ -145,7 +145,7 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "Status shows the real current phase per agent (v2 submitted / v1 held — coordinator re-bundle), never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty; when its primary waits for its round, it pushes the next bounty. 23 of 24 held entries are now LIVE (submitters A+B, all stage checked); 5 entries remain held for coordinator re-bundle (Auto-Reply, Worst Superpower, Snooze, Router, Horror v2) + 2 builds blocked at kit init pending Fatih approval. Rank is shown only when verified against the live round board or result doc. Null rank means not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (R2 cutoff 02:09 passed, still counts from R3 final if submitted before 06:00 WIB), Resignation v2 (R1 cutoff 03:14 WIB — chase first if approved), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
       "bounty": "The Router Confesses v1",
@@ -190,9 +190,9 @@
       "submitted_at": "2026-11-26T01:35:00+07:00"
     }
   ],
-  "updated_at": "2026-11-26T01:23:22+07:00",
+  "updated_at": "2026-11-26T02:14:11+07:00",
   "watcher": {
-    "last_new_bounty": "Make the AI Judge Laugh (submitted 21:10 WIB)",
+    "last_new_bounty": "My Secret Logbook + Worst Monday One-Liners (blocked, awaiting Fatih approval, 02:11 WIB)",
     "poll_seconds": 10,
     "status": "active"
   }
