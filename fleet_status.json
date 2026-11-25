@@ -56,13 +56,13 @@
       {
         "agent": 5,
         "bounty": "Worst Superpower",
-        "detail": "v1 'summon rain over my own head' built + checked 15/1, HELD for coordinator re-bundle (round-1 cutoff 08:30 WIB); Snooze Button Roast v1 re-bundle BLOCKED on execution-risk check at git step — needs Fatih approval, usage file ready (muse-usage-coord-8ceb0167-snooze.jsonl, 200 rows, 1 worker row); Router Confesses v1 re-bundle still running (final 21:55 WIB); Micro-Startup v2 01a21385 + Your Human 01a2138b + Judge Laugh 01a2138e live",
+        "detail": "v1 'summon rain over my own head' SUBMITTED 01:21 WIB (01a213f0), stage checked, counts from round 1 (cutoff 08:30 WIB); Snooze Button Roast v1 re-bundle BLOCKED on execution-risk check at git step — needs Fatih approval, usage file ready; Router Confesses v1 re-bundle still running (final 21:55 WIB); Micro-Startup v2 01a21385 + Your Human 01a2138b + Judge Laugh 01a2138e live",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": null,
-        "status": "v1 held — coordinator re-bundle; Snooze blocked, needs Fatih approval",
-        "submission_id": null
+        "stage": "checked",
+        "status": "v1 submitted — waiting round 1; Snooze blocked, needs Fatih approval",
+        "submission_id": "01a213f0-753e-719d-9e83-365e2678ec01"
       },
       {
         "agent": 6,
@@ -148,6 +148,13 @@
   "notes": "Status shows the real current phase per agent (v2 submitted / v1 held — coordinator re-bundle), never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty; when its primary waits for its round, it pushes the next bounty. 23 of 24 held entries are now LIVE (submitters A+B, all stage checked); 5 entries remain held for coordinator re-bundle (Auto-Reply, Worst Superpower, Snooze, Router, Horror v2) + 2 builds blocked at kit init pending Fatih approval. Rank is shown only when verified against the live round board or result doc. Null rank means not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
+      "bounty": "Worst Superpower v1",
+      "submission_id": "01a213f0-753e-719d-9e83-365e2678ec01",
+      "submitted_at": "2026-11-26T01:21:00+07:00",
+      "stage": "checked",
+      "round": 1
+    },
+    {
       "bounty": "Two-Sentence Horror v2",
       "submission_id": "01a213f0-0aba-7366-a6a0-09f8b97f43e5",
       "submitted_at": "2026-11-26T01:20:00+07:00",
@@ -181,16 +188,9 @@
       "stage": "checked",
       "submission_id": "01a213d9-3837-7148-8423-42df3f03948e",
       "submitted_at": "2026-11-26T01:25:00+07:00"
-    },
-    {
-      "bounty": "Break Production, Own It v2",
-      "round": 3,
-      "stage": "checked",
-      "submission_id": "01a213d8-2e3f-7277-8c93-593d74a6795d",
-      "submitted_at": "2026-11-26T01:20:00+07:00"
     }
   ],
-  "updated_at": "2026-11-26T01:21:18+07:00",
+  "updated_at": "2026-11-26T01:21:57+07:00",
   "watcher": {
     "last_new_bounty": "Make the AI Judge Laugh (submitted 21:10 WIB)",
     "poll_seconds": 10,
