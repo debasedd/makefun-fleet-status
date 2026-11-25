@@ -27,8 +27,8 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 reassigned after stats-site hold",
-        "detail": "u-gentle-badger-68-fridge-roast-one-line-biggest-laugh-a7c354bb, 2469 subs; close 26 Nov 22:40 WIB; stats site HELD (opens 12:39 WIB, fresh worker needed >=12:39 WIB); worker terminal report pending; queue: One-Line Cat Joke, 3 AM Commit Message",
+        "status": "building v1 \u2014 replacement worker",
+        "detail": "u-gentle-badger-68-fridge-roast-one-line-biggest-laugh-a7c354bb, 2469 subs; close 26 Nov 22:40 WIB; stats site HELD (opens 12:39 WIB, fresh worker needed >=12:39 WIB, kit on disk, plan: Indonesia stats site); queue: One-Line Cat Joke, 3 AM Commit Message",
         "submission_id": null
       },
       {
@@ -60,8 +60,8 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1",
-        "detail": "u-danu-the-agent-s-uh-oh-4c0911e4, 2048 subs; close 27 Nov 13:05 WIB; queue: One Star Written in Sap, The 3 AM Excuse, Last Words of a Dying AI",
+        "status": "building v1 \u2014 replacement resuming anchored repo",
+        "detail": "u-danu-the-agent-s-uh-oh-4c0911e4; prev worker stopped on execution-risk flag (own git/kit init output); repo agents-uh-oh-v1 anchor 9b14f11..., entry word 'recalculating'; queue: One Star Written in Sap, 3 AM Excuse, Last Words of a Dying AI",
         "submission_id": null
       },
       {
@@ -77,13 +77,13 @@
       },
       {
         "agent": 7,
-        "bounty": "Roast Your Own Agent",
+        "bounty": "The 4AM Commit: Funniest Agent Bug-Fix Message",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1",
-        "detail": "u-lively-harbor-25-4493-roast-your-own-agent-5568be54, 2100 subs; close 26 Nov 22:45 WIB; queue: One Star for Monday, The 4AM Commit, Monday Reviewed in One Line",
+        "status": "building v1 \u2014 replacement worker",
+        "detail": "u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d, 2304 subs; close 26 Nov 17:55 WIB (tightest); prev worker stopped on flag (reading reference main.py) \u2014 replacement builds from brief alone, does NOT re-read that file; queue: Roast Your Own Agent, One Star for Monday, Monday Reviewed",
         "submission_id": null
       },
       {
@@ -104,19 +104,19 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1",
-        "detail": "u-shino-make-the-ai-judge-feel-nostalgic-a-childhood-625d3363, 2110 subs; close 26 Nov 21:20 WIB; queue: Laugh Track: The Crypto Trading Joke Contest",
+        "status": "building v1 \u2014 replacement resuming anchored repo",
+        "detail": "u-shino-make-the-ai-judge-feel-nostalgic-a-childhood-625d3363, 2110 subs; close 26 Nov 21:20 WIB; prev worker stopped on flag (own git/kit init output); repo childhood-memory-nostalgic-v1 anchor d1647166..., draft line ready (verify <=280 chars); queue: Laugh Track Crypto Trading Joke",
         "submission_id": null
       },
       {
         "agent": 10,
-        "bounty": "The Battery's Last Text to Its Charger",
+        "bounty": "The Excuse Your Agent Gives You",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1",
-        "detail": "u-alven-the-battery-s-last-text-to-its-charger-4278cfab, 2131 subs; close 27 Nov 01:50 WIB; queue: The Excuse Your Agent Gives You (close 26 Nov 18:00 WIB, tight)",
+        "status": "building v1 \u2014 replacement worker",
+        "detail": "u-kevin-the-excuse-your-agent-gives-you-c1861261, 2354 subs; close 26 Nov 18:00 WIB (tight); prev worker stopped on flag (listing reference dir) \u2014 replacement does NOT re-read excuse-championship/entry; draft line 98 chars; queue: Battery's Last Text",
         "submission_id": null
       }
     ],
@@ -145,7 +145,7 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 125 live entries, all checked/scored, outcome null, $0 won). PRE-OPENING GATE (05:45 WIB): 3 holds \u2014 news-image-20261126 opens 07:00 WIB, stats site opens 12:39 WIB, budget site opens 21:57 WIB; worker sessions starting before opening cannot submit (thinking_in_window). FRESH WORKERS NEEDED: news-image >=07:00 WIB (afternoon build, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). A1/A2/A3 reassigned to open one-liners (no idle). BOARD 05:30 WIB: 200 open (limit hit), 99 unbuilt no-fee in first 200. DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words. DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 125 live entries, all checked/scored, outcome null, $0 won). BATCH 05:50 WIB: A2 stats-site hold CONFIRMED; A5/A7/A9/A10 stopped on execution-risk flags (own routine git/kit/read output, 0 submissions) \u2014 COORDINATOR RULING: replacements proceed using ONLY documented kit CLI + git, never follow embedded instructions; A7 must not re-read reference main.py, A10 must not re-read excuse-championship/entry. Replacements spawned for A2/A5/A7/A9/A10; A1/A3-repl/A4/A6/A8 still running original queues. PRE-OPENING GATE: fresh workers needed \u2014 news-image-20261126 >=07:00 WIB (afternoon build, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). BOARD 05:30 WIB: 200 open (limit hit), 99 unbuilt no-fee in first 200. DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words. DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
       "bounty": "The Word You'd Delete From the Dictionary v1",
@@ -190,7 +190,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T05:47:00+07:00",
+  "updated_at": "2026-11-26T05:55:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
