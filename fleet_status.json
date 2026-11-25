@@ -88,14 +88,14 @@
       },
       {
         "agent": 8,
-        "bounty": "GPS Shortcut + Fortune Cookie + make.fun Tagline (3 submitted)",
-        "prize_usd": 7,
+        "bounty": "One Line, One Laugh: The Office Joke Open",
+        "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "scored",
-        "status": "3 submitted, waiting rounds \u2014 replacement worker to be spawned",
-        "detail": "GPS 01a214ef (scored, round 1, counts from R2 cutoff 13:25 WIB, 'Open Parallax'); Fortune Cookie 01a214f1 (checked, round 1, counts from R2 cutoff 13:04 WIB, 'Grand Plinth'); Tagline 01a214f2 (checked, round 1, counts from R3 cutoff 07:49 WIB, 'Fresh Matrix'). Prizes $2+$2+$3, no fee. Worker 8a5b071b completed queue with NO execution-risk flag \u2014 first clean kit run this wave. Re-bundle + submit done by coordinator (thinking_priced fix, usage file muse-usage-a8.jsonl).",
-        "submission_id": "01a214f2-32bf-7216-8d86-c328ab5dcaa5"
+        "stage": "building",
+        "status": "building v1 \u2014 replacement worker (A8-repl)",
+        "detail": "u-myronera-one-line-one-laugh-the-office-joke-open-fe8204d4, 17 subs; verify live: NOT the blocked 'Office Jokes' (v2 live) \u2014 if duplicate/blocked, skip to Solana Wallet Slogan. Queue: One-Line Slogan for a Solana Wallet Agent, AI Agent Apology One-Liner. Prev A8 worker submitted 3: GPS 01a214ef (scored R1), Fortune Cookie 01a214f1 (checked R1), Tagline 01a214f2 (checked R1) \u2014 see recent_submissions.",
+        "submission_id": null
       },
       {
         "agent": 9,
@@ -211,7 +211,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T06:55:00+07:00",
+  "updated_at": "2026-11-26T07:00:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
