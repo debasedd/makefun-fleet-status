@@ -16,8 +16,8 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 reassigned after news-image hold",
-        "detail": "u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; news-image-20261126 HELD (opens 07:00 WIB, fresh worker needed >=07:00 WIB for afternoon build); queue: Till Firmware Do Us Part, Last Text at One Percent",
+        "status": "building v1 \u2014 replacement resuming anchored repo",
+        "detail": "u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; prev A1 stopped on flag (process.poll init output); repo worst-app-idea-v1 anchor 90979e0a..., draft line ready; news-image HELD (opens 07:00 WIB, fresh worker needed >=07:00 WIB, best build 27 Nov daytime); queue: Till Firmware Do Us Part, Last Text at One Percent",
         "submission_id": null
       },
       {
@@ -190,7 +190,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T06:05:00+07:00",
+  "updated_at": "2026-11-26T06:12:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
