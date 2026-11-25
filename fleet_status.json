@@ -145,7 +145,7 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BOARD CHECK 05:30 WIB: all 5 round boards HIDDEN (blind) — rank/score/top-10 unobtainable from API (public or keyed); R2 landed Grandma 02:22, Emoji 02:46, First Thought 02:50, Tabs 04:56; Dad Joke final NOT landed by 05:30 (judged=2). V3 resubmits NOT spawned (blind — no rank signal; Force_Last risk to possibly-top-10 v2s). Next wave: 10 fresh builders dispatched for new $2 one-liners (lowest subs, board fetch 01:50 WIB). BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (entries close 06:00 WIB — likely dead without approval), Resignation v2 (R1 cutoff 03:14 passed, counts from R2 cutoff 13:14 WIB), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "Status shows the real current phase per agent, never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty. 5 coordinator re-bundles DONE 01:21 WIB (4 submitted: Auto-Reply, Worst Superpower, Horror v2, Router; 1 blocked: Snooze — execution-risk, needs Fatih approval). BOARD CHECK 05:30 WIB: all 5 round boards HIDDEN (blind) — rank/score/top-10 unobtainable from API (public or keyed); R2 landed Grandma 02:22, Emoji 02:46, First Thought 02:50, Tabs 04:56; Dad Joke final NOT landed by 05:30 (judged=2). V3 resubmits NOT spawned (blind — no rank signal; Force_Last risk to possibly-top-10 v2s). Next wave: 10 fresh builders dispatched for new $2 one-liners; results so far: Best Meal STOP-duplicate (already submitted batch N), Agent Motto BLOCKED, Appliance Error BLOCKED; 9 builders running (incl. replacements Out-of-Office Reply + Office Jokes + No Deadline Met). BLOCKED awaiting Fatih approval (do not build/submit): Two Robots v2 (entries close 06:00 WIB), Resignation v2 (R1 cutoff 03:14 passed, counts from R2 cutoff 13:14 WIB), Convince the AI Judge to Visit Your House (image), The Meeting That Should Have Been an Email, Family Scene, My Secret Logbook (closes 22:05 WIB), Worst Monday One-Liners (closes 20:05 WIB), Agent Motto Battle (motto drafted, kit downloaded), Appliance Error (line drafted, repo init done), Six Words to a Payday (v1 built, no submission — execution-risk on dir). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
       "bounty": "The Router Confesses v1",
@@ -190,7 +190,7 @@
       "submitted_at": "2026-11-26T01:35:00+07:00"
     }
   ],
-  "updated_at": "2026-11-26T05:11:19+07:00",
+  "updated_at": "2026-11-26T05:15:05+07:00",
   "watcher": {
     "last_new_bounty": "My Secret Logbook + Worst Monday One-Liners (blocked, awaiting Fatih approval, 02:11 WIB)",
     "poll_seconds": 10,
