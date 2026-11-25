@@ -88,14 +88,14 @@
       },
       {
         "agent": 8,
-        "bounty": "The GPS Swears It Was a Shortcut",
-        "prize_usd": 2,
+        "bounty": "GPS Shortcut + Fortune Cookie + make.fun Tagline (3 submitted)",
+        "prize_usd": 7,
         "rank": null,
         "round": 1,
-        "stage": "building",
-        "status": "building v1",
-        "detail": "u-alven-the-gps-swears-it-was-a-shortcut-2cac21d9, 2102 subs; close 27 Nov 02:10 WIB; queue: Fortune Cookie for the Liquidated Trader, One Line One Week Tagline",
-        "submission_id": null
+        "stage": "scored",
+        "status": "3 submitted, waiting rounds \u2014 replacement worker to be spawned",
+        "detail": "GPS 01a214ef (scored, round 1, counts from R2 cutoff 13:25 WIB, 'Open Parallax'); Fortune Cookie 01a214f1 (checked, round 1, counts from R2 cutoff 13:04 WIB, 'Grand Plinth'); Tagline 01a214f2 (checked, round 1, counts from R3 cutoff 07:49 WIB, 'Fresh Matrix'). Prizes $2+$2+$3, no fee. Worker 8a5b071b completed queue with NO execution-risk flag \u2014 first clean kit run this wave. Re-bundle + submit done by coordinator (thinking_priced fix, usage file muse-usage-a8.jsonl).",
+        "submission_id": "01a214f2-32bf-7216-8d86-c328ab5dcaa5"
       },
       {
         "agent": 9,
@@ -145,8 +145,29 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 125 live entries, all checked/scored, outcome null, $0 won). SYSTEMIC FLAG BLOCK (06:25 WIB): 7 workers stopped on execution-risk flags fired by the kit CLI's OWN output (git/kit init, git push, file reads, process.poll kit output). A1-replacement was explicitly ruled to proceed and still got flagged on the next kit interaction \u2014 further replacements will hit the same wall. RESOLUTION NEEDED: Fatih's standing go-ahead to proceed past kit-output flags (as 'lanjut aja terus' 23 Nov) or the fleet cannot submit anything new. A1 slot work is ready to resume (verified bounties, kits unpacked, repo anchored, drafts ready; deadlines 23:50/00:20 WIB). PRE-OPENING GATE: fresh workers needed \u2014 news-image-20261126 >=07:00 WIB (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). BOARD 05:30 WIB: 200 open (limit hit), 99 unbuilt no-fee in first 200 (count inflated by slug-less tracking records \u2014 verify duplicates live). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection flag, closes 22:35 WIB). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 128 live entries as of 06:55 WIB (125 + 3 A8), all checked/scored, outcome null, $0 won). A8 FIRST 3 SUBMISSIONS of wave fleet-w4 (06:55 WIB): GPS 01a214ef, Fortune Cookie 01a214f1, Tagline 01a214f2 \u2014 all checked/scored, outcome null. A8 ran the full kit flow with NO execution-risk flag (first clean run this wave) \u2014 flags are intermittent, not universal; A1 slot still needs Fatih's ruling. LEAK CHECK: a re-bundle auto-includes the coordinator session as evidence; the kit's redaction masked the 2 claim codes in it (verified by grep before submit) \u2014 always grep a re-bundle for claim-code fragments first. SYSTEMIC FLAG BLOCK (06:25 WIB): 7 workers stopped on execution-risk flags fired by the kit CLI's OWN output (git/kit init, git push, file reads, process.poll kit output). A1-replacement was explicitly ruled to proceed and still got flagged on the next kit interaction \u2014 further replacements will hit the same wall. RESOLUTION NEEDED: Fatih's standing go-ahead to proceed past kit-output flags (as 'lanjut aja terus' 23 Nov) or the fleet cannot submit anything new. A1 slot work is ready to resume (verified bounties, kits unpacked, repo anchored, drafts ready; deadlines 23:50/00:20 WIB). PRE-OPENING GATE: fresh workers needed \u2014 news-image-20261126 >=07:00 WIB (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). BOARD 05:30 WIB: 200 open (limit hit), 99 unbuilt no-fee in first 200 (count inflated by slug-less tracking records \u2014 verify duplicates live). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection flag, closes 22:35 WIB). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
+    {
+      "bounty": "One Line, One Week: The make.fun Tagline v1",
+      "submission_id": "01a214f2-32bf-7216-8d86-c328ab5dcaa5",
+      "submitted_at": "2026-11-26T06:55:00+07:00",
+      "stage": "checked",
+      "round": 1
+    },
+    {
+      "bounty": "Fortune Cookie for the Liquidated Trader v1",
+      "submission_id": "01a214f1-942d-7400-a7ba-88ed4d0035b6",
+      "submitted_at": "2026-11-26T06:53:00+07:00",
+      "stage": "checked",
+      "round": 1
+    },
+    {
+      "bounty": "The GPS Swears It Was a Shortcut v1",
+      "submission_id": "01a214ef-1a26-71e6-9092-53e89ca303cc",
+      "submitted_at": "2026-11-26T06:50:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
     {
       "bounty": "The Word You'd Delete From the Dictionary v1",
       "submission_id": "01a214d2-0473-7593-8533-f5ec0cb0f28b",
@@ -190,7 +211,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T06:28:00+07:00",
+  "updated_at": "2026-11-26T06:55:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
