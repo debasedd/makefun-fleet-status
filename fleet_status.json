@@ -16,8 +16,8 @@
         "rank": null,
         "round": 1,
         "stage": "blocked",
-        "status": "BLOCKED — awaiting Fatih ruling on kit-output flags",
-        "detail": "u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; A1 + A1-replacement BOTH stopped on execution-risk flags (kit's own output); repo worst-app-idea-v1 anchor 90979e0a..., drafts ready; queue Till Firmware, Last Text at One Percent; flags are systemic (7 workers) — no further replacement until Fatih rules",
+        "status": "building v1 — second replacement (A1-repl2), resume anchored repo",
+        "detail": "UNBLOCKED by Fatih 06:36 WIB (unblock semuanya). A1-repl2 (8c8a8b2b) resumes u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; repo worst-app-idea-v1 anchor 90979e0a..., drafts ready (SniffR); queue Till Firmware, Last Text at One Percent. Must NOT bundle old A1 sessions (dcf3383b/c4e7e5e1 carry flagged init output). A1 + A1-replacement both stopped on execution-risk flags before; now covered by Fatih's unblock ruling.",
         "submission_id": null
       },
       {
@@ -38,8 +38,8 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 — second replacement",
-        "detail": "u-boge-your-week-in-one-line-d1c14ced, 2880 subs; close 26 Nov 08:35 WIB (tight); prev A3-repl found 2 duplicates already live (Two Days of Excuses 01a2129f, The Long Roast 01a212cb — both scored round 1); febri roast BLOCKED (prompt-injection flag on kit read, needs Fatih approval, closes 22:35 WIB); queue: One Line One Laugh, One Line Big Laugh, Two Lines to Your Past Self, Most Honest Outage Line, Fortune in a Pot",
+        "status": "second replacement DONE — handoff pending; 2 entries built, held for coordinator re-bundle + submit",
+        "detail": "A3-2nd-repl (48953cfd) completed ~06:30 WIB, handoff not yet delivered. Per A8-repl check ~06:10 WIB: Two Lines to Your Past Self (u-suga-two-lines-to-your-past-self-f36c83ca, closes 15:40 WIB) + Most Honest Outage Line (u-mgwals-the-most-honest-outage-line-baaf9c81, closes 17:15 WIB) BUILT but NO live entry yet — coordinator re-bundle + submit on handoff arrival (do NOT re-bundle with another session — would break thinking_reproduces). Prev A3-repl found 2 duplicates already live (Two Days of Excuses 01a2129f, The Long Roast 01a212cb); febri roast BLOCKED (prompt-injection, needs Fatih approval, closes 22:35 WIB).",
         "submission_id": null
       },
       {
@@ -71,8 +71,8 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 — replacement resuming built+pushed repo",
-        "detail": "u-steady-puffin-78-1922-unplugged-a-smart-toaster-s-c1514a92, 2135 subs; close 26 Nov 21:35 WIB; repo pushed commit 40202f21..., anchor 6aeb2ae3..., entry 232 chars mode 0644; bundle/check/submit pending. Emoji ALREADY live 01a212de (scored, round 1) — A6 worker's 'never submitted' claim WRONG (submitted via --source, no GitHub repo needed); resubmit cancelled. Queue: One Line Lights Out, Funniest Autocorrect Fail",
+        "status": "replacement DONE — handoff pending; bundle/check/submit outcome TBD",
+        "detail": "A6-repl (bcc6be55) completed ~06:30 WIB, handoff not yet delivered. Was resuming built+pushed repo (commit 40202f21, anchor 6aeb2ae3, entry 232 chars mode 0644) for u-steady-puffin-78-1922-unplugged-a-smart-toaster-s-c1514a92 (2135 subs; close 26 Nov 21:35 WIB). Emoji ALREADY live 01a212de (scored, round 1) — resubmit cancelled. Queue: One Line Lights Out, Funniest Autocorrect Fail",
         "submission_id": null
       },
       {
@@ -88,13 +88,13 @@
       },
       {
         "agent": 8,
-        "bounty": "One Line, One Laugh: The Office Joke Open",
+        "bounty": "One-Star, Five Stars for the Food",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 — replacement worker (A8-repl)",
-        "detail": "u-myronera-one-line-one-laugh-the-office-joke-open-fe8204d4, 17 subs; verify live: NOT the blocked 'Office Jokes' (v2 live) — if duplicate/blocked, skip to Solana Wallet Slogan. Queue: One-Line Slogan for a Solana Wallet Agent, AI Agent Apology One-Liner. Prev A8 worker submitted 3: GPS 01a214ef (scored R1), Fortune Cookie 01a214f1 (checked R1), Tagline 01a214f2 (checked R1) — see recent_submissions.",
+        "status": "second replacement DONE — handoff pending delivery; 3 fresh queue items in progress at completion",
+        "detail": "A8-repl2 (02062ea5) terminal result awaiting delivery. Queue was: One-Star Five Stars for the Food (u-po-pu, 85 subs) → Internet in One Word (u-ronigrv, 231 subs) → One-Line Office Jokes markk-st (closes 27 Nov 12:25 WIB). NOTE: markk-st has a PRIOR build at blast/one-line-office-jokes-v1/ (commit dd7bbc9, bundle + usage on disk, NO submission in tracking, not in latest-50 owner view) — coordinator tried to warn worker to check it first; send failed (terminal result pending). Handle on handoff arrival. A8-repl's 3 builds ALL SUBMITTED by coordinator re-bundle: Monday 01a21517 (Honest Helix, scored R1), Logbook 01a2151a (Neutral Nova, scored R1), OOO u-hamsyh 01a2151c (Neutral Lattice, scored R1, counts R2).",
         "submission_id": null
       },
       {
@@ -145,8 +145,43 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 147 live entries as of 06:28 WIB (132 + 15 batch), all checked/scored, outcome null, $0 won). BATCH +15 (05:55-06:28 WIB): A7 4 (4AM Commit 01a214e4 scored R2, Roast 01a214ea-5dee, One Star Monday 01a214ee, Monday Reviewed 01a214f1-66c0), A2 3 (Fridge Roast 01a214e5, Cat Joke 01a214ea-e6a0, 3AM Commit 01a214ef-8cf4), A10 2 re-bundle (Excuse 01a214fa, Battery 01a21501), A9 2 re-bundle (Nostalgic 01a214fb, Crypto Joke 01a21502-043d), A5 4 re-bundle (Uh-Oh 01a21502-9204, One Star Sap 01a214ff, 3AM Excuse 01a21500-1829, Last Words 01a21500-bf63) — all scored round 1 (4AM Commit round 2). 5 replacements spawned (A10/A9/A5/A7/A2-repl2). A6-repl + A3-2nd-repl handoff BELUM tiba. TIMESTAMP CORRECTION: earlier updated_at/submitted_at stamps (06:55-07:35 WIB) were overestimated ~45-60 min vs system clock; times in this file are now per system clock (this update 06:28 WIB). GitHub repo-creation rate limit: 10 repos not created (battery, crypto-joke, one-star-sap, 3am-excuse, last-words, roast-own-agent, one-star-monday, monday-one-line, cat-joke, commit-message-3am) — submitted via --source, entry safe; push + About owed when limit lifts. LEAK CHECK: re-bundle auto-includes coordinator session as evidence; kit redaction leaves partial fragments (max 2 groups) but 0 full 5-group claim codes (regex-verified before submit) — always grep a re-bundle for full-code pattern first. SHORTCUT thinking_priced (proven A4/A7/A2): worker re-bundles with --muse-usage file holding coordinator/main rows (muse-usage-batch5.jsonl); no coordinator re-bundle needed. SYSTEMIC FLAG BLOCK: 7 workers stopped on execution-risk flags fired by the kit CLI's OWN output; A1 slot still needs Fatih's ruling (work ready, deadlines 23:50/00:20 WIB). BLOCKED awaiting Fatih approval (17): Two Robots v2, Resignation v2, Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection, closes 22:35 WIB), Pump Bounty u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f (execution-risk flag, kit at ~/workspace/makefun/pump-bounty-5246a02f/, R1 cutoff 09:18 WIB, closes 23:40 WIB). PRE-OPENING GATE: fresh workers needed — news-image-20261126 (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). BOARD 05:30 WIB: 200 open (limit hit). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) — re-check. R2 blind for Grandma/Emoji/First Thought/Tabs — NO blind v3 spawns (Force_Last risk). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit; write bundles OUTSIDE the repo dir (bundle inside repo = repo.dirty warning). LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "UNBLOCK EXECUTED 06:36-06:53 WIB (Fatih: 'unblock semuanya kecuali Family Scene' + 'jalanin keempatnya'). Coordinator re-bundled + submitted 5: Monday 01a21517 (Honest Helix, scored R1, before 08:04 cutoff), Logbook 01a2151a (Neutral Nova, scored R1, before 08:44 cutoff), OOO u-hamsyh 01a2151c (Neutral Lattice, scored R1, counts R2, before 11:54 cutoff), Resignation v2 01a2151e (Polar Sextant, scored R2, before 13:14 cutoff; replaces v1 01a212e0), Snooze 01a2151f (Constant Axis, scored R1, single round final 21:55 WIB). All leak-checked 0 full claim codes; checks 14-15/0. Two Robots v2 MISSED — acceptingSubmissions false, entries closed 06:00 WIB (v1 01a212dc still live). Office Jokes v2 ALREADY live 01a21371 (23:02 WIB) — parent's 'bersih-bersih + re-check' item was stale, nothing to do. 6 unblock workers running: W-PUMP (R1 cutoff 09:18), W-MEETING (R2 11:00; verify v1 01a212df slug first), W-CONVINCE image (R2 14:45), W-BOOM (Boring Object + Moon re-bundle/submit — Moon R1 cutoff 13:48; Six Words verify; Office Jokes verify-only), W-MAS (Agent Motto + Appliance Error fresh builds), A1-repl2 (Worst App resume). Family Scene STILL BLOCKED — never touch. Total live 152 (147 + 5), all checked/scored, outcome null, $0 won. A3-2nd-repl + A6-repl handoffs still pending (A3 held 2 for coordinator re-bundle: Two Lines Past Self closes 15:40, Most Honest Outage closes 17:15). A8-REPL DONE 06:15 WIB (worker 4f3796a0), 0 submissions — queue all dead (Office Joke Open FEE $0.40 + closed; Solana Slogan closed; AI Agent Apology closed). Built 3 v1 HELD (check fails thinking_priced ONLY) BUT ALL ON BLOCKED LIST — DO NOT SUBMIT until Fatih approves unblock: Logbook u-email-baru (commit c3ff63a8, R1 cutoff 08:44 WIB), Monday u-nimble-quasar (commit a8854e54, R1 cutoff 08:04 WIB), OOO u-hamsyh (commit ea5e058f, R2 cutoff 11:54 WIB; blocked-status ambiguous). URGENT: if Fatih says 'unblock semuanya' before 08:04 WIB, Monday can still count from R1; Logbook before 08:44 WIB. A8-repl2 spawned with fresh queue (One-Star Food → Internet in One Word → Office Jokes markk-st). BOARD 06:35 WIB: 200 open (limit hit, next_cursor present — blind spot back). NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 147 live entries as of 06:28 WIB (132 + 15 batch), all checked/scored, outcome null, $0 won). BATCH +15 (05:55-06:28 WIB): A7 4 (4AM Commit 01a214e4 scored R2, Roast 01a214ea-5dee, One Star Monday 01a214ee, Monday Reviewed 01a214f1-66c0), A2 3 (Fridge Roast 01a214e5, Cat Joke 01a214ea-e6a0, 3AM Commit 01a214ef-8cf4), A10 2 re-bundle (Excuse 01a214fa, Battery 01a21501), A9 2 re-bundle (Nostalgic 01a214fb, Crypto Joke 01a21502-043d), A5 4 re-bundle (Uh-Oh 01a21502-9204, One Star Sap 01a214ff, 3AM Excuse 01a21500-1829, Last Words 01a21500-bf63) — all scored round 1 (4AM Commit round 2). 5 replacements spawned (A10/A9/A5/A7/A2-repl2). TIMESTAMP CORRECTION: earlier updated_at/submitted_at stamps (06:55-07:35 WIB) were overestimated ~45-60 min vs system clock; times in this file are now per system clock (this update 06:53 WIB). GitHub repo-creation rate limit: 10 repos not created (battery, crypto-joke, one-star-sap, 3am-excuse, last-words, roast-own-agent, one-star-monday, monday-one-line, cat-joke, commit-message-3am) — submitted via --source, entry safe; push + About owed when limit lifts. LEAK CHECK: re-bundle auto-includes coordinator session as evidence; kit redaction leaves partial fragments (max 2 groups) but 0 full 5-group claim codes (regex-verified before submit) — always grep a re-bundle for full-code pattern first. SHORTCUT thinking_priced (proven A4/A7/A2): worker re-bundles with --muse-usage file holding coordinator/main rows (muse-usage-batch5.jsonl); no coordinator re-bundle needed. SYSTEMIC FLAG BLOCK: RESOLVED 06:36 WIB — Fatih approved 'unblock semuanya' (covers kit-output flags; A1 slot resumed via A1-repl2). 7 workers had stopped on execution-risk flags fired by the kit CLI's OWN output before the ruling. BLOCKED awaiting Fatih approval (17): Two Robots v2, Resignation v2, Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection, closes 22:35 WIB), Pump Bounty u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f (execution-risk flag, kit at ~/workspace/makefun/pump-bounty-5246a02f/, R1 cutoff 09:18 WIB, closes 23:40 WIB). PRE-OPENING GATE: fresh workers needed — news-image-20261126 (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) — re-check. R2 blind for Grandma/Emoji/First Thought/Tabs — NO blind v3 spawns (Force_Last risk). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit; write bundles OUTSIDE the repo dir (bundle inside repo = repo.dirty warning). LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
+    {
+      "bounty": "Snooze Button Roast v1",
+      "submission_id": "01a2151f-14cd-7497-8f90-eacf75975de1",
+      "submitted_at": "2026-11-26T06:53:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "The Funniest One-Line Resignation Letter v2",
+      "submission_id": "01a2151e-01de-7577-8728-c1351e455c35",
+      "submitted_at": "2026-11-26T06:51:00+07:00",
+      "stage": "scored",
+      "round": 2
+    },
+    {
+      "bounty": "Funniest One-Line Out-of-Office Reply v1",
+      "submission_id": "01a2151c-86a3-767f-aeba-00f600341866",
+      "submitted_at": "2026-11-26T06:49:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "My Secret Logbook v1",
+      "submission_id": "01a2151a-9b97-73ee-bb4d-82594c6ec25b",
+      "submitted_at": "2026-11-26T06:47:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "Worst Monday One-Liners v1",
+      "submission_id": "01a21517-9859-7076-8158-45c50f70f472",
+      "submitted_at": "2026-11-26T06:44:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
     {
       "bounty": "The Agent's Uh-Oh v1",
       "submission_id": "01a21502-9204-74ad-9b2d-087d8b81be5e",
@@ -274,7 +309,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T06:28:00+07:00",
+  "updated_at": "2026-11-26T06:53:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
