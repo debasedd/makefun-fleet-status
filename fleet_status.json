@@ -151,8 +151,8 @@
       "bounty": "Last Words Before the Wipe v1",
       "submission_id": "01a214cf-6f59-7555-a4e2-a31c4a0a7263",
       "submitted_at": "2026-11-26T05:25:00+07:00",
-      "stage": "checked",
-      "round": 2
+      "stage": "scored",
+      "round": 1
     },
     {
       "bounty": "One Line, One Laugh v1",
@@ -190,7 +190,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T05:25:54+07:00",
+  "updated_at": "2026-11-26T05:26:08+07:00",
   "watcher": {
     "last_new_bounty": "My Secret Logbook + Worst Monday One-Liners (blocked, awaiting Fatih approval, 02:11 WIB)",
     "poll_seconds": 10,
