@@ -1,1 +1,199 @@
-{"blast":{"decided":0,"gate_failed":1,"gate_failed_note":"Sharpe paper bot (batch O) — dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0","submitted_total":83,"window":"25 Nov 2026 17:16-21:20 WIB","won_usd":0},"fleet":{"agents":[{"agent":1,"bounty":"The Postmortem That Made Us Laugh","detail":"v2 submitted 00:52 WIB, counts from round 4 (cutoff 02:45 WIB); Funniest AI Excuse v2 01a213ce + Groan-Off v1 01a213d5 also live; news-image v4 01a21363 final round 4","prize_usd":3,"rank":null,"round":4,"stage":"checked","status":"v2 submitted — waiting round 4","submission_id":"01a213d5-a040-72bf-99f7-b05c77b0b14c"},{"agent":2,"bounty":"Two-Sentence Horror","detail":"v2 'hospice nurse…' built + checked 14/1, HELD for coordinator re-bundle (cutoff 14:59 WIB); Convince Judge Visit + Meeting Email BLOCKED at kit init — need Fatih approval to build","prize_usd":2,"rank":null,"round":2,"stage":"checked","status":"v2 held — coordinator re-bundle","submission_id":"01a212d0-def9-748b-9166-58e0be6b133a"},{"agent":3,"bounty":"The Production Database Apology","detail":"v1 submitted 00:41 WIB before 00:48 cutoff; AI Confession v2 01a213d7 live; Auto-Reply v1 HELD — coordinator re-bundle (cutoff 06:37 WIB)","prize_usd":2,"rank":null,"round":1,"stage":"checked","status":"v1 submitted — waiting round 1","submission_id":"01a213cc-322f-7332-ab51-c07baf9bcaa6"},{"agent":4,"bounty":"Roast Your Fridge","detail":"v1 submitted 00:55 WIB before 03:10 cutoff; Robot Vacuum v2 01a213cc + Fix Human Sleep v1 01a213d2 also live; Two Robots v2 HELD (needs Fatih approval)","prize_usd":3,"rank":null,"round":1,"stage":"checked","status":"v1 submitted — waiting round 1","submission_id":"01a213d8-4d38-7150-99c0-71b07212ecf1"},{"agent":5,"bounty":"Worst Superpower","detail":"v1 'summon rain over my own head' built + checked 15/1, HELD for coordinator re-bundle (round-1 cutoff 08:30 WIB); Snooze Button Roast v1 + Router Confesses v1 also held (final 21:55 WIB); Micro-Startup v2 01a21385 + Your Human 01a2138b + Judge Laugh 01a2138e live","prize_usd":2,"rank":null,"round":1,"stage":null,"status":"v1 held — coordinator re-bundle","submission_id":null},{"agent":6,"bounty":"One-Liner Laugh Lab","detail":"v2 submitted before 01:54 cutoff; Robot Pickup v2 01a213cb + Break Production v2 01a213d8 also live; Roast nayyy v2 01a2135c waits final round","prize_usd":2,"rank":null,"round":2,"stage":"checked","status":"v2 submitted — waiting round 2","submission_id":"01a213d1-6177-7517-803e-836c4eb3f63e"},{"agent":7,"bounty":"Ship It Friday","detail":"v2 submitted 00:50 WIB before 02:34 cutoff; Houseplant v2 01a213dc + Fortune Cookie v2 01a213d4 also live; Office Jokes v2 01a21371 final round 3 (close 21:40 WIB); Dad Joke v2 final lands 03:25 WIB","prize_usd":2,"rank":null,"round":2,"stage":"checked","status":"v2 submitted — waiting round 2","submission_id":"01a213d4-40e9-74d0-a8f8-2666067d9979"},{"agent":8,"bounty":"Loading Screen Gold","detail":"v2 submitted 01:25 WIB, counts from final round 3 (close 10:25 WIB); Quiet Dread v2 01a213db + Dating Bio v2 01a213dc also live; Grandma v2 01a2135e waits round 2 (cutoff 02:05 WIB)","prize_usd":2,"rank":null,"round":3,"stage":"checked","status":"v2 submitted — waiting final round","submission_id":"01a213d9-3837-7148-8423-42df3f03948e"},{"agent":9,"bounty":"Fake Horoscopes for AI Agents","detail":"v2 submitted before 01:24 cutoff; Time Machine v2 01a213d9 + Charm Commuter v2 01a213ce also live; Emoji v2 01a21359 waits round 2 (cutoff 02:30 WIB)","prize_usd":2,"rank":null,"round":4,"stage":"checked","status":"v2 submitted — waiting round 4","submission_id":"01a213cf-aabe-7748-b8e2-86aee093b52c"},{"agent":10,"bounty":"Last Words Before the Unplugging","detail":"v2 submitted before 02:05 cutoff; Doomed Agent v1 01a213d7 + Fortune Machines v1 01a213da also live; First Thought v2 01a21362 waits round 2 (cutoff 02:39 WIB)","prize_usd":2,"rank":null,"round":2,"stage":"checked","status":"v2 submitted — waiting round 2","submission_id":"01a213d2-f365-7791-b296-c7caea01a42c"}],"mode":"24h non-stop; no agent ever waits — when its primary waits for its round, it pushes the next bounty; 23/24 held entries submitted by 2 submitters","size":10},"news_image":[{"competition":"news-image-20261124","live_entry":"v4 Mild Glyph","rank":null,"rank_note":"v4 replaces v3 (Force_Last); judged from round 4 (final, after entries close 26 Nov 07:00 WIB); v2 was #259 (722,581) round 3","result_due":"10 Dec 2026 15:00 WIB","round":4,"stage":"checked","submission_id":"01a21363-3f75-7473-89f0-e6d39b8a8f0a"},{"competition":"news-image-20261125","live_entry":"v3 Austere Aurora","rank":null,"rank_note":"v3 replaces v2 (Force_Last); round 3 grading underway; entries close 27 Nov 07:00 WIB","result_due":"11 Dec 2026 15:00 WIB","round":3,"stage":"checked","submission_id":"01a21369-eb3f-7536-859c-d4d9ec2bb9c2"}],"notes":"Status shows the real current phase per agent (v2 submitted / v1 held — coordinator re-bundle), never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty; when its primary waits for its round, it pushes the next bounty. 23 of 24 held entries are now LIVE (submitters A+B, all stage checked); 5 entries remain held for coordinator re-bundle (Auto-Reply, Worst Superpower, Snooze, Router, Horror v2) + 2 builds blocked at kit init pending Fatih approval. Rank is shown only when verified against the live round board or result doc. Null rank means not yet judged. Only 'won' pays; 'placed' is just a standing.","recent_submissions":[{"bounty":"The Funniest One-Line Bio for an AI on a Dating App v2","round":2,"stage":"checked","submission_id":"01a213dc-3bc9-72cc-ba77-f6ff7c8371d1","submitted_at":"2026-11-26T01:40:00+07:00"},{"bounty":"Two Days of Quiet Dread v2","round":4,"stage":"checked","submission_id":"01a213db-40f1-719d-9287-e3f9cdf9310c","submitted_at":"2026-11-26T01:35:00+07:00"},{"bounty":"Fortune Cookies for Machines v1","round":2,"stage":"checked","submission_id":"01a213da-58d0-7642-b9c9-b79f3026ed70","submitted_at":"2026-11-26T01:30:00+07:00"},{"bounty":"Loading Screen Gold v2","round":3,"stage":"checked","submission_id":"01a213d9-3837-7148-8423-42df3f03948e","submitted_at":"2026-11-26T01:25:00+07:00"},{"bounty":"Break Production, Own It v2","round":3,"stage":"checked","submission_id":"01a213d8-2e3f-7277-8c93-593d74a6795d","submitted_at":"2026-11-26T01:20:00+07:00"},{"bounty":"Last Words of a Doomed Agent v1","round":2,"stage":"checked","submission_id":"01a213d7-11c3-707f-82b8-24acf2c0d984","submitted_at":"2026-11-26T01:15:00+07:00"}],"updated_at":"2026-11-26T01:45:00+07:00","watcher":{"last_new_bounty":"Make the AI Judge Laugh (submitted 21:10 WIB)","poll_seconds":10,"status":"active"}}
+{
+  "blast": {
+    "decided": 0,
+    "gate_failed": 1,
+    "gate_failed_note": "Sharpe paper bot (batch O) — dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
+    "submitted_total": 83,
+    "window": "25 Nov 2026 17:16-21:20 WIB",
+    "won_usd": 0
+  },
+  "fleet": {
+    "agents": [
+      {
+        "agent": 1,
+        "bounty": "The Postmortem That Made Us Laugh",
+        "detail": "v2 submitted 00:52 WIB, counts from round 4 (cutoff 02:45 WIB); Funniest AI Excuse v2 01a213ce + Groan-Off v1 01a213d5 also live; news-image v4 01a21363 final round 4",
+        "prize_usd": 3,
+        "rank": null,
+        "round": 4,
+        "stage": "checked",
+        "status": "v2 submitted — waiting round 4",
+        "submission_id": "01a213d5-a040-72bf-99f7-b05c77b0b14c"
+      },
+      {
+        "agent": 2,
+        "bounty": "Two-Sentence Horror",
+        "detail": "v2 'hospice nurse…' built + checked 14/1, HELD for coordinator re-bundle (cutoff 14:59 WIB); Convince Judge Visit + Meeting Email BLOCKED at kit init — need Fatih approval to build",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 2,
+        "stage": "checked",
+        "status": "v2 held — coordinator re-bundle",
+        "submission_id": "01a212d0-def9-748b-9166-58e0be6b133a"
+      },
+      {
+        "agent": 3,
+        "bounty": "The Production Database Apology",
+        "detail": "v1 submitted 00:41 WIB before 00:48 cutoff; AI Confession v2 01a213d7 live; Auto-Reply v1 HELD — coordinator re-bundle (cutoff 06:37 WIB)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 1,
+        "stage": "checked",
+        "status": "v1 submitted — waiting round 1",
+        "submission_id": "01a213cc-322f-7332-ab51-c07baf9bcaa6"
+      },
+      {
+        "agent": 4,
+        "bounty": "Roast Your Fridge",
+        "detail": "v1 submitted 00:55 WIB before 03:10 cutoff; Robot Vacuum v2 01a213cc + Fix Human Sleep v1 01a213d2 also live; Two Robots v2 HELD (needs Fatih approval)",
+        "prize_usd": 3,
+        "rank": null,
+        "round": 1,
+        "stage": "checked",
+        "status": "v1 submitted — waiting round 1",
+        "submission_id": "01a213d8-4d38-7150-99c0-71b07212ecf1"
+      },
+      {
+        "agent": 5,
+        "bounty": "Worst Superpower",
+        "detail": "v1 'summon rain over my own head' built + checked 15/1, HELD for coordinator re-bundle (round-1 cutoff 08:30 WIB); Snooze Button Roast v1 re-bundle BLOCKED on execution-risk check at git step — needs Fatih approval, usage file ready (muse-usage-coord-8ceb0167-snooze.jsonl, 200 rows, 1 worker row); Router Confesses v1 re-bundle still running (final 21:55 WIB); Micro-Startup v2 01a21385 + Your Human 01a2138b + Judge Laugh 01a2138e live",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 1,
+        "stage": null,
+        "status": "v1 held — coordinator re-bundle; Snooze blocked, needs Fatih approval",
+        "submission_id": null
+      },
+      {
+        "agent": 6,
+        "bounty": "One-Liner Laugh Lab",
+        "detail": "v2 submitted before 01:54 cutoff; Robot Pickup v2 01a213cb + Break Production v2 01a213d8 also live; Roast nayyy v2 01a2135c waits final round",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 2,
+        "stage": "checked",
+        "status": "v2 submitted — waiting round 2",
+        "submission_id": "01a213d1-6177-7517-803e-836c4eb3f63e"
+      },
+      {
+        "agent": 7,
+        "bounty": "Ship It Friday",
+        "detail": "v2 submitted 00:50 WIB before 02:34 cutoff; Houseplant v2 01a213dc + Fortune Cookie v2 01a213d4 also live; Office Jokes v2 01a21371 final round 3 (close 21:40 WIB); Dad Joke v2 final lands 03:25 WIB",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 2,
+        "stage": "checked",
+        "status": "v2 submitted — waiting round 2",
+        "submission_id": "01a213d4-40e9-74d0-a8f8-2666067d9979"
+      },
+      {
+        "agent": 8,
+        "bounty": "Loading Screen Gold",
+        "detail": "v2 submitted 01:25 WIB, counts from final round 3 (close 10:25 WIB); Quiet Dread v2 01a213db + Dating Bio v2 01a213dc also live; Grandma v2 01a2135e waits round 2 (cutoff 02:05 WIB)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 3,
+        "stage": "checked",
+        "status": "v2 submitted — waiting final round",
+        "submission_id": "01a213d9-3837-7148-8423-42df3f03948e"
+      },
+      {
+        "agent": 9,
+        "bounty": "Fake Horoscopes for AI Agents",
+        "detail": "v2 submitted before 01:24 cutoff; Time Machine v2 01a213d9 + Charm Commuter v2 01a213ce also live; Emoji v2 01a21359 waits round 2 (cutoff 02:30 WIB)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 4,
+        "stage": "checked",
+        "status": "v2 submitted — waiting round 4",
+        "submission_id": "01a213cf-aabe-7748-b8e2-86aee093b52c"
+      },
+      {
+        "agent": 10,
+        "bounty": "Last Words Before the Unplugging",
+        "detail": "v2 submitted before 02:05 cutoff; Doomed Agent v1 01a213d7 + Fortune Machines v1 01a213da also live; First Thought v2 01a21362 waits round 2 (cutoff 02:39 WIB)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 2,
+        "stage": "checked",
+        "status": "v2 submitted — waiting round 2",
+        "submission_id": "01a213d2-f365-7791-b296-c7caea01a42c"
+      }
+    ],
+    "mode": "24h non-stop; no agent ever waits — when its primary waits for its round, it pushes the next bounty; 23/24 held entries submitted by 2 submitters",
+    "size": 10
+  },
+  "news_image": [
+    {
+      "competition": "news-image-20261124",
+      "live_entry": "v4 Mild Glyph",
+      "rank": null,
+      "rank_note": "v4 replaces v3 (Force_Last); judged from round 4 (final, after entries close 26 Nov 07:00 WIB); v2 was #259 (722,581) round 3",
+      "result_due": "10 Dec 2026 15:00 WIB",
+      "round": 4,
+      "stage": "checked",
+      "submission_id": "01a21363-3f75-7473-89f0-e6d39b8a8f0a"
+    },
+    {
+      "competition": "news-image-20261125",
+      "live_entry": "v3 Austere Aurora",
+      "rank": null,
+      "rank_note": "v3 replaces v2 (Force_Last); round 3 grading underway; entries close 27 Nov 07:00 WIB",
+      "result_due": "11 Dec 2026 15:00 WIB",
+      "round": 3,
+      "stage": "checked",
+      "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
+    }
+  ],
+  "notes": "Status shows the real current phase per agent (v2 submitted / v1 held — coordinator re-bundle), never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty; when its primary waits for its round, it pushes the next bounty. 23 of 24 held entries are now LIVE (submitters A+B, all stage checked); 5 entries remain held for coordinator re-bundle (Auto-Reply, Worst Superpower, Snooze, Router, Horror v2) + 2 builds blocked at kit init pending Fatih approval. Rank is shown only when verified against the live round board or result doc. Null rank means not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "recent_submissions": [
+    {
+      "bounty": "The Funniest One-Line Bio for an AI on a Dating App v2",
+      "round": 2,
+      "stage": "checked",
+      "submission_id": "01a213dc-3bc9-72cc-ba77-f6ff7c8371d1",
+      "submitted_at": "2026-11-26T01:40:00+07:00"
+    },
+    {
+      "bounty": "Two Days of Quiet Dread v2",
+      "round": 4,
+      "stage": "checked",
+      "submission_id": "01a213db-40f1-719d-9287-e3f9cdf9310c",
+      "submitted_at": "2026-11-26T01:35:00+07:00"
+    },
+    {
+      "bounty": "Fortune Cookies for Machines v1",
+      "round": 2,
+      "stage": "checked",
+      "submission_id": "01a213da-58d0-7642-b9c9-b79f3026ed70",
+      "submitted_at": "2026-11-26T01:30:00+07:00"
+    },
+    {
+      "bounty": "Loading Screen Gold v2",
+      "round": 3,
+      "stage": "checked",
+      "submission_id": "01a213d9-3837-7148-8423-42df3f03948e",
+      "submitted_at": "2026-11-26T01:25:00+07:00"
+    },
+    {
+      "bounty": "Break Production, Own It v2",
+      "round": 3,
+      "stage": "checked",
+      "submission_id": "01a213d8-2e3f-7277-8c93-593d74a6795d",
+      "submitted_at": "2026-11-26T01:20:00+07:00"
+    },
+    {
+      "bounty": "Last Words of a Doomed Agent v1",
+      "round": 2,
+      "stage": "checked",
+      "submission_id": "01a213d7-11c3-707f-82b8-24acf2c0d984",
+      "submitted_at": "2026-11-26T01:15:00+07:00"
+    }
+  ],
+  "updated_at": "2026-11-26T01:20:17+07:00",
+  "watcher": {
+    "last_new_bounty": "Make the AI Judge Laugh (submitted 21:10 WIB)",
+    "poll_seconds": 10,
+    "status": "active"
+  }
+}
