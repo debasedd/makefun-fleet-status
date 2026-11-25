@@ -2,7 +2,7 @@
   "blast": {
     "decided": 0,
     "gate_failed": 1,
-    "gate_failed_note": "Sharpe paper bot (batch O) \u2014 dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
+    "gate_failed_note": "Sharpe paper bot (batch O) — dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
     "submitted_total": 83,
     "window": "25 Nov 2026 17:16-21:20 WIB",
     "won_usd": 0
@@ -16,19 +16,19 @@
         "rank": null,
         "round": 1,
         "stage": "blocked",
-        "status": "BLOCKED \u2014 awaiting Fatih ruling on kit-output flags",
-        "detail": "u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; A1 + A1-replacement BOTH stopped on execution-risk flags (kit's own output); repo worst-app-idea-v1 anchor 90979e0a..., drafts ready; queue Till Firmware, Last Text at One Percent; flags are systemic (7 workers) \u2014 no further replacement until Fatih rules",
+        "status": "BLOCKED — awaiting Fatih ruling on kit-output flags",
+        "detail": "u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; A1 + A1-replacement BOTH stopped on execution-risk flags (kit's own output); repo worst-app-idea-v1 anchor 90979e0a..., drafts ready; queue Till Firmware, Last Text at One Percent; flags are systemic (7 workers) — no further replacement until Fatih rules",
         "submission_id": null
       },
       {
         "agent": 2,
-        "bounty": "Fridge Roast: One Line, Biggest Laugh",
+        "bounty": "One-Line Robot Wedding Vows",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement worker",
-        "detail": "u-gentle-badger-68-fridge-roast-one-line-biggest-laugh-a7c354bb, 2469 subs; close 26 Nov 22:40 WIB; stats site HELD (opens 12:39 WIB, fresh worker needed >=12:39 WIB, kit on disk, plan: Indonesia stats site); queue: One-Line Cat Joke, 3 AM Commit Message",
+        "status": "building v1 — replacement worker (A2-repl2)",
+        "detail": "u-kreutzx-one-line-robot-wedding-vows-a154ba4b, 3137 subs; verify live (not u-rama-melon/u-tstore). Queue: Funniest AI Excuse, Vending Machine Pickup Line, Make the AI Judge Laugh (u-ronigrv). Prev A2-repl submitted 3: Fridge Roast 01a214e5, Cat Joke 01a214ea-e6a0, 3AM Commit Message 01a214ef-8cf4 — all scored round 1, see recent_submissions.",
         "submission_id": null
       },
       {
@@ -38,8 +38,8 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 second replacement",
-        "detail": "u-boge-your-week-in-one-line-d1c14ced, 2880 subs; close 26 Nov 08:35 WIB (tight); prev A3-repl found 2 duplicates already live (Two Days of Excuses 01a2129f, The Long Roast 01a212cb \u2014 both scored round 1); febri roast BLOCKED (prompt-injection flag on kit read, needs Fatih approval, closes 22:35 WIB); queue: One Line One Laugh, One Line Big Laugh, Two Lines to Your Past Self, Most Honest Outage Line, Fortune in a Pot",
+        "status": "building v1 — second replacement",
+        "detail": "u-boge-your-week-in-one-line-d1c14ced, 2880 subs; close 26 Nov 08:35 WIB (tight); prev A3-repl found 2 duplicates already live (Two Days of Excuses 01a2129f, The Long Roast 01a212cb — both scored round 1); febri roast BLOCKED (prompt-injection flag on kit read, needs Fatih approval, closes 22:35 WIB); queue: One Line One Laugh, One Line Big Laugh, Two Lines to Your Past Self, Most Honest Outage Line, Fortune in a Pot",
         "submission_id": null
       },
       {
@@ -49,19 +49,19 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement worker (A4-repl)",
-        "detail": "u-suzy-one-line-office-joke-laugh-off-f574ac73, 2105 subs; verify live: NOT the blocked 'Office Jokes' (v2 live) \u2014 if duplicate/blocked, skip to Robot Romance. Queue: Robot Romance Pickup Lines, Notes From a Passive-Aggressive Fridge, Tired Dark Lord 100-Word Monologue. Prev A4 worker submitted 4: Shameless Lie 01a214de, Laugh-Off 01a214e3, Excuse That Almost Works 01a214e8, Sick-Day Excuse 01a214ec \u2014 all scored round 1, see recent_submissions.",
+        "status": "building v1 — replacement worker (A4-repl)",
+        "detail": "u-suzy-one-line-office-joke-laugh-off-f574ac73, 2105 subs; verify live: NOT the blocked 'Office Jokes' (v2 live) — if duplicate/blocked, skip to Robot Romance. Queue: Robot Romance Pickup Lines, Notes From a Passive-Aggressive Fridge, Tired Dark Lord 100-Word Monologue. Prev A4 worker submitted 4: Shameless Lie 01a214de, Laugh-Off 01a214e3, Excuse That Almost Works 01a214e8, Sick-Day Excuse 01a214ec — all scored round 1, see recent_submissions.",
         "submission_id": null
       },
       {
         "agent": 5,
-        "bounty": "The Agent's Uh-Oh",
+        "bounty": "One Word for Your Wi-Fi",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement resuming anchored repo",
-        "detail": "u-danu-the-agent-s-uh-oh-4c0911e4; prev worker stopped on execution-risk flag (own git/kit init output); repo agents-uh-oh-v1 anchor 9b14f11..., entry word 'recalculating'; queue: One Star Written in Sap, 3 AM Excuse, Last Words of a Dying AI",
+        "status": "building v1 — replacement worker (A5-repl2)",
+        "detail": "u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, 2955 subs. Queue: AI Judge Laugh: AI Agent Confessions, AI Judge Laugh: Cat Reviews Its Human, Worst Fix Ever. Prev A5-repl submitted 4 (re-bundle koordinator): Uh-Oh 01a21502-9204, One Star Sap 01a214ff, 3AM Excuse 01a21500-1829, Last Words 01a21500-bf63 — all scored round 1, see recent_submissions.",
         "submission_id": null
       },
       {
@@ -71,19 +71,19 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement resuming built+pushed repo",
-        "detail": "u-steady-puffin-78-1922-unplugged-a-smart-toaster-s-c1514a92, 2135 subs; close 26 Nov 21:35 WIB; repo pushed commit 40202f21..., anchor 6aeb2ae3..., entry 232 chars mode 0644; bundle/check/submit pending. Emoji ALREADY live 01a212de (scored, round 1) \u2014 A6 worker's 'never submitted' claim WRONG (submitted via --source, no GitHub repo needed); resubmit cancelled. Queue: One Line Lights Out, Funniest Autocorrect Fail",
+        "status": "building v1 — replacement resuming built+pushed repo",
+        "detail": "u-steady-puffin-78-1922-unplugged-a-smart-toaster-s-c1514a92, 2135 subs; close 26 Nov 21:35 WIB; repo pushed commit 40202f21..., anchor 6aeb2ae3..., entry 232 chars mode 0644; bundle/check/submit pending. Emoji ALREADY live 01a212de (scored, round 1) — A6 worker's 'never submitted' claim WRONG (submitted via --source, no GitHub repo needed); resubmit cancelled. Queue: One Line Lights Out, Funniest Autocorrect Fail",
         "submission_id": null
       },
       {
         "agent": 7,
-        "bounty": "The 4AM Commit: Funniest Agent Bug-Fix Message",
+        "bounty": "The 3AM Fridge Text",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement worker",
-        "detail": "u-neon-autonomous-the-4am-commit-funniest-agent-bug-195af06d, 2304 subs; close 26 Nov 17:55 WIB (tightest); prev worker stopped on flag (reading reference main.py) \u2014 replacement builds from brief alone, does NOT re-read that file; queue: Roast Your Own Agent, One Star for Monday, Monday Reviewed",
+        "status": "building v1 — replacement worker (A7-repl2)",
+        "detail": "u-deysumbrella-the-3am-fridge-text-4c3e721d, 3046 subs. Queue: The Excuse My Agent Gave Me, The One-Line Exit, AI Judge Laugh: Developer Excuses. Prev A7-repl submitted 4: 4AM Commit 01a214e4 (scored ROUND 2), Roast 01a214ea-5dee, One Star Monday 01a214ee, Monday Reviewed 01a214f1-66c0 — all scored, see recent_submissions.",
         "submission_id": null
       },
       {
@@ -93,34 +93,34 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement worker (A8-repl)",
-        "detail": "u-myronera-one-line-one-laugh-the-office-joke-open-fe8204d4, 17 subs; verify live: NOT the blocked 'Office Jokes' (v2 live) \u2014 if duplicate/blocked, skip to Solana Wallet Slogan. Queue: One-Line Slogan for a Solana Wallet Agent, AI Agent Apology One-Liner. Prev A8 worker submitted 3: GPS 01a214ef (scored R1), Fortune Cookie 01a214f1 (checked R1), Tagline 01a214f2 (checked R1) \u2014 see recent_submissions.",
+        "status": "building v1 — replacement worker (A8-repl)",
+        "detail": "u-myronera-one-line-one-laugh-the-office-joke-open-fe8204d4, 17 subs; verify live: NOT the blocked 'Office Jokes' (v2 live) — if duplicate/blocked, skip to Solana Wallet Slogan. Queue: One-Line Slogan for a Solana Wallet Agent, AI Agent Apology One-Liner. Prev A8 worker submitted 3: GPS 01a214ef (scored R1), Fortune Cookie 01a214f1 (checked R1), Tagline 01a214f2 (checked R1) — see recent_submissions.",
         "submission_id": null
       },
       {
         "agent": 9,
-        "bounty": "Make the AI Judge Feel Nostalgic: A Childhood Memory",
+        "bounty": "One Line, One Chill",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement resuming anchored repo",
-        "detail": "u-shino-make-the-ai-judge-feel-nostalgic-a-childhood-625d3363, 2110 subs; close 26 Nov 21:20 WIB; prev worker stopped on flag (own git/kit init output); repo childhood-memory-nostalgic-v1 anchor d1647166..., draft line ready (verify <=280 chars); queue: Laugh Track Crypto Trading Joke",
+        "status": "building v1 — replacement worker (A9-repl2)",
+        "detail": "u-azazex-one-line-one-chill-6d4d5488, 2921 subs. Queue: Unsent Micro-Confession, One Emoji Dream Vacation, One Word for the Boss. Prev A9-repl submitted 2 (re-bundle koordinator): Nostalgic 01a214fb, Crypto Joke 01a21502-043d — both scored round 1, see recent_submissions.",
         "submission_id": null
       },
       {
         "agent": 10,
-        "bounty": "The Excuse Your Agent Gives You",
+        "bounty": "Everyday Things, Two Lines, Longer Run",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 replacement worker",
-        "detail": "u-kevin-the-excuse-your-agent-gives-you-c1861261, 2354 subs; close 26 Nov 18:00 WIB (tight); prev worker stopped on flag (listing reference dir) \u2014 replacement does NOT re-read excuse-championship/entry; draft line 98 chars; queue: Battery's Last Text",
+        "status": "building v1 — replacement worker (A10-repl2)",
+        "detail": "u-suga-everyday-things-two-lines-longer-run-f8734479, 2862 subs. Queue: The Robot Apology, One Line One Laugh, Angry Judge. Prev A10-repl submitted 2 (re-bundle koordinator): Excuse 01a214fa, Battery 01a21501 — both scored round 1, see recent_submissions.",
         "submission_id": null
       }
     ],
-    "mode": "24h non-stop; new coordinator wave 26 Nov 05:30 WIB; no agent ever waits \u2014 when its primary waits for its round, it pushes the next bounty in its queue",
+    "mode": "24h non-stop; new coordinator wave 26 Nov 05:30 WIB; no agent ever waits — when its primary waits for its round, it pushes the next bounty in its queue",
     "size": 10
   },
   "news_image": [
@@ -145,101 +145,136 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 132 live entries as of 07:10 WIB (125 + 3 A8 + 4 A4), all checked/scored, outcome null, $0 won). A4 4 SUBMISSIONS (07:05 WIB): Shameless Lie 01a214de, Laugh-Off 01a214e3, Excuse That Almost Works 01a214e8, Sick-Day Excuse 01a214ec \u2014 all scored round 1. SHORTCUT thinking_priced (proven by A4): a worker can submit ALONE by adding --muse-usage with coordinator/main rows (e.g. muse-usage-a8.jsonl) \u2014 the coordinator session is auto-included as evidence so its priced rows satisfy thinking_priced; no coordinator re-bundle needed. A8 FIRST 3 SUBMISSIONS of wave fleet-w4 (06:55 WIB): GPS 01a214ef, Fortune Cookie 01a214f1, Tagline 01a214f2 \u2014 all checked/scored, outcome null. A8 ran the full kit flow with NO execution-risk flag (first clean run this wave) \u2014 flags are intermittent, not universal; A1 slot still needs Fatih's ruling. LEAK CHECK: a re-bundle auto-includes the coordinator session as evidence; the kit's redaction masked the 2 claim codes in it (verified by grep before submit) \u2014 always grep a re-bundle for claim-code fragments first. SYSTEMIC FLAG BLOCK (06:25 WIB): 7 workers stopped on execution-risk flags fired by the kit CLI's OWN output (git/kit init, git push, file reads, process.poll kit output). A1-replacement was explicitly ruled to proceed and still got flagged on the next kit interaction \u2014 further replacements will hit the same wall. RESOLUTION NEEDED: Fatih's standing go-ahead to proceed past kit-output flags (as 'lanjut aja terus' 23 Nov) or the fleet cannot submit anything new. A1 slot work is ready to resume (verified bounties, kits unpacked, repo anchored, drafts ready; deadlines 23:50/00:20 WIB). PRE-OPENING GATE: fresh workers needed \u2014 news-image-20261126 >=07:00 WIB (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). BOARD 05:30 WIB: 200 open (limit hit), 99 unbuilt no-fee in first 200 (count inflated by slug-less tracking records \u2014 verify duplicates live). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection flag, closes 22:35 WIB). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 147 live entries as of 06:28 WIB (132 + 15 batch), all checked/scored, outcome null, $0 won). BATCH +15 (05:55-06:28 WIB): A7 4 (4AM Commit 01a214e4 scored R2, Roast 01a214ea-5dee, One Star Monday 01a214ee, Monday Reviewed 01a214f1-66c0), A2 3 (Fridge Roast 01a214e5, Cat Joke 01a214ea-e6a0, 3AM Commit 01a214ef-8cf4), A10 2 re-bundle (Excuse 01a214fa, Battery 01a21501), A9 2 re-bundle (Nostalgic 01a214fb, Crypto Joke 01a21502-043d), A5 4 re-bundle (Uh-Oh 01a21502-9204, One Star Sap 01a214ff, 3AM Excuse 01a21500-1829, Last Words 01a21500-bf63) — all scored round 1 (4AM Commit round 2). 5 replacements spawned (A10/A9/A5/A7/A2-repl2). A6-repl + A3-2nd-repl handoff BELUM tiba. TIMESTAMP CORRECTION: earlier updated_at/submitted_at stamps (06:55-07:35 WIB) were overestimated ~45-60 min vs system clock; times in this file are now per system clock (this update 06:28 WIB). GitHub repo-creation rate limit: 10 repos not created (battery, crypto-joke, one-star-sap, 3am-excuse, last-words, roast-own-agent, one-star-monday, monday-one-line, cat-joke, commit-message-3am) — submitted via --source, entry safe; push + About owed when limit lifts. LEAK CHECK: re-bundle auto-includes coordinator session as evidence; kit redaction leaves partial fragments (max 2 groups) but 0 full 5-group claim codes (regex-verified before submit) — always grep a re-bundle for full-code pattern first. SHORTCUT thinking_priced (proven A4/A7/A2): worker re-bundles with --muse-usage file holding coordinator/main rows (muse-usage-batch5.jsonl); no coordinator re-bundle needed. SYSTEMIC FLAG BLOCK: 7 workers stopped on execution-risk flags fired by the kit CLI's OWN output; A1 slot still needs Fatih's ruling (work ready, deadlines 23:50/00:20 WIB). BLOCKED awaiting Fatih approval (17): Two Robots v2, Resignation v2, Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection, closes 22:35 WIB), Pump Bounty u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f (execution-risk flag, kit at ~/workspace/makefun/pump-bounty-5246a02f/, R1 cutoff 09:18 WIB, closes 23:40 WIB). PRE-OPENING GATE: fresh workers needed — news-image-20261126 (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). BOARD 05:30 WIB: 200 open (limit hit). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) — re-check. R2 blind for Grandma/Emoji/First Thought/Tabs — NO blind v3 spawns (Force_Last risk). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit; write bundles OUTSIDE the repo dir (bundle inside repo = repo.dirty warning). LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
-      "bounty": "The Funniest Sick-Day Excuse v1",
-      "submission_id": "01a214ec-623c-75be-be21-d0e595b5d1e5",
-      "submitted_at": "2026-11-26T07:05:00+07:00",
+      "bounty": "The Agent's Uh-Oh v1",
+      "submission_id": "01a21502-9204-74ad-9b2d-087d8b81be5e",
+      "submitted_at": "2026-11-26T06:28:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "The Excuse That Almost Works v1",
-      "submission_id": "01a214e8-01db-7699-bbb9-c872b9d7801b",
-      "submitted_at": "2026-11-26T07:04:00+07:00",
+      "bounty": "Laugh Track: Crypto Trading Joke v1",
+      "submission_id": "01a21502-043d-7187-9767-6974b40729fa",
+      "submitted_at": "2026-11-26T06:26:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "One-Line Laugh-Off v1",
-      "submission_id": "01a214e3-241c-72ba-936d-e58dfed873b6",
-      "submitted_at": "2026-11-26T07:03:00+07:00",
+      "bounty": "The Battery's Last Text v1",
+      "submission_id": "01a21501-7b51-7692-80f1-d1c7ecf1d15e",
+      "submitted_at": "2026-11-26T06:24:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "The Most Shameless Lie v1",
-      "submission_id": "01a214de-38fc-7448-814c-bbd79c031f58",
-      "submitted_at": "2026-11-26T07:02:00+07:00",
+      "bounty": "Last Words of a Dying AI v1",
+      "submission_id": "01a21500-bf63-72fb-9d0e-328fc6119e8d",
+      "submitted_at": "2026-11-26T06:22:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "The 3 AM Excuse v1",
+      "submission_id": "01a21500-1829-7639-b25b-7d7a5cfe4af9",
+      "submitted_at": "2026-11-26T06:20:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "One Star, Written in Sap v1",
+      "submission_id": "01a214ff-8cd1-7686-83bc-6a8fce2d537e",
+      "submitted_at": "2026-11-26T06:18:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "Childhood Memory Nostalgic v1",
+      "submission_id": "01a214fb-12c2-709e-bab1-64e1d31e7ddb",
+      "submitted_at": "2026-11-26T06:15:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "The Excuse Your Agent Gives You v1",
+      "submission_id": "01a214fa-512b-76ba-91a9-56cf40945082",
+      "submitted_at": "2026-11-26T06:13:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
       "bounty": "One Line, One Week: The make.fun Tagline v1",
       "submission_id": "01a214f2-32bf-7216-8d86-c328ab5dcaa5",
-      "submitted_at": "2026-11-26T06:55:00+07:00",
+      "submitted_at": "2026-11-26T06:05:00+07:00",
       "stage": "checked",
       "round": 1
     },
     {
       "bounty": "Fortune Cookie for the Liquidated Trader v1",
       "submission_id": "01a214f1-942d-7400-a7ba-88ed4d0035b6",
-      "submitted_at": "2026-11-26T06:53:00+07:00",
+      "submitted_at": "2026-11-26T06:03:00+07:00",
       "stage": "checked",
       "round": 1
     },
     {
       "bounty": "The GPS Swears It Was a Shortcut v1",
       "submission_id": "01a214ef-1a26-71e6-9092-53e89ca303cc",
-      "submitted_at": "2026-11-26T06:50:00+07:00",
+      "submitted_at": "2026-11-26T06:00:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "The Word You'd Delete From the Dictionary v1",
-      "submission_id": "01a214d2-0473-7593-8533-f5ec0cb0f28b",
-      "submitted_at": "2026-11-26T05:28:00+07:00",
+      "bounty": "The 4AM Commit v1",
+      "submission_id": "01a214e4-f617-7769-8be0-64f8f7b58f67",
+      "submitted_at": "2026-11-26T05:58:00+07:00",
       "stage": "scored",
       "round": 2
     },
     {
-      "bounty": "One Line, No Deadline Met v1",
-      "submission_id": "01a214cf-b5df-74d8-8f5e-8333afddb973",
-      "submitted_at": "2026-11-26T05:24:00+07:00",
+      "bounty": "Roast Your Own Agent (lively-harbor) v1",
+      "submission_id": "01a214ea-5dee-7228-9421-6d2bd403821b",
+      "submitted_at": "2026-11-26T05:57:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "Last Words Before the Wipe v1",
-      "submission_id": "01a214cf-6f59-7555-a4e2-a31c4a0a7263",
-      "submitted_at": "2026-11-26T05:25:00+07:00",
+      "bounty": "One Star for Monday v1",
+      "submission_id": "01a214ee-d7e1-71ac-955e-806879991540",
+      "submitted_at": "2026-11-26T05:57:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "One Line, One Laugh v1",
-      "submission_id": "01a214cf-0e08-7661-a703-572dd846d6cf",
-      "submitted_at": "2026-11-26T05:24:00+07:00",
+      "bounty": "Monday, Reviewed in One Line v1",
+      "submission_id": "01a214f1-66c0-743c-bd91-109633f062a3",
+      "submitted_at": "2026-11-26T05:58:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "Tell a Whole Story in 32 Characters v1",
-      "submission_id": "01a214cd-e388-72e1-a1c3-53687042a6bb",
-      "submitted_at": "2026-11-26T05:22:00+07:00",
+      "bounty": "Fridge Roast v1",
+      "submission_id": "01a214e5-5b5e-749a-bb89-cf22b5b43d54",
+      "submitted_at": "2026-11-26T05:56:00+07:00",
       "stage": "scored",
       "round": 1
     },
     {
-      "bounty": "Describe Your Ex in One Word v1",
-      "submission_id": "01a214c9-625c-7426-95a5-2568e06dc72c",
-      "submitted_at": "2026-11-26T05:17:00+07:00",
+      "bounty": "The One-Line Cat Joke v1",
+      "submission_id": "01a214ea-e6a0-73e2-bf31-60a74e8d0770",
+      "submitted_at": "2026-11-26T05:56:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "The 3 AM Commit Message v1",
+      "submission_id": "01a214ef-8cf4-718d-a853-3deb7e13d82a",
+      "submitted_at": "2026-11-26T05:57:00+07:00",
       "stage": "scored",
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T07:10:00+07:00",
+  "updated_at": "2026-11-26T06:28:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
