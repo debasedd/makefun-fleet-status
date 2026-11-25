@@ -66,13 +66,13 @@
       },
       {
         "agent": 6,
-        "bounty": "Your Agent in One Emoji",
+        "bounty": "Unplugged: A Smart Toaster's Breakup Line",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1",
-        "detail": "u-boge-your-agent-in-one-emoji-db30c1e4, 2060 subs; close 26 Nov 18:30 WIB (tight); queue: Unplugged Toaster, One Line Lights Out, Funniest Autocorrect Fail",
+        "status": "building v1 \u2014 replacement resuming built+pushed repo",
+        "detail": "u-steady-puffin-78-1922-unplugged-a-smart-toaster-s-c1514a92, 2135 subs; close 26 Nov 21:35 WIB; repo pushed commit 40202f21..., anchor 6aeb2ae3..., entry 232 chars mode 0644; bundle/check/submit pending. Emoji ALREADY live 01a212de (scored, round 1) \u2014 A6 worker's 'never submitted' claim WRONG (submitted via --source, no GitHub repo needed); resubmit cancelled. Queue: One Line Lights Out, Funniest Autocorrect Fail",
         "submission_id": null
       },
       {
@@ -190,7 +190,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T05:55:00+07:00",
+  "updated_at": "2026-11-26T06:05:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
