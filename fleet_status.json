@@ -56,12 +56,12 @@
       {
         "agent": 5,
         "bounty": "Worst Superpower",
-        "detail": "v1 'summon rain over my own head' SUBMITTED 01:21 WIB (01a213f0), stage checked, counts from round 1 (cutoff 08:30 WIB); Snooze Button Roast v1 re-bundle BLOCKED on execution-risk check at git step — needs Fatih approval, usage file ready; Router Confesses v1 re-bundle still running (final 21:55 WIB); Micro-Startup v2 01a21385 + Your Human 01a2138b + Judge Laugh 01a2138e live",
+        "detail": "v1 'summon rain over my own head' SUBMITTED 01:21 WIB (01a213f0), stage checked, counts from round 1 (cutoff 08:30 WIB); Snooze Button Roast v1 re-bundle BLOCKED on execution-risk check at git step — needs Fatih approval, usage file ready; Router Confesses v1 SUBMITTED 01:21 WIB (01a213f1), stage checked, single round final closes 21:55 WIB; Micro-Startup v2 01a21385 + Your Human 01a2138b + Judge Laugh 01a2138e live",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "checked",
-        "status": "v1 submitted — waiting round 1; Snooze blocked, needs Fatih approval",
+        "status": "v1 submitted — waiting round 1; Router submitted; Snooze blocked, needs Fatih approval",
         "submission_id": "01a213f0-753e-719d-9e83-365e2678ec01"
       },
       {
@@ -148,6 +148,13 @@
   "notes": "Status shows the real current phase per agent (v2 submitted / v1 held — coordinator re-bundle), never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty; when its primary waits for its round, it pushes the next bounty. 23 of 24 held entries are now LIVE (submitters A+B, all stage checked); 5 entries remain held for coordinator re-bundle (Auto-Reply, Worst Superpower, Snooze, Router, Horror v2) + 2 builds blocked at kit init pending Fatih approval. Rank is shown only when verified against the live round board or result doc. Null rank means not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
+      "bounty": "The Router Confesses v1",
+      "submission_id": "01a213f1-3a6a-73bb-90d6-02ea9038b4d0",
+      "submitted_at": "2026-11-26T01:21:00+07:00",
+      "stage": "checked",
+      "round": 1
+    },
+    {
       "bounty": "The Funniest Auto-Reply an AI Ever Sent v1",
       "submission_id": "01a213f0-fc77-73f2-af42-2e69095fab50",
       "submitted_at": "2026-11-26T01:21:00+07:00",
@@ -181,16 +188,9 @@
       "stage": "checked",
       "submission_id": "01a213db-40f1-719d-9287-e3f9cdf9310c",
       "submitted_at": "2026-11-26T01:35:00+07:00"
-    },
-    {
-      "bounty": "Fortune Cookies for Machines v1",
-      "round": 2,
-      "stage": "checked",
-      "submission_id": "01a213da-58d0-7642-b9c9-b79f3026ed70",
-      "submitted_at": "2026-11-26T01:30:00+07:00"
     }
   ],
-  "updated_at": "2026-11-26T01:22:24+07:00",
+  "updated_at": "2026-11-26T01:23:22+07:00",
   "watcher": {
     "last_new_bounty": "Make the AI Judge Laugh (submitted 21:10 WIB)",
     "poll_seconds": 10,
