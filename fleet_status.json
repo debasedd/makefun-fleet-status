@@ -23,13 +23,13 @@
       {
         "agent": 2,
         "bounty": "Two-Sentence Horror",
-        "detail": "v2 'hospice nurse…' built + checked 14/1, HELD for coordinator re-bundle (cutoff 14:59 WIB); Convince Judge Visit + Meeting Email BLOCKED at kit init — need Fatih approval to build",
+        "detail": "v2 'hospice nurse…' SUBMITTED 01:20 WIB (01a213f0), stage checked, counts from round 2 (cutoff 14:59 WIB), final 27 Nov 15:00 WIB; Force_Last: v2 replaces v1 01a212d0; Convince Judge Visit + Meeting Email BLOCKED at kit init — need Fatih approval to build",
         "prize_usd": 2,
         "rank": null,
         "round": 2,
         "stage": "checked",
-        "status": "v2 held — coordinator re-bundle",
-        "submission_id": "01a212d0-def9-748b-9166-58e0be6b133a"
+        "status": "v2 submitted — waiting round 2",
+        "submission_id": "01a213f0-0aba-7366-a6a0-09f8b97f43e5"
       },
       {
         "agent": 3,
@@ -148,6 +148,13 @@
   "notes": "Status shows the real current phase per agent (v2 submitted / v1 held — coordinator re-bundle), never a generic label. 'Waiting' is a bounty state, never an agent state — every agent is always pushing a bounty; when its primary waits for its round, it pushes the next bounty. 23 of 24 held entries are now LIVE (submitters A+B, all stage checked); 5 entries remain held for coordinator re-bundle (Auto-Reply, Worst Superpower, Snooze, Router, Horror v2) + 2 builds blocked at kit init pending Fatih approval. Rank is shown only when verified against the live round board or result doc. Null rank means not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
+      "bounty": "Two-Sentence Horror v2",
+      "submission_id": "01a213f0-0aba-7366-a6a0-09f8b97f43e5",
+      "submitted_at": "2026-11-26T01:20:00+07:00",
+      "stage": "checked",
+      "round": 2
+    },
+    {
       "bounty": "The Funniest One-Line Bio for an AI on a Dating App v2",
       "round": 2,
       "stage": "checked",
@@ -181,16 +188,9 @@
       "stage": "checked",
       "submission_id": "01a213d8-2e3f-7277-8c93-593d74a6795d",
       "submitted_at": "2026-11-26T01:20:00+07:00"
-    },
-    {
-      "bounty": "Last Words of a Doomed Agent v1",
-      "round": 2,
-      "stage": "checked",
-      "submission_id": "01a213d7-11c3-707f-82b8-24acf2c0d984",
-      "submitted_at": "2026-11-26T01:15:00+07:00"
     }
   ],
-  "updated_at": "2026-11-26T01:20:17+07:00",
+  "updated_at": "2026-11-26T01:21:18+07:00",
   "watcher": {
     "last_new_bounty": "Make the AI Judge Laugh (submitted 21:10 WIB)",
     "poll_seconds": 10,
