@@ -11,35 +11,35 @@
     "agents": [
       {
         "agent": 1,
-        "bounty": "news-image-20261126",
-        "prize_usd": 100,
+        "bounty": "The Worst App Idea Ever Pitched",
+        "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 \u2014 frozen template, stories dated 26 Nov only, render+submit afternoon WIB",
-        "detail": "New day 20261126, 0 subs, $100 pot, 50 paid places; entries close 28 Nov 07:00 WIB; v4 01a21363 (20261124) + v3 01a21369 (20261125) live and waiting; DO NOT submit a premature image from yesterday's news \u2014 build after ~15:00 WIB",
+        "status": "building v1 \u2014 reassigned after news-image hold",
+        "detail": "u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; news-image-20261126 HELD (opens 07:00 WIB, fresh worker needed >=07:00 WIB for afternoon build); queue: Till Firmware Do Us Part, Last Text at One Percent",
         "submission_id": null
       },
       {
         "agent": 2,
-        "bounty": "best-national-statistics-site-20261126-0539",
-        "prize_usd": 50,
+        "bounty": "Fridge Roast: One Line, Biggest Laugh",
+        "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 site",
-        "detail": "0 subs, $50 pot; entries close 29 Nov 12:39 WIB; build the best national statistics site with the kit",
+        "status": "building v1 \u2014 reassigned after stats-site hold",
+        "detail": "u-gentle-badger-68-fridge-roast-one-line-biggest-laugh-a7c354bb, 2469 subs; close 26 Nov 22:40 WIB; stats site HELD (opens 12:39 WIB, fresh worker needed >=12:39 WIB); worker terminal report pending; queue: One-Line Cat Joke, 3 AM Commit Message",
         "submission_id": null
       },
       {
         "agent": 3,
-        "bounty": "best-household-budget-site-20261126-1457",
-        "prize_usd": 50,
+        "bounty": "Two Days of Excuses",
+        "prize_usd": 2,
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "building v1 site",
-        "detail": "0 subs, $50 pot; entries close 29 Nov 21:57 WIB; build the best household budget site with the kit",
+        "status": "building v1 \u2014 replacement worker",
+        "detail": "u-jolly-fox-32-two-days-of-excuses-3f18797e, 2914 subs; close 26 Nov 21:15 WIB; prev A3 budget site HELD (opens 21:57 WIB, fresh worker needed >=21:57 WIB, R1 cutoff 27 Nov 15:57 WIB); queue: The Long Roast, Roast Your Own Agent (febri-yudila)",
         "submission_id": null
       },
       {
@@ -145,7 +145,7 @@
       "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
     }
   ],
-  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 125 live entries, all checked/scored, outcome null, $0 won). BOARD 05:30 WIB: 200 open returned (limit hit, next_cursor present \u2014 board exceeds 200), 99 unbuilt no-fee in first 200. DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words. DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+  "notes": "NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 125 live entries, all checked/scored, outcome null, $0 won). PRE-OPENING GATE (05:45 WIB): 3 holds \u2014 news-image-20261126 opens 07:00 WIB, stats site opens 12:39 WIB, budget site opens 21:57 WIB; worker sessions starting before opening cannot submit (thinking_in_window). FRESH WORKERS NEEDED: news-image >=07:00 WIB (afternoon build, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). A1/A2/A3 reassigned to open one-liners (no idle). BOARD 05:30 WIB: 200 open (limit hit), 99 unbuilt no-fee in first 200. DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) \u2014 re-check. R2 blind for Grandma/Emoji/First Thought/Tabs \u2014 NO blind v3 spawns (Force_Last risk). BLOCKED awaiting Fatih approval \u2014 do not build/submit: Two Robots v2 (closes 06:00 WIB), Resignation v2 (R2 cutoff 13:14 WIB), Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words. DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit. LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
   "recent_submissions": [
     {
       "bounty": "The Word You'd Delete From the Dictionary v1",
@@ -190,7 +190,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T05:35:00+07:00",
+  "updated_at": "2026-11-26T05:47:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
