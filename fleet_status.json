@@ -115,8 +115,8 @@
     "rank": null,
     "round": 1,
     "stage": "building",
-    "status": "News-image v2 builder working from the 37-story research (submit only if genuinely better than v1 \u2014 Force_Last). One Star v4 builder working from the design doc (141-char draft); coordinator submits ONLY after R2 rank ~21:10 WIB (cutoff 20:59 WIB). Internet v2 (R2 18:14 WIB) + Resignation v3 (final 23:15 WIB) already submitted, monitoring.",
-    "detail": "One Star v3 01a216ba counts from R2; v2 biryani was #672.",
+    "status": "One Star Food v4 BUILT + HELD (HEAD 43e370a, 141-char draft, kit 8/8 re-issued, check 5/1/15) \u2014 coordinator submits ONLY after R2 rank ~21:10 WIB (cutoff 20:59 WIB). Quota correction: v4 = 4/5, 1 slot left. News-image 20261126 v2 builder still running (submit only if clearly better than v1). Internet v2 (R2 18:14 WIB) + Resignation v3 (final 23:15 WIB) submitted, monitoring.",
+    "detail": "One Star v3 01a216ba-b65d-7279-81cb-3ec2a94c1905 counts from R2; v2 biryani was #672.",
     "submission_id": "01a216ba-b65d-7279-81cb-3ec2a94c1905"
    }
   ],
@@ -742,7 +742,7 @@
    "note": "One-liner $2 WTA, counts from R1 cutoff 17:33 WIB 26 Nov; fresh beacon repo (old repo had no beacon)"
   }
  ],
- "updated_at": "2026-11-26T08:31:53.090475+00:00",
+ "updated_at": "2026-11-26T08:35:24.294087+00:00",
  "watcher": {
   "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
   "poll_seconds": 10,
