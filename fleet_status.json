@@ -33,14 +33,14 @@
       },
       {
         "agent": 3,
-        "bounty": "Two Lines to Your Past Self",
+        "bounty": "Everyday Things, Two Lines, Longer Run",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "scored",
-        "status": "DONE — 2 HELD builds submitted by coordinator (Two Lines 01a21553-422f scored R1; Outage 01a21553-c42e checked R1); 4 queue items were live duplicates; new replacement a21591b7 running",
-        "detail": "A3-2nd-repl (48953cfd) handoff arrived ~07:48 WIB (completed 05:58 WIB, late delivery). Duplicates verified live via API: Your Week 01a212d8, One Laugh 01a212da, Big Laugh 01a212db, Fortune 01a212cc (all scored R1). Two Lines 01a21553-422f (Lucid Equinox, commit f40bae2e, check re 15/0) + Outage 01a21553-c42e (Hopeful Crystal, commit 772608ad, check re 15/0), both via --source, leak 0. Kits were double-nested (cli in subdir). GitHub repo-create rate limit still active. New replacement a21591b7 spawned ~07:49 WIB.",
-        "submission_id": "01a21553-422f-754f-b985-2e0b5466d504"
+        "stage": "superseded",
+        "status": "DONE — 1 submitted but SUPERSEDED (Ideal Filament 01a21565-34cf, superseded by coordinator 01a21566 Hale Plasma scored R2); One Chill NOT submitted (sibling/coordinator 01a21565-3586 live); board exhausted (138-candidate re-sweep: 135 live + 3 free-but-unusable). No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A3-replacement (a21591b7) completed 08:10 WIB (01:10:23Z). Everyday Things u-suga-...-f8734479: build commit 86214c51, bundle sha d595f19b..., check 14/0, thinking_priced pass, reproduces 90.7%, poll at submit checked R1 — owner view 08:24 WIB: rejected R1 outcome superseded (coordinator 01a21566 receipt later, Force_Last). Claim AF-D452R belongs to superseded entry — do NOT use. SPARE build commit 86214c51 — do NOT submit (would supersede live 01a21566). One Chill repo one-line-one-chill-v2/ init only, no build. LESSON: REJECTED submissions do not appear in submissions list — free oracle has a blind spot; check tracking for rejected/fix-worker before trusting free. Handoff HANDOFF-A3repl.md.",
+        "submission_id": "01a21565-34cf-75b6-a32d-b85264dcd050"
       },
       {
         "agent": 4,
@@ -157,7 +157,8 @@
   ],
   "notes": [
     "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) — fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh — replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
-    "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled."
+    "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
+    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron."
   ],
   "recent_submissions": [
     {
@@ -355,7 +356,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:24:00+07:00",
+  "updated_at": "2026-11-26T08:25:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
