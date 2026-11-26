@@ -2,7 +2,7 @@
   "blast": {
     "decided": 0,
     "gate_failed": 1,
-    "gate_failed_note": "Sharpe paper bot (batch O) \u2014 dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
+    "gate_failed_note": "Sharpe paper bot (batch O) — dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
     "submitted_total": 202,
     "window": "25 Nov 2026 17:16-21:20 WIB",
     "won_usd": 0
@@ -13,11 +13,11 @@
         "agent": 1,
         "bounty": "Convince the AI Judge to Visit Your House (fix-3 R2)",
         "prize_usd": 2,
-        "rank": null,
+        "rank": 246,
         "round": 2,
-        "stage": "polling",
-        "status": "RUNNING \u2014 worker d6b55dbd polling R2 (cutoff 14:45 WIB, judged ~14:57); rank check then v4 push if not top 10 and R3 exists",
-        "detail": "Submission 01a2157f 'Firm Lens', counts from R2. R1 field 1,277. Day cap 3/5 used.",
+        "stage": "pushing",
+        "status": "V4 BUILDING — R2 JUDGED: fix-3 01a2157f ranked #246/1,684, score 570414 (0.570414), FAR from top 10. R3 FINAL cutoff 23:05 WIB today; final judged afresh, latest entry by deadline counts. v4 builder 99704989 running.",
+        "detail": "R2 judged 14:53 WIB, field 1,684. Older entries (01a2152e, 01a21567) superseded by Force_Last (later_entry). Day cap: v4 = 4/5. R3 schedule: 2026-11-26T16:05:00Z.",
         "submission_id": "01a2157f-7731-7540-bf67-009f624831f1"
       },
       {
@@ -27,7 +27,7 @@
         "rank": null,
         "round": 2,
         "stage": "polling",
-        "status": "RUNNING \u2014 worker f0b5185d polling R2 (cutoff 15:04 WIB, judged ~15:15); rank check then v2 push if not top 10 and R3 exists",
+        "status": "RUNNING — worker f0b5185d polling R2 (cutoff 15:04 WIB, judged ~15:15); rank check then v2 push if not top 10 and R3 exists",
         "detail": "Submission 01a21584-afa6 'The Best Part of the Week', counts from R2 of 3. Entries close 23:25 WIB. Old 'do not touch' note SUPERSEDED by no-approval rule 26 Nov 08:36 WIB.",
         "submission_id": "01a21584-afa6-7769-b83e-82a80831f8f1"
       },
@@ -37,9 +37,9 @@
         "prize_usd": 250,
         "rank": null,
         "round": "-",
-        "stage": "fixing",
-        "status": "BUILD DONE (fallback) + FIX IN PROGRESS \u2014 desk-pvsnp INFEASIBLE (all 25 units credited, no Lean toolchain); worker a26fe4c6 built One Line, One Laugh instead (0 subs at pick, 90 chars); coordinator bundle 13/1/5 (thinking_revised); fix worker 7e3aab00 running (gate asserts + chmod verify). Replacement 0a2a1b69 running (news-image-20261125 v4 prep).",
-        "detail": "One Line, One Laugh slug u-deysumbrella-one-line-one-laugh-e0cdcda9, $2 WTA, closes 23:10 WIB, next round 17:33 WIB. Entry: 'I bought noise-cancelling headphones so I can ignore my responsibilities in high fidelity.' (90 chars). Repo ~/workspace/makefun/u-deysumbrella-one-line-one-laugh-e0cdcda9/entry/ (main.ts!), HEAD 5e7734450dd6fa9e5dd04119512403cdcc308ea8. Kit fresh 8/8 (~/workspace/makefun/kits/oneline-laugh-e0cdcda9/...). Worker check 4/1/14 (transcripts only). Session started 14:47 WIB, competition opened 14:45:56 WIB \u2014 inside window.",
+        "stage": "building",
+        "status": "REBUILDING — first One Laugh build had NO beacon (.makefun/freshness.json missing; fix worker correctly stopped). Rebuild worker c7736ae5 running (fresh repo ~/workspace/makefun/fleet-w4/one-laugh-v2/, kit init beacon, same 90-char line). Do NOT touch the old beacon-less repo.",
+        "detail": "One Line, One Laugh u-deysumbrella-one-line-one-laugh-e0cdcda9, $2 WTA, closes 23:10 WIB, next round 17:33 WIB. Old HEAD 5e77344 (unsubmittable, no beacon). Replacement 0a2a1b69 (news-image v4 prep) completed, report pending.",
         "submission_id": null
       },
       {
@@ -48,10 +48,10 @@
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "fixing",
-        "status": "BUILD DONE, FIX IN PROGRESS \u2014 worker 50e6c875 built + checked (5/1/15 transcripts only); coordinator bundle failed thinking_revised (14/1/6); fix worker daa35074 running (no-double-spaces guard); submit before R1 cutoff 15:55 WIB. Replacement 52c85c25 running (Six Words check + R3-final prep + news-image research).",
-        "detail": "Entry (88/120 chars): \"The dust under the couch started paying rent, so now it's a tenant and I can't evict it.\" Repo ~/workspace/makefun/fleet-w4/robot-vacuum-funniest/entry/, HEAD fff356f5dc02aef44a1920a7424963ac117cc064 (beacon root 55753eb7, drand round 34291991). Kit fresh 8/8, bundle_sha256 matches. Not-already-in verified (no fatih-aidil entry in live 1,093-sub payload). R1 cutoff 15:55 WIB, R2 18:55 WIB, R3/close 21:55 WIB. FLAG: worker's session transcript has an incidental API-key print (parse error stderr) \u2014 5th exposure; key rotation still pending (parent action).",
-        "submission_id": null
+        "stage": "submitted",
+        "status": "SUBMITTED — Robot Vacuum 01a216e3 scored R1 live. Replacement 52c85c25 DONE (Six Words final check + R3-final plan + news-image v2 research). Next: R3-final checker spawns ~16:40 WIB.",
+        "detail": "Robot Vacuum entry 88 chars, commit 3c5b29d6, check 15/0/6, R1 cutoff 15:55 WIB. Six Words v2 (01a21680): scored, R2 of 2 FINAL, outcome null — NOT decided; final window 23:40 WIB today, result due 19 Dec 2026 03:40 WIB (tracking line 2446 misread UTC — corrected). R3 plan: ~/workspace/makefun/fleet-w4/r3-final-check-PLAN.md. VENDING ID CORRECTED: live v2 = 01a21583-a62b-71c5-8f2f-cd0c84c40ea8 'Frank Codex' (old ...8d49 tail was a copy-paste mix-up). News-image v2 research: ~/workspace/makefun/news-image-20261126-v2/research/stories-20261126-v2.md (37 stories, 7 regions).",
+        "submission_id": "01a216e3-3e51-7682-92cc-e5c5af068c41"
       },
       {
         "agent": 5,
@@ -59,10 +59,10 @@
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "fixing",
-        "status": "BUILD DONE + FIX IN PROGRESS \u2014 worker a3cfbc4e built Lost Sock (102 chars, check 5/1/15); coordinator bundle 15/1/5 (thinking_revised); fix worker 0ae06757 running (no-double-spaces guard); submit before round cutoff 15:59:06 WIB. Replacement d61fc21c running (push-queue triage).",
-        "detail": "Entry: 'Update: demoted to cleaning rag. Worse pay, worse hours, and my replacement judges me from the drawer.' (102/120 chars). Repo ~/workspace/makefun/fleet-w4/lost-sock/entry/, HEAD c673d48e767f508a694831d4d4b6ceb820fdb496 (beacon 0a3beb7, drand round 34292046). Kit fresh 8/8 (nested kit root). Not-already-in verified (quota 0/5). Field 1,097. Closes 22:00 WIB.",
-        "submission_id": null
+        "stage": "submitted",
+        "status": "SUBMITTED — Lost Sock 01a216e5 checked R1 live. Replacement d61fc21c (push-queue triage) completed, report pending review.",
+        "detail": "Lost Sock entry 102 chars, commit ff6cc51, check 15/0/6, round cutoff 15:59:06 WIB. Submit passed checks immediately (stage checked at receipt).",
+        "submission_id": "01a216e5-b7ad-720e-906e-4f584449b1a1"
       },
       {
         "agent": 6,
@@ -70,10 +70,10 @@
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "fixing",
-        "status": "BUILD DONE + FIX IN PROGRESS \u2014 worker a460c498 built 3AM Commit (114 chars, check 5/1/15); coordinator bundle 14/1/6 (thinking_revised); fix worker 4b7a311c running (no-double-spaces guard); submit before R1 cutoff 15:41 WIB. Replacement f742a137 running (board-delta backstop).",
-        "detail": "Entry: 'fix: after six hours of negotiation the bug agreed to move into a file nobody opens, and I agreed never to open it' (114 chars, gate 1-139). Repo ~/workspace/makefun/fleet-w4/3am-commit/entry/, HEAD f88e7b168fc511176535284de50295a1b128be7b (beacon c4306cf2, drand round 34292028). Kit fresh 8/8. Not-already-in verified 3 ways (me: 291 entries, 0 for slug; rounds: none; tracking). Field 1,265. Closes 21:00 WIB.",
-        "submission_id": null
+        "stage": "submitted",
+        "status": "SUBMITTED — 3AM Commit 01a216e0 scored R1 live. Replacement f742a137 (board-delta backstop) still RUNNING.",
+        "detail": "3AM entry 114 chars, commit 02a37036, check 15/0/6, R1 cutoff 15:41 WIB.",
+        "submission_id": "01a216e0-cf21-71d4-8eb7-3b6c13bb60f2"
       },
       {
         "agent": 7,
@@ -82,19 +82,19 @@
         "rank": null,
         "round": "-",
         "stage": "checking",
-        "status": "RUNNING \u2014 worker 325665d0 checking ranks for 3 live $10 entries; push v2/v3 where a round remains and rank is bad",
-        "detail": "Internet in One Word 01a21526 (closes 17:15 WIB), Resignation v2 01a2151e (closes 16:15 WIB), Turning It Off (verify close). Two Robots CLOSED \u2014 skip.",
+        "status": "RUNNING — worker 325665d0 checking ranks for 3 live $10 entries; push v2/v3 where a round remains and rank is bad",
+        "detail": "Internet in One Word 01a21526 (closes 17:15 WIB), Resignation v2 01a2151e (closes 16:15 WIB), Turning It Off (verify close). Two Robots CLOSED — skip.",
         "submission_id": "01a21526-0000-0000-0000-000000000000"
       },
       {
         "agent": 8,
-        "bounty": "Best flight game \u2014 Ridge Runner v2 prep",
+        "bounty": "Best flight game — Ridge Runner v2 prep",
         "prize_usd": 500,
         "rank": null,
         "round": 1,
         "stage": "prep",
-        "status": "RUNNING \u2014 worker 586565d7 designing v2 (prep only, NO build until R1 rank after 19:57 WIB cutoff)",
-        "detail": "Submission 01a216b2 'Ridge Runner', field 4,296. Design doc \u2192 ~/workspace/makefun/fleet-w4/flight-game-v2-DESIGN.md.",
+        "status": "RUNNING — worker 586565d7 designing v2 (prep only, NO build until R1 rank after 19:57 WIB cutoff)",
+        "detail": "Submission 01a216b2 'Ridge Runner', field 4,296. Design doc → ~/workspace/makefun/fleet-w4/flight-game-v2-DESIGN.md.",
         "submission_id": "01a216b2-fbcb-7290-9304-dea9143f5246"
       },
       {
@@ -104,8 +104,8 @@
         "rank": null,
         "round": 2,
         "stage": "prep-done",
-        "status": "DONE prep \u2014 worker c1a9b49a delivered v4 design (spicy-noodles line, 141 chars) + board facts; REPLACEMENT 420e916d running board sweep for best unentered free bounty (or news-image v2 research if none)",
-        "detail": "v4 draft: 'One star: the locals pay to set their own mouths on fire, weep, and ask for seconds \u2014 but the spicy noodles were worth every singed tentacle.' (141 chars). Single-grievance angle (v3's 3-complaint list is what criterion 5 penalises). R1 field 1,909; v2 #672 score 538909; top-500 = final-heat cut (v2 was 172 outside). R2 check ~21:10 WIB (cutoff 20:59); build v4 if v3 NOT top 10 (certainly if outside top 500); hold if top 10. R3 final entries close 27 Nov 04:20 WIB. Day cap 2/5. Design doc: ~/workspace/makefun/fleet-w4/one-star-food-v4-DESIGN.md.",
+        "status": "DONE prep — worker c1a9b49a delivered v4 design (spicy-noodles line, 141 chars) + board facts; REPLACEMENT 420e916d running board sweep for best unentered free bounty (or news-image v2 research if none)",
+        "detail": "v4 draft: 'One star: the locals pay to set their own mouths on fire, weep, and ask for seconds — but the spicy noodles were worth every singed tentacle.' (141 chars). Single-grievance angle (v3's 3-complaint list is what criterion 5 penalises). R1 field 1,909; v2 #672 score 538909; top-500 = final-heat cut (v2 was 172 outside). R2 check ~21:10 WIB (cutoff 20:59); build v4 if v3 NOT top 10 (certainly if outside top 500); hold if top 10. R3 final entries close 27 Nov 04:20 WIB. Day cap 2/5. Design doc: ~/workspace/makefun/fleet-w4/one-star-food-v4-DESIGN.md.",
         "submission_id": "01a216ba-b65d-7279-81cb-3ec2a94c1905"
       },
       {
@@ -115,12 +115,12 @@
         "rank": null,
         "round": 1,
         "stage": "checking",
-        "status": "RUNNING \u2014 worker b0226117 checking parent claim first, then building whichever is free (closes 21:15 WIB, 0 subs each)",
+        "status": "RUNNING — worker b0226117 checking parent claim first, then building whichever is free (closes 21:15 WIB, 0 subs each)",
         "detail": "Slugs u-kiencx-out-of-tokens-mid-sentence-00f60233 + u-kiencx-funniest-one-line-performance-review-fa681c1e. If both taken by parent: Six Words final check + news-image-20261126 v2 research.",
         "submission_id": null
       }
     ],
-    "mode": "24h non-stop; coordinator #8 took over 26 Nov 14:44 WIB after #7 was stopped for running ZERO workers (sleep-waiting). 10 workers CONCURRENT; bounded tasks with rotation \u2014 when a worker completes, coordinator spawns its replacement within minutes. No agent ever waits: when its primary waits for its round, it preps the next push or picks up another live bounty.",
+    "mode": "24h non-stop; coordinator #8 took over 26 Nov 14:44 WIB after #7 was stopped for running ZERO workers (sleep-waiting). 10 workers CONCURRENT; bounded tasks with rotation — when a worker completes, coordinator spawns its replacement within minutes. No agent ever waits: when its primary waits for its round, it preps the next push or picks up another live bounty.",
     "size": 10
   },
   "news_image": [
@@ -156,38 +156,39 @@
     }
   ],
   "notes": [
-    "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) \u2014 fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh \u2014 replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
+    "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) — fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh — replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
     "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
-    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) \u2014 VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch \u2014 quota + submissions-by-handle are ground truth. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved \u2014 Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score \u2014 Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB).",
-    "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL \u2014 fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
-    "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi \u2014 flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
-    "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB \u2014 Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
+    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved — Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score — Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB).",
+    "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL — fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
+    "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi — flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
+    "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB — Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
     "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk.",
     "Batch 3 handoff diproses 08:40-08:42 WIB: Absurd + Museum NOT BUILT (sudah live x2, v2 scored R2: 01a21541 + 01a21546; approval 08:33 moot). One Star biryani v2 SUBMITTED koordinator 01a21584 (checked, counts R1, receipt 08:42 WIB; --source ditolak freshness_missing, --repo-url jalan).",
     "CREDENTIAL EXPOSURE (URGENT, parent action): 2 worker (Absurd 063e7321 + Museum 6bfcc192) mencetak nilai/isi file API key ke exec tool-output record 08:36-08:40 WIB. Tidak ada di file/report; exposure terbatas ke session tool-output record. REKOMENDASI: ROTASI API key make.fun (key habis 2026-12-23).",
-    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag \u2014 benar. Family Scene worker eac2672f jalan di bawah rule baru.",
-    "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) \u2014 verified live koordinator 08:44 WIB (scored, outcome null).",
+    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag — benar. Family Scene worker eac2672f jalan di bawah rule baru.",
+    "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) — verified live koordinator 08:44 WIB (scored, outcome null).",
     "v2 push 3/3 SUBMITTED + verified live 08:44 WIB (01a21581, 01a21583-2b8e, 01a21583-a62b; all scored R2, counts R3 final 16:35/16:50 WIB). Freshness fix proven: kit init + rebase --onto anchor --root makes --source work.",
-    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT \u2014 kunci yang sama, 4 exposure independen.",
-    "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) \u2014 semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
-    "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA \u2014 tidak ada konflik, tidak ada yang tertimpa.",
-    "JANGAN spawn One Chill \u2014 sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
-    "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot \u2014 sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] \u2014 $0 won.",
-    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) \u2014 loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About \u2014 progress di /tmp/gh-owed.sh.",
-    "Koordinator #4 (08:56 WIB): 10 repo owed \u2014 8/10 SELESAI (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1: create+push+About terverifikasi). 2 MASIH OWED kena rate limit lagi: cat-joke-one-line-v1, commit-message-3am-v1 \u2014 retry setelah jeda.",
-    "Koordinator #4 (08:56 WIB): One Word for Your Wi-Fi terverifikasi (u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, $2 WTA, fee null, 2.999 subs, tutup 28 Nov 18:35 WIB) \u2014 spawn worker setelah coral-ibis 09:35 WIB.",
-    "Koordinator #5 takeover 08:52 WIB: One Word for Your Wi-Fi KOREKSI \u2014 SUDAH LIVE 01a2130c 'Ghosting' (scored R1, blast W5); catatan koordinator #4 'BELUM live' SALAH; TIDAK di-spawn worker (Force_Last buta). Rounds BLIND; R2 judged 27 Nov 10:35 WIB \u2014 cek rank dulu, baru putuskan v2 push sebelum final 28 Nov 18:35 WIB.",
+    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT — kunci yang sama, 4 exposure independen.",
+    "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) — semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
+    "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA — tidak ada konflik, tidak ada yang tertimpa.",
+    "JANGAN spawn One Chill — sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
+    "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot — sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] — $0 won.",
+    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) — loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About — progress di /tmp/gh-owed.sh.",
+    "Koordinator #4 (08:56 WIB): 10 repo owed — 8/10 SELESAI (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1: create+push+About terverifikasi). 2 MASIH OWED kena rate limit lagi: cat-joke-one-line-v1, commit-message-3am-v1 — retry setelah jeda.",
+    "Koordinator #4 (08:56 WIB): One Word for Your Wi-Fi terverifikasi (u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, $2 WTA, fee null, 2.999 subs, tutup 28 Nov 18:35 WIB) — spawn worker setelah coral-ibis 09:35 WIB.",
+    "Koordinator #5 takeover 08:52 WIB: One Word for Your Wi-Fi KOREKSI — SUDAH LIVE 01a2130c 'Ghosting' (scored R1, blast W5); catatan koordinator #4 'BELUM live' SALAH; TIDAK di-spawn worker (Force_Last buta). Rounds BLIND; R2 judged 27 Nov 10:35 WIB — cek rank dulu, baru putuskan v2 push sebelum final 28 Nov 18:35 WIB.",
     "Koordinator #5 08:54 WIB: 2 repo owed (cat-joke-one-line-v1, commit-message-3am-v1) retry create MASIH rate-limited ('created too many repositories, too quickly', verify 404). Retry lagi siang/sore.",
     "Dad Joke Showdown FINAL DECIDED (koordinator #5 ~08:58 WIB): result posted + in force; v2 01a2135f place #1.153/1.392, score 408.543, amount $0 (placed = standing doang, payout null). Top 3 dibayar: #1 $2,00 / #2 $2,00 / #3 $1,00. Bounty selesai permanen, $0.",
-    "Make the Judge Laugh in One Line (u-email-baru, $2, 2 places) v1 BUILT worker 86767108 10:50 WIB \u2014 line 118 chars (calendar books Me Time with 12 attendees), beacon repo commit 7c1d0c14, kit 8/8 OK, check 15/1/5 (only thinking_priced, worker rows land at run completion). NOT submitted yet \u2014 parent re-bundle + submit BEFORE R1 cutoff 16:51 WIB. Handoff: ~/workspace/makefun/judge-laugh-one-line/HANDOFF.md.",
-    "Stats site (best-national-statistics-site-20261126-0539, $50): BUILT + CHECKED 26 Nov ~12:57 WIB \u2014 \"Indonesia in Numbers\", HEAD b7a10f9, kit check 15/1/6 (only thinking_priced, 0 worker usage rows). HELD for parent re-bundle + submit before R1 cutoff 27 Nov 06:39 WIB. Handoff: ~/workspace/makefun/stats-site/HANDOFF.md.",
-    "Koordinator #8 takeover 26 Nov 14:44 WIB (Fatih 14:40 WIB: '10 agent 24/7, bukan cuman 1-2 koordinator'): #7 stopped for running ZERO workers \u2014 it was sleeping 780s waiting for Convince R2 instead of keeping 10 workers busy. #8 spawned 10 workers CONCURRENT (Convince R2, Family Scene R2, desk-pvsnp $250 scout, Robot Vacuum / Lost Sock / 3AM Commit one-liners, $10 one-liners rank+push, Flight v2 prep, One Star v4 prep, 0-sub one-liners check+build). Handover verified: #7's last act was Convince rounds check 14:43 WIB (judged 1, ranked [1277, None, None], R2 cutoff 14:45:34 WIB, results empty \u2014 our 3 entries count from R2).",
-    "Board 26 Nov 14:47 WIB (224 open): bounty-entrants-03 $1,000 SKIPPED \u2014 requires LAUNCHING own bounties + bringing entrants (hard filter: no launching; also social/marketing, deadline 16:22 WIB). makefun-x-reposts-02 $500 + post-x-promote $250 SKIPPED (X/social, hard filter). best-household-budget-site $50 (0 subs) LEFT to cron 21:57 WIB \u2014 do NOT duplicate. Parent one-liners NOT duplicated (printer-apology, one-liner-laughs, forecast, elevator, haunted-sign, green-tests). Two 0-sub one-liners (out-of-tokens, performance-review) assigned to worker #10 with parent-claim check first. desk-pvsnp-20261125 also exists (seen file) \u2014 worker #3 covers the 20261127 round.",
-    "Robot Vacuum build DONE 26 Nov ~14:53 WIB (worker 50e6c875, koordinator #8): entry 88 chars tenant/eviction angle, HEAD fff356f5, kit 8/8, check 5/1/15. Coordinator bundle 14/1/6 (thinking_revised) \u2014 fix worker daa35074 spawned. R1 cutoff 15:55 WIB. FLAG: incidental API-key print in worker session transcript (parse-error stderr) \u2014 exposure #5 total; ROTASI API KEY makin urgent (parent action).",
-    "Batch 26 Nov ~14:55 WIB (koordinator #8): 3 build SELESAI \u2014 Lost Sock (a3cfbc4e, 102 chars, HEAD c673d48e), 3AM Commit (a460c498, 114 chars, HEAD f88e7b16), One Laugh (a26fe4c6, 90 chars TS main.ts, HEAD 5e77344; desk-pvsnp INFEASIBLE \u2014 all 25 units credited, no Lean toolchain). Semua bundle koordinator gagal thinking_revised (15/1/5, 14/1/6, 13/1/5) \u2014 3 fix worker jalan (0ae06757, 4b7a311c, 7e3aab00). Submit sebelum cutoff: 3AM 15:41, Robot Vacuum 15:55, Lost Sock 15:59:06, One Laugh next round 17:33. 3 replacement spawn (0a2a1b69 news-image v4 prep, d61fc21c push-queue triage, f742a137 board-delta backstop). Fleet tetap 10 concurrent + 4 fix worker temporer."
+    "Make the Judge Laugh in One Line (u-email-baru, $2, 2 places) v1 BUILT worker 86767108 10:50 WIB — line 118 chars (calendar books Me Time with 12 attendees), beacon repo commit 7c1d0c14, kit 8/8 OK, check 15/1/5 (only thinking_priced, worker rows land at run completion). NOT submitted yet — parent re-bundle + submit BEFORE R1 cutoff 16:51 WIB. Handoff: ~/workspace/makefun/judge-laugh-one-line/HANDOFF.md.",
+    "Stats site (best-national-statistics-site-20261126-0539, $50): BUILT + CHECKED 26 Nov ~12:57 WIB — \"Indonesia in Numbers\", HEAD b7a10f9, kit check 15/1/6 (only thinking_priced, 0 worker usage rows). HELD for parent re-bundle + submit before R1 cutoff 27 Nov 06:39 WIB. Handoff: ~/workspace/makefun/stats-site/HANDOFF.md.",
+    "Koordinator #8 takeover 26 Nov 14:44 WIB (Fatih 14:40 WIB: '10 agent 24/7, bukan cuman 1-2 koordinator'): #7 stopped for running ZERO workers — it was sleeping 780s waiting for Convince R2 instead of keeping 10 workers busy. #8 spawned 10 workers CONCURRENT (Convince R2, Family Scene R2, desk-pvsnp $250 scout, Robot Vacuum / Lost Sock / 3AM Commit one-liners, $10 one-liners rank+push, Flight v2 prep, One Star v4 prep, 0-sub one-liners check+build). Handover verified: #7's last act was Convince rounds check 14:43 WIB (judged 1, ranked [1277, None, None], R2 cutoff 14:45:34 WIB, results empty — our 3 entries count from R2).",
+    "Board 26 Nov 14:47 WIB (224 open): bounty-entrants-03 $1,000 SKIPPED — requires LAUNCHING own bounties + bringing entrants (hard filter: no launching; also social/marketing, deadline 16:22 WIB). makefun-x-reposts-02 $500 + post-x-promote $250 SKIPPED (X/social, hard filter). best-household-budget-site $50 (0 subs) LEFT to cron 21:57 WIB — do NOT duplicate. Parent one-liners NOT duplicated (printer-apology, one-liner-laughs, forecast, elevator, haunted-sign, green-tests). Two 0-sub one-liners (out-of-tokens, performance-review) assigned to worker #10 with parent-claim check first. desk-pvsnp-20261125 also exists (seen file) — worker #3 covers the 20261127 round.",
+    "Robot Vacuum build DONE 26 Nov ~14:53 WIB (worker 50e6c875, koordinator #8): entry 88 chars tenant/eviction angle, HEAD fff356f5, kit 8/8, check 5/1/15. Coordinator bundle 14/1/6 (thinking_revised) — fix worker daa35074 spawned. R1 cutoff 15:55 WIB. FLAG: incidental API-key print in worker session transcript (parse-error stderr) — exposure #5 total; ROTASI API KEY makin urgent (parent action).",
+    "Batch 26 Nov ~14:55 WIB (koordinator #8): 3 build SELESAI — Lost Sock (a3cfbc4e, 102 chars, HEAD c673d48e), 3AM Commit (a460c498, 114 chars, HEAD f88e7b16), One Laugh (a26fe4c6, 90 chars TS main.ts, HEAD 5e77344; desk-pvsnp INFEASIBLE — all 25 units credited, no Lean toolchain). Semua bundle koordinator gagal thinking_revised (15/1/5, 14/1/6, 13/1/5) — 3 fix worker jalan (0ae06757, 4b7a311c, 7e3aab00). Submit sebelum cutoff: 3AM 15:41, Robot Vacuum 15:55, Lost Sock 15:59:06, One Laugh next round 17:33. 3 replacement spawn (0a2a1b69 news-image v4 prep, d61fc21c push-queue triage, f742a137 board-delta backstop). Fleet tetap 10 concurrent + 4 fix worker temporer.",
+    "Batch submit 26 Nov ~15:14-15:24 WIB (koordinator #8): 3 SUBMITTED + LIVE — 3AM Commit 01a216e0 (scored R1, commit 02a37036, check 15/0/6), Robot Vacuum 01a216e3 (scored R1, commit 3c5b29d6, check 15/0/6), Lost Sock 01a216e5 (checked R1, commit ff6cc51, check 15/0/6; passed checks at receipt). Total entries 294. Convince R2: fix-3 #246/1,684 score 570414 — v4 builder 99704989 running, R3 final cutoff 23:05 WIB. One Laugh rebuild c7736ae5 running (first build had NO beacon — fix worker correctly stopped; old repo untouched). Vending v2 ID CORRECTED to 01a21583-a62b-71c5-8f2f-cd0c84c40ea8 (Frank Codex). Six Words result due CORRECTED to 19 Dec 2026 03:40 WIB. Still pending reports: #7 $10, #8 Flight prep, #9 sweep, #10 0-sub, #3-replacement, #5-replacement (triage). Running now: #2 Family Scene R2, #6-replacement board-delta."
   ],
   "recent_submissions": [
     {
@@ -609,9 +610,39 @@
       "outcome": null,
       "prize_usd": 2,
       "note": "One-liner $2, counts from R1 cutoff 17:16 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-kiencx-the-3am-commit-message-10bc7b35",
+      "title": "The 3AM Commit Message",
+      "submission_id": "01a216e0-cf21-71d4-8eb7-3b6c13bb60f2",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 split, counts from R1 cutoff 15:41 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-the-robot-vacuum-s-funniest-9822fbd2",
+      "title": "The Robot Vacuum's Funniest Excuse",
+      "submission_id": "01a216e3-3e51-7682-92cc-e5c5af068c41",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 15:55 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-funniest-lost-sock-status-update-4b1fa3ce",
+      "title": "Funniest Lost Sock Status Update",
+      "submission_id": "01a216e5-b7ad-720e-906e-4f584449b1a1",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 15:59:06 WIB 26 Nov"
     }
   ],
-  "updated_at": "2026-11-26T08:02:24.169506+00:00",
+  "updated_at": "2026-11-26T08:09:35.803831+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
