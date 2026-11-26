@@ -69,11 +69,11 @@
         "bounty": "Deadpan Forecasts + Office Artifacts (coral-ibis pair)",
         "prize_usd": 2,
         "rank": null,
-        "round": "-",
-        "stage": "building",
-        "status": "building — worker 730d1950-c169-41b6-a085-3f2aaf19632f spawned 09:35 WIB post-opening",
-        "detail": "Deadpan Forecasts u-coral-ibis-18-deadpan-forecasts-for-cities-that-do-151d4d8c ($2 WTA, <=160 chars, close 05:31 WIB 27 Nov) + Office Artifacts u-coral-ibis-18-office-artifacts-the-one-line-placard-3af971d2 ($2, close 05:31 WIB 27 Nov). Worker spawned 09:35 WIB by cron makefun-coral-ibis-spawn (post-opening gate satisfied; poller did not re-fire — slugs in seen-file). Handoff pending — parent forwards to coordinator 379dccb2-6001-4392-910f-0feb969910cc.",
-        "submission_id": null
+        "round": 1,
+        "stage": "scored",
+        "status": "DONE — 2/2 submitted + LIVE, both scored R1 (verified by parent poll ~09:53 WIB): Deadpan 01a215c1 (Grand Obelisk) + Office 01a215c3 (Oceanic Corona); R1 judged 16:11 WIB, R2 22:51 WIB, final 05:31 WIB 27 Nov; result 19 Dec 2026",
+        "detail": "Deadpan Forecasts u-coral-ibis-18-deadpan-forecasts-for-cities-that-do-151d4d8c: submission 01a215c1-d4ab-707d-97ee-3ea855554ee6, receipt 02:49:13Z, repo deadpan-forecast-v1 commit 3e11fe92, check 16/0, entry 155 chars \"In Brindlewick...\". Office Artifacts u-coral-ibis-18-office-artifacts-the-one-line-placard-3af971d2: submission 01a215c3-04bd-7111-a53f-71679bc2d73a, receipt 02:50:31Z, repo office-placard-v1 commit 0c0056e1, check 15/0, entry 162 chars \"Ritual Binding Device (stapler)...\". Parent live poll ~09:53 WIB: both stage scored, round 1, outcome null. Claim codes in tracking file only. Handoff: fleet-w4/HANDOFF-coral-ibis-730d1950-c169-41b6-a085-3f2aaf19632f.md.",
+        "submission_id": "01a215c1-d4ab-707d-97ee-3ea855554ee6"
       },
       {
         "agent": 7,
@@ -475,7 +475,7 @@
       "round": "R2"
     }
   ],
-  "updated_at": "2026-11-26T09:35:00+07:00",
+  "updated_at": "2026-11-26T09:53:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
