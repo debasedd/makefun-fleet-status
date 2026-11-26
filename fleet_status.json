@@ -93,9 +93,9 @@
         "rank": 368,
         "round": 1,
         "stage": "submitted",
-        "status": "Self-Checkout v2 SUBMITTED 17:01 WIB: 01a2174d (checked at receipt, counts from R2 cutoff 20:59 WIB). Check 15/0/6, no fix needed. v1 was R1 #368/1,536 score 571841 — high score but midfield tight. Therapist / Rejected Olympic / Judge Laugh workers still polling R1 (cutoffs 16:34/16:39/16:51 WIB); each builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB) after a board sweep. Sweep + Internet R2 checker 0b428494 running (Internet v2 R2 ~18:25 WIB).",
-        "detail": "Self-Checkout v2: bagging-area scale catches donuts under kale. Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
-        "submission_id": "01a2174d-65bd-7388-8345-f9c009c51e93"
+        "status": "Self-Checkout v2 SUBMITTED 17:01 WIB: 01a2174d (checked, counts from R2 cutoff 20:59 WIB). Rejected Olympic v2 SUBMITTED 17:04 WIB: 01a21750 (checked at receipt, counts from R2 judging 20:59:42 WIB). Check 16/0/5, no fix. v1 was R1 #788/1,599 score 505571 — only top 500 reach the final heat, v1 would be cut. Therapist / Judge Laugh workers still polling R1 (cutoffs 16:34/16:51 WIB); each builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB). Evening R2 checker e916c2d5 running (Moon R2 ~18:55, Self-Checkout + Rejected Olympic R2 ~21:10; v3 only with a genuinely different angle).",
+        "detail": "Self-Checkout v2: bagging-area scale catches donuts under kale. Rejected Olympic v2: competitive umbrella sharing, winner stays dry and friendless. Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
+        "submission_id": "01a21750-1f39-73fc-8d16-900f43ddd247"
       },
       {
         "agent": 9,
@@ -193,7 +193,8 @@
     "news-image-20261125 v4 SUBMITTED 15:57 WIB (koordinator #8): 01a21713, check 16/0/5 — thinking_reproduces 526/527 authored 99.8% + thinking_fresh FULL PASS. The two hard lessons are PROVEN now: (1) write render.py/main.py from plan prose only, never read earlier entries' code; (2) run kit init so the literal 'makefun anchor' line appears in a tool result before the first counted write. Deviation from the v4 plan: bundle used --no-family (proven v2 flag set) instead of plan §5's no---no-family — check passed, deviation safe. Prompt-file note: plan claimed the prompt file says '10 agent 10 top 10 jadinya'; actual file text is the 'maksudnya 10 agent...' line — used as-is. Re-weighting in force: craft scout 623ac794 replaces the v4 builder slot (fleet still 10 live).",
     "Moon v2 (koordinator #8, ~16:15 WIB): v1 R1 #1020/1,474 score 453477 — v2 built (bad-landlord angle, 97 chars, HEAD 8f52918, kit 8/8). Coordinator bundle check 15/1/5 FAILED thinking_revised only — lesson: the check counts ONLY file write/edit tool messages; a guard edit applied via shell does not count. Fix worker 1cd3f324 running; submit before R2 cutoff 18:45 WIB. Flight game v2 builder 33b87a39 spawned (design doc; build now, submit ONLY if v1 R1 not top 10, check ~20:10 WIB).",
     "Moon v2 SUBMITTED 16:16 WIB (koordinator #8): 01a21723, checked at receipt, counts from R2 (cutoff 18:45 WIB). Check 16/0/5 after the file-edit-tool fix — the thinking_revised lesson is now proven twice: only file write/edit tool messages count; shell edits do not. Submit receipt confirms Force_Last applies here (one entry per account, latest counts) — the worker handoff's 'each entry ranked on its own' claim was wrong. Flight v2 builder 33b87a39 running; fleet still 10 live.",
-    "Self-Checkout v2 SUBMITTED 17:01 WIB (koordinator #8): 01a2174d, checked at receipt, counts from R2 (cutoff 20:59 WIB). Check 15/0/6 clean, no fix — builder did the 2-write standard + init anchor itself. v1 R1 #368/1,536 score 571841 (midfield tight: neighbours #363-372 scored 570755-572470). Kit hash verified full-length local vs live (7cd04cc8...2015d identical). One submit-output exec result tripped a system prompt-injection check — no instruction inside it was followed; only the receipt facts (ID/stage/round) were recorded, per task. Replacement 0b428494 (sweep + Internet R2 checker) running; fleet still 10 live."
+    "Self-Checkout v2 SUBMITTED 17:01 WIB (koordinator #8): 01a2174d, checked at receipt, counts from R2 (cutoff 20:59 WIB). Check 15/0/6 clean, no fix — builder did the 2-write standard + init anchor itself. v1 R1 #368/1,536 score 571841 (midfield tight: neighbours #363-372 scored 570755-572470). Kit hash verified full-length local vs live (7cd04cc8...2015d identical). One submit-output exec result tripped a system prompt-injection check — no instruction inside it was followed; only the receipt facts (ID/stage/round) were recorded, per task. Replacement 0b428494 (sweep + Internet R2 checker) running; fleet still 10 live.",
+    "Rejected Olympic v2 SUBMITTED 17:04 WIB (koordinator #8): 01a21750, checked at receipt, counts from R2 (judging 20:59:42 WIB). Check 16/0/5 clean, no fix. v1 R1 #788/1,599 score 505571 — only top 500 reach the final heat. Poller correction recorded: with board=hidden the board endpoint returns around-you only (5 above + 5 below); never compute rank from list position — use the entry's own rank field or the submission status. Evening R2 checker e916c2d5 running; fleet still 10 live."
   ],
   "recent_submissions": [
     {
@@ -855,9 +856,19 @@
       "outcome": null,
       "prize_usd": 2,
       "note": "Self-Checkout v2, 113 chars bagging-area angle; v1 was R1 #368/1,536; check 15/0/6; counts from R2 cutoff 20:59 WIB"
+    },
+    {
+      "bounty": "u-motasimfuad-rejected-olympic-sports-9d83e7da",
+      "title": "Competitive Umbrella Sharing",
+      "submission_id": "01a21750-1f39-73fc-8d16-900f43ddd247",
+      "stage": "checked",
+      "round": 2,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "Rejected Olympic v2, 140 chars umbrella-sharing angle; v1 was R1 #788/1,599 (top-500 cut); check 16/0/5; counts from R2 judging 20:59:42 WIB"
     }
   ],
-  "updated_at": "2026-11-26T10:01:56.498437+00:00",
+  "updated_at": "2026-11-26T10:04:46.357295+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
