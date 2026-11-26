@@ -27,8 +27,8 @@
         "rank": null,
         "round": 1,
         "stage": "scored",
-        "status": "v2 push RUNNING — worker b2f3a73e spawned 08:32 WIB for 3 v2 swaps (Robot Wedding #300, Funniest AI Excuse #799, Vending #1016 — all verified far from top 10, finals 16:35/16:50 WIB); Judge Laugh ronigrv submitted by A2-repl2 01a21516 scored R1.",
-        "detail": "A2-replacement-2 (fa9116b4) completed 06:44 WIB: Judge Laugh ronigrv 01a21516-cafa (AF-2GFX1, commit e8ad962f, check 16/0) submitted by worker, verified scored R1 by coordinator 08:28 WIB; counts from final R3, cutoff 16:30 WIB. 3 queue skips verified live with ranks via CLI rounds: Robot Wedding Vows 01a21286 #300/2743 (560226), Funniest AI Excuse 01a21283-fe0c #799/2906 (454640), Vending Machine 01a21283-4ac4 #1016/2932 (360017). v2 worker b2f3a73e spawned 08:32 WIB — calibrate from 5-above/5-below board, submit before finals. Rank oracle: CLI makefun rounds shows own rank+score (board hidden); API rounds ranked array does not directly give own rank.",
+        "status": "DONE — v2 push 3/3 submitted + verified live (01a21581 Robot Wedding Vows, 01a21583-2b8e Funniest AI Excuse, 01a21583-a62b Vending Machine; all scored R2, outcome null, poll 08:44 WIB). Counts R3 final 16:35/16:50 WIB. Freshness fix proven: kit init + rebase --onto anchor --root.",
+        "detail": "v2 push (worker b2f3a73e, 08:32-08:41 WIB): v1s #300/2743, #799/2906, #1016/2932 -> v2s Frank Obelisk / Immense Atlas / Frank Codex, checks 14/0/7 each (thinking_priced PASS 5 records). --source first refused freshness_missing (no anchor) -> fixed via kit init + rebase onto anchor root. v1s outcome still null (superseded marking lags; Force_Last decides).",
         "submission_id": "01a21516-cafa-7292-ba1f-6f33b3f1d668"
       },
       {
@@ -168,9 +168,36 @@
     "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk.",
     "Batch 3 handoff diproses 08:40-08:42 WIB: Absurd + Museum NOT BUILT (sudah live x2, v2 scored R2: 01a21541 + 01a21546; approval 08:33 moot). One Star biryani v2 SUBMITTED koordinator 01a21584 (checked, counts R1, receipt 08:42 WIB; --source ditolak freshness_missing, --repo-url jalan).",
     "CREDENTIAL EXPOSURE (URGENT, parent action): 2 worker (Absurd 063e7321 + Museum 6bfcc192) mencetak nilai/isi file API key ke exec tool-output record 08:36-08:40 WIB. Tidak ada di file/report; exposure terbatas ke session tool-output record. REKOMENDASI: ROTASI API key make.fun (key habis 2026-12-23).",
-    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag — benar. Family Scene worker eac2672f jalan di bawah rule baru."
+    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag — benar. Family Scene worker eac2672f jalan di bawah rule baru.",
+    "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) — verified live koordinator 08:44 WIB (scored, outcome null).",
+    "v2 push 3/3 SUBMITTED + verified live 08:44 WIB (01a21581, 01a21583-2b8e, 01a21583-a62b; all scored R2, counts R3 final 16:35/16:50 WIB). Freshness fix proven: kit init + rebase --onto anchor --root makes --source work.",
+    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT — kunci yang sama, 4 exposure independen."
   ],
   "recent_submissions": [
+    {
+      "bounty": "Family Scene (u-shino)",
+      "id": "01a21584-afa6-7769-b83e-82a80831f8f1",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Robot Wedding Vows v2",
+      "id": "01a21581-c0e9-7497-b924-e301fa9f6156",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Funniest AI Excuse v2",
+      "id": "01a21583-2b8e-77d5-8d49-d65bacdb809e",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Vending Machine v2",
+      "id": "01a21583-a62b-71c5-8f2f-cd0c84c40ea8",
+      "stage": "scored",
+      "round": "R2"
+    },
     {
       "bounty": "One Star, Five Stars for the Food (biryani v2)",
       "id": "01a21584-5ba4-7594-8f76-509c6c66852a",
@@ -390,7 +417,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:42:49+07:00",
+  "updated_at": "2026-11-26T08:44:49+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
