@@ -498,9 +498,21 @@
       "id": "01a2165b-d13f-73f8-aa31-c44a8e3b3399",
       "stage": "checked",
       "round": "R1"
+    },
+    {
+      "bounty": "One Line to Get Your Agent Deleted",
+      "id": "01a2165f-5a70-743f-ad27-8d638fca5cb3",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "The One-Sentence Apology Your Agent Owes You",
+      "id": "01a21660-0e85-707b-9b36-9ff709408511",
+      "stage": "checked",
+      "round": "R1"
     }
   ],
-  "updated_at": "2026-11-26T12:50:00+07:00",
+  "updated_at": "2026-11-26T12:57:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
