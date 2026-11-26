@@ -176,7 +176,9 @@
     "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA — tidak ada konflik, tidak ada yang tertimpa.",
     "JANGAN spawn One Chill — sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
     "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot — sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] — $0 won.",
-    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) — loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About — progress di /tmp/gh-owed.sh."
+    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) — loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About — progress di /tmp/gh-owed.sh.",
+    "Koordinator #4 (08:56 WIB): 10 repo owed — 8/10 SELESAI (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1: create+push+About terverifikasi). 2 MASIH OWED kena rate limit lagi: cat-joke-one-line-v1, commit-message-3am-v1 — retry setelah jeda.",
+    "Koordinator #4 (08:56 WIB): One Word for Your Wi-Fi terverifikasi (u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, $2 WTA, fee null, 2.999 subs, tutup 28 Nov 18:35 WIB) — spawn worker setelah coral-ibis 09:35 WIB."
   ],
   "recent_submissions": [
     {
@@ -470,7 +472,7 @@
       "round": "R2"
     }
   ],
-  "updated_at": "2026-11-26T08:50:52+07:00",
+  "updated_at": "2026-11-26T08:51:41+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
