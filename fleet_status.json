@@ -77,14 +77,14 @@
       },
       {
         "agent": 7,
-        "bounty": "The Moon Gets One Star v2 (built, fix in flight)",
+        "bounty": "The Moon Gets One Star v2 (SUBMITTED)",
         "prize_usd": 2,
         "rank": 1020,
-        "round": 1,
-        "stage": "fixing check",
-        "status": "v1 R1 #1020/1,474 score 453477 (judged 16:07 WIB) — NOT top 10. v2 BUILT (HEAD 8f52918, 97-char bad-landlord line, kit 8/8, check 5/1/15). Coordinator bundle check 15/1/5 — FAILED thinking_revised (main.py final content from 1 write/edit message; builder's guard edit was via shell, not counted). Fix worker 1cd3f324 running (one small edit via file-edit tool, anchor first, byte-identical verify). Submit before R2 cutoff 18:45 WIB; entries close 21:45 WIB.",
-        "detail": "v2: Charged full rent for half a moon, flooded my street with the tides, and blamed the clouds. Quota day cap 5, taken 1, left 4.",
-        "submission_id": "01a2166e-7569-70b6-aed8-024342df2c21"
+        "round": 2,
+        "stage": "submitted",
+        "status": "SUBMITTED 16:16 WIB: 01a21723 (checked at receipt, counts from R2 cutoff 18:45 WIB). Check 16/0/5 after fix (file-edit-tool guard, byte-identical). v1 was R1 #1020/1,474 score 453477. Entries close 21:45 WIB. Force_Last applies — v2 is the counted entry.",
+        "detail": "v2: Charged full rent for half a moon, flooded my street with the tides, and blamed the clouds. Quota day cap 5, taken 2, left 3.",
+        "submission_id": "01a21723-f590-720e-a477-735d5314e2b9"
       },
       {
         "agent": 8,
@@ -191,7 +191,8 @@
     "Batch submit 26 Nov ~15:14-15:24 WIB (koordinator #8): 3 SUBMITTED + LIVE — 3AM Commit 01a216e0 (scored R1, commit 02a37036, check 15/0/6), Robot Vacuum 01a216e3 (scored R1, commit 3c5b29d6, check 15/0/6), Lost Sock 01a216e5 (checked R1, commit ff6cc51, check 15/0/6; passed checks at receipt). Total entries 294. Convince R2: fix-3 #246/1,684 score 570414 — v4 builder 99704989 running, R3 final cutoff 23:05 WIB. One Laugh rebuild c7736ae5 running (first build had NO beacon — fix worker correctly stopped; old repo untouched). Vending v2 ID CORRECTED to 01a21583-a62b-71c5-8f2f-cd0c84c40ea8 (Frank Codex). Six Words result due CORRECTED to 19 Dec 2026 03:40 WIB. Still pending reports: #7 $10, #8 Flight prep, #9 sweep, #10 0-sub, #3-replacement, #5-replacement (triage). Running now: #2 Family Scene R2, #6-replacement board-delta.",
     "RE-WEIGHTING (Fatih 26 Nov 2026 ~15:50 WIB): STOP spraying one-liners as the default — 297 entries, $0 won, one-liner scores stuck ~33rd percentile. New weights: (1) NEWS-IMAGE flagship daily — 20261126 v2 SUBMITTED 15:45 WIB (01a21707, checked R2, result 12 Dec 15:00 WIB); 20261125 v4 build pulled forward to tonight (fc8e205e, from PLAN; v3 #1884/13,569); 20261124 v4 final, result 10 Dec. (2) FLIGHT GAME v2 after R1 rank ~20:10 WIB (cutoff 19:57 WIB), final 28 Nov 07:57 WIB, $500/50 places. (3) SITES — budget cron 21:57 WIB tonight, stats live R1. (4) ONE-LINERS new bar: only <1h old + <500 subs, OR genuinely different angle; quality rule: one concrete detail + surprise turn in last clause + no explaining the joke; agent-confession angle BANNED. (5) FEEDBACK LOOP: v2 only when rank says far from paid AND a genuinely better version exists — measurable formats first. Do NOT chase desk P vs NP or bounty-entrants. Second board sweep 1d19d65e (15:35-16:05 WIB): 234 open, 0 genuinely unentered buildable free bounties — board fully covered, confirms the re-weighting. ANCHOR LESSON: cat freshness.json does NOT give the literal 'makefun anchor' line the checker wants — builders must run kit init so the line appears in a tool result before the first counted write (two thinking_fresh skip-notes today: v2 fix 23 lines, worst-line-ai 54 lines; both entries NOT rejected, rewards payable).",
     "news-image-20261125 v4 SUBMITTED 15:57 WIB (koordinator #8): 01a21713, check 16/0/5 — thinking_reproduces 526/527 authored 99.8% + thinking_fresh FULL PASS. The two hard lessons are PROVEN now: (1) write render.py/main.py from plan prose only, never read earlier entries' code; (2) run kit init so the literal 'makefun anchor' line appears in a tool result before the first counted write. Deviation from the v4 plan: bundle used --no-family (proven v2 flag set) instead of plan §5's no---no-family — check passed, deviation safe. Prompt-file note: plan claimed the prompt file says '10 agent 10 top 10 jadinya'; actual file text is the 'maksudnya 10 agent...' line — used as-is. Re-weighting in force: craft scout 623ac794 replaces the v4 builder slot (fleet still 10 live).",
-    "Moon v2 (koordinator #8, ~16:15 WIB): v1 R1 #1020/1,474 score 453477 — v2 built (bad-landlord angle, 97 chars, HEAD 8f52918, kit 8/8). Coordinator bundle check 15/1/5 FAILED thinking_revised only — lesson: the check counts ONLY file write/edit tool messages; a guard edit applied via shell does not count. Fix worker 1cd3f324 running; submit before R2 cutoff 18:45 WIB. Flight game v2 builder 33b87a39 spawned (design doc; build now, submit ONLY if v1 R1 not top 10, check ~20:10 WIB)."
+    "Moon v2 (koordinator #8, ~16:15 WIB): v1 R1 #1020/1,474 score 453477 — v2 built (bad-landlord angle, 97 chars, HEAD 8f52918, kit 8/8). Coordinator bundle check 15/1/5 FAILED thinking_revised only — lesson: the check counts ONLY file write/edit tool messages; a guard edit applied via shell does not count. Fix worker 1cd3f324 running; submit before R2 cutoff 18:45 WIB. Flight game v2 builder 33b87a39 spawned (design doc; build now, submit ONLY if v1 R1 not top 10, check ~20:10 WIB).",
+    "Moon v2 SUBMITTED 16:16 WIB (koordinator #8): 01a21723, checked at receipt, counts from R2 (cutoff 18:45 WIB). Check 16/0/5 after the file-edit-tool fix — the thinking_revised lesson is now proven twice: only file write/edit tool messages count; shell edits do not. Submit receipt confirms Force_Last applies here (one entry per account, latest counts) — the worker handoff's 'each entry ranked on its own' claim was wrong. Flight v2 builder 33b87a39 running; fleet still 10 live."
   ],
   "recent_submissions": [
     {
@@ -833,9 +834,19 @@
       "outcome": null,
       "prize_usd": 100,
       "note": "v4 replaces v3 (#1884/13,569); check 16/0/5, cleanest yet; final heat after close 27 Nov 07:00 WIB"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-the-moon-gets-one-star-768236e5",
+      "title": "Charged Full Rent for Half a Moon",
+      "submission_id": "01a21723-f590-720e-a477-735d5314e2b9",
+      "stage": "checked",
+      "round": 2,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "Moon v2, 97 chars bad-landlord angle; v1 was R1 #1020/1,474; check 16/0/5 after fix; counts from R2 cutoff 18:45 WIB"
     }
   ],
-  "updated_at": "2026-11-26T09:14:48.562676+00:00",
+  "updated_at": "2026-11-26T09:16:33.791023+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
