@@ -60,9 +60,9 @@
         "rank": null,
         "round": 1,
         "stage": "scored",
-        "status": "DONE — A5-repl2 build submitted by coordinator (One Star Food 01a2152c, scored R1, verified). No replacement — board saturated until coral-ibis 09:35 WIB.",
-        "detail": "A5-replacement-2 (a63f2aef) completed 06:41 WIB: One Star Food ramen build commit bcea9bb0 (bundle 410ec52c, check 14/1/6) submitted by coordinator as 01a2152c-c466 (Fervent Pinnacle), verified scored R1 08:28 WIB. Queue asli 4/4 mati (Wi-Fi duplikat 01a2130c, 3 tutup). Internet candidate already live 01a21526. NOTE: dir-name collision — a63f2aef and 667dd30a both used one-star-food-v1/ (ramen build is the live one; tacos build c50e7706 SPARE on GitHub debasedd/one-star-food).",
-        "submission_id": "01a2152c-c466-77a0-9eab-1f48a1e74de9"
+        "status": "DONE — v2 biryani SUBMITTED by coordinator (01a21584, checked, counts R1, receipt 08:42 WIB); replaces ramen 01a2152c (Force_Last). No replacement — board saturated.",
+        "detail": "One Star Food biryani v2 (worker 44b5f416): line 177 chars biryani angle, repo debasedd/one-star-food-biryani-v2 commit b7ca27bb, check 12/1/6 (worker) -> re-bundle koordinator check 13/0 (thinking_priced PASS). Submit --source REFUSED freshness_missing (plain git init, no beacon root) -> submitted --repo-url 01a21584-5ba4 (Grand Signal, checked, counts R1). Poll 08:42 WIB: 01a21584 checked live; 01a2152c outcome still null (superseded marking lags; Force_Last decides). LESSON: fresh builds MUST use kit init for --source; plain git init = --repo-url only.",
+        "submission_id": "01a21584-5ba4-7594-8f76-509c6c66852a"
       },
       {
         "agent": 6,
@@ -165,9 +165,18 @@
     "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL — fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
     "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi — flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
     "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB — Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
-    "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk."
+    "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk.",
+    "Batch 3 handoff diproses 08:40-08:42 WIB: Absurd + Museum NOT BUILT (sudah live x2, v2 scored R2: 01a21541 + 01a21546; approval 08:33 moot). One Star biryani v2 SUBMITTED koordinator 01a21584 (checked, counts R1, receipt 08:42 WIB; --source ditolak freshness_missing, --repo-url jalan).",
+    "CREDENTIAL EXPOSURE (URGENT, parent action): 2 worker (Absurd 063e7321 + Museum 6bfcc192) mencetak nilai/isi file API key ke exec tool-output record 08:36-08:40 WIB. Tidak ada di file/report; exposure terbatas ke session tool-output record. REKOMENDASI: ROTASI API key make.fun (key habis 2026-12-23).",
+    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag — benar. Family Scene worker eac2672f jalan di bawah rule baru."
   ],
   "recent_submissions": [
+    {
+      "bounty": "One Star, Five Stars for the Food (biryani v2)",
+      "id": "01a21584-5ba4-7594-8f76-509c6c66852a",
+      "stage": "checked",
+      "round": "R1"
+    },
     {
       "bounty": "Convince the AI Judge to Visit Your House (fix-3)",
       "id": "01a2157f-7731-7540-bf67-009f624831f1",
@@ -381,7 +390,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:40:01+07:00",
+  "updated_at": "2026-11-26T08:42:49+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
