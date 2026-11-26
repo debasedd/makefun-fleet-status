@@ -770,9 +770,19 @@
       "outcome": null,
       "prize_usd": 5,
       "note": "One-liner $5 top-3 split ($2/$2/$1), counts from R1 cutoff 17:40 WIB 26 Nov; stage checked"
+    },
+    {
+      "bounty": "u-kiencx-sorry-i-heard-that-wrong-1858c729",
+      "title": "Sorry, I Heard That Wrong",
+      "submission_id": "01a21708-7acb-7346-8209-90c47f190e70",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-3 split, counts from R1 cutoff 17:10 WIB 26 Nov; stage checked, score pending (grading queue behind)"
     }
   ],
-  "updated_at": "2026-11-26T08:42:42.772762+00:00",
+  "updated_at": "2026-11-26T08:47:40.425078+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
