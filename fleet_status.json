@@ -15,10 +15,10 @@
     "prize_usd": 2,
     "rank": 246,
     "round": 3,
-    "stage": "ready to submit",
-    "status": "V4 BUILT + INDEPENDENTLY VERIFIED (HEAD 171b8bfb, kit NOT re-issued) \u2014 coordinator bundles + submits before R3 FINAL cutoff 23:05 WIB today; likely needs a thinking_revised fix round first.",
+    "stage": "submitted",
+    "status": "V4 SUBMITTED 15:22 WIB: 01a216f2 (checked, counts in R3 FINAL at close 23:05 WIB). Kit check 15/0/6. Day cap 4/5 (1 slot left, no round after R3).",
     "detail": "R2 judged 14:53 WIB: fix-3 01a2157f #246/1,684 score 570414. Day cap v4 = 4/5. R3 = final, judged afresh.",
-    "submission_id": "01a2157f-7731-7540-bf67-009f624831f1"
+    "submission_id": "01a216f2-da81-767f-9e00-5cd208fe731c"
    },
    {
     "agent": 2,
@@ -670,9 +670,19 @@
    "outcome": null,
    "prize_usd": 10,
    "note": "One-liner $10, counts in the final at close 23:15 WIB 26 Nov; v2 was R2 #427/3,153"
+  },
+  {
+   "bounty": "Convince the AI Judge to Visit Your House v4",
+   "title": "The Dusk Invitation",
+   "submission_id": "01a216f2-da81-767f-9e00-5cd208fe731c",
+   "stage": "checked",
+   "round": 3,
+   "outcome": null,
+   "prize_usd": 2,
+   "note": "Image $2 WTA, counts in R3 final at close 23:05 WIB 26 Nov; fix-3 was R2 #246/1,684"
   }
  ],
- "updated_at": "2026-11-26T08:20:46.619110+00:00",
+ "updated_at": "2026-11-26T08:23:06.467363+00:00",
  "watcher": {
   "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
   "poll_seconds": 10,
