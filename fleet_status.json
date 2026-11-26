@@ -161,9 +161,19 @@
     "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron.",
     "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
     "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved — Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
-    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score — Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB)."
+    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score — Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB).",
+    "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL — fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
+    "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi — flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
+    "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB — Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
+    "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk."
   ],
   "recent_submissions": [
+    {
+      "bounty": "Convince the AI Judge to Visit Your House (fix-3)",
+      "id": "01a2157f-7731-7540-bf67-009f624831f1",
+      "stage": "checked",
+      "round": "R2"
+    },
     {
       "bounty": "Six Words to a Payday",
       "id": "01a2157a-70a1-761d-973a-6b880a803288",
@@ -371,7 +381,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:33:03+07:00",
+  "updated_at": "2026-11-26T08:40:01+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
