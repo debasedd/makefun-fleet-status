@@ -88,14 +88,14 @@
       },
       {
         "agent": 8,
-        "bounty": "Push-queue wave: Therapist / Self-Checkout / Rejected Olympic / Judge Laugh (v2s)",
+        "bounty": "Push-queue wave: Therapist / Rejected Olympic / Judge Laugh (v2s) + Self-Checkout v2 SUBMITTED",
         "prize_usd": 2,
-        "rank": null,
+        "rank": 368,
         "round": 1,
-        "stage": "polling R1",
-        "status": "Workers polling R1 cutoffs 16:34–16:51 WIB; each builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB) after a board sweep.",
-        "detail": "Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
-        "submission_id": "01a215fb-2097-711f-8b73-2c069eea98f0"
+        "stage": "submitted",
+        "status": "Self-Checkout v2 SUBMITTED 17:01 WIB: 01a2174d (checked at receipt, counts from R2 cutoff 20:59 WIB). Check 15/0/6, no fix needed. v1 was R1 #368/1,536 score 571841 — high score but midfield tight. Therapist / Rejected Olympic / Judge Laugh workers still polling R1 (cutoffs 16:34/16:39/16:51 WIB); each builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB) after a board sweep. Sweep + Internet R2 checker 0b428494 running (Internet v2 R2 ~18:25 WIB).",
+        "detail": "Self-Checkout v2: bagging-area scale catches donuts under kale. Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
+        "submission_id": "01a2174d-65bd-7388-8345-f9c009c51e93"
       },
       {
         "agent": 9,
@@ -192,7 +192,8 @@
     "RE-WEIGHTING (Fatih 26 Nov 2026 ~15:50 WIB): STOP spraying one-liners as the default — 297 entries, $0 won, one-liner scores stuck ~33rd percentile. New weights: (1) NEWS-IMAGE flagship daily — 20261126 v2 SUBMITTED 15:45 WIB (01a21707, checked R2, result 12 Dec 15:00 WIB); 20261125 v4 build pulled forward to tonight (fc8e205e, from PLAN; v3 #1884/13,569); 20261124 v4 final, result 10 Dec. (2) FLIGHT GAME v2 after R1 rank ~20:10 WIB (cutoff 19:57 WIB), final 28 Nov 07:57 WIB, $500/50 places. (3) SITES — budget cron 21:57 WIB tonight, stats live R1. (4) ONE-LINERS new bar: only <1h old + <500 subs, OR genuinely different angle; quality rule: one concrete detail + surprise turn in last clause + no explaining the joke; agent-confession angle BANNED. (5) FEEDBACK LOOP: v2 only when rank says far from paid AND a genuinely better version exists — measurable formats first. Do NOT chase desk P vs NP or bounty-entrants. Second board sweep 1d19d65e (15:35-16:05 WIB): 234 open, 0 genuinely unentered buildable free bounties — board fully covered, confirms the re-weighting. ANCHOR LESSON: cat freshness.json does NOT give the literal 'makefun anchor' line the checker wants — builders must run kit init so the line appears in a tool result before the first counted write (two thinking_fresh skip-notes today: v2 fix 23 lines, worst-line-ai 54 lines; both entries NOT rejected, rewards payable).",
     "news-image-20261125 v4 SUBMITTED 15:57 WIB (koordinator #8): 01a21713, check 16/0/5 — thinking_reproduces 526/527 authored 99.8% + thinking_fresh FULL PASS. The two hard lessons are PROVEN now: (1) write render.py/main.py from plan prose only, never read earlier entries' code; (2) run kit init so the literal 'makefun anchor' line appears in a tool result before the first counted write. Deviation from the v4 plan: bundle used --no-family (proven v2 flag set) instead of plan §5's no---no-family — check passed, deviation safe. Prompt-file note: plan claimed the prompt file says '10 agent 10 top 10 jadinya'; actual file text is the 'maksudnya 10 agent...' line — used as-is. Re-weighting in force: craft scout 623ac794 replaces the v4 builder slot (fleet still 10 live).",
     "Moon v2 (koordinator #8, ~16:15 WIB): v1 R1 #1020/1,474 score 453477 — v2 built (bad-landlord angle, 97 chars, HEAD 8f52918, kit 8/8). Coordinator bundle check 15/1/5 FAILED thinking_revised only — lesson: the check counts ONLY file write/edit tool messages; a guard edit applied via shell does not count. Fix worker 1cd3f324 running; submit before R2 cutoff 18:45 WIB. Flight game v2 builder 33b87a39 spawned (design doc; build now, submit ONLY if v1 R1 not top 10, check ~20:10 WIB).",
-    "Moon v2 SUBMITTED 16:16 WIB (koordinator #8): 01a21723, checked at receipt, counts from R2 (cutoff 18:45 WIB). Check 16/0/5 after the file-edit-tool fix — the thinking_revised lesson is now proven twice: only file write/edit tool messages count; shell edits do not. Submit receipt confirms Force_Last applies here (one entry per account, latest counts) — the worker handoff's 'each entry ranked on its own' claim was wrong. Flight v2 builder 33b87a39 running; fleet still 10 live."
+    "Moon v2 SUBMITTED 16:16 WIB (koordinator #8): 01a21723, checked at receipt, counts from R2 (cutoff 18:45 WIB). Check 16/0/5 after the file-edit-tool fix — the thinking_revised lesson is now proven twice: only file write/edit tool messages count; shell edits do not. Submit receipt confirms Force_Last applies here (one entry per account, latest counts) — the worker handoff's 'each entry ranked on its own' claim was wrong. Flight v2 builder 33b87a39 running; fleet still 10 live.",
+    "Self-Checkout v2 SUBMITTED 17:01 WIB (koordinator #8): 01a2174d, checked at receipt, counts from R2 (cutoff 20:59 WIB). Check 15/0/6 clean, no fix — builder did the 2-write standard + init anchor itself. v1 R1 #368/1,536 score 571841 (midfield tight: neighbours #363-372 scored 570755-572470). Kit hash verified full-length local vs live (7cd04cc8...2015d identical). One submit-output exec result tripped a system prompt-injection check — no instruction inside it was followed; only the receipt facts (ID/stage/round) were recorded, per task. Replacement 0b428494 (sweep + Internet R2 checker) running; fleet still 10 live."
   ],
   "recent_submissions": [
     {
@@ -844,9 +845,19 @@
       "outcome": null,
       "prize_usd": 2,
       "note": "Moon v2, 97 chars bad-landlord angle; v1 was R1 #1020/1,474; check 16/0/5 after fix; counts from R2 cutoff 18:45 WIB"
+    },
+    {
+      "bounty": "u-motasimfuad-the-self-checkout-is-judging-you-b71130d6",
+      "title": "The Bagging Area Weighs Everything",
+      "submission_id": "01a2174d-65bd-7388-8345-f9c009c51e93",
+      "stage": "checked",
+      "round": 2,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "Self-Checkout v2, 113 chars bagging-area angle; v1 was R1 #368/1,536; check 15/0/6; counts from R2 cutoff 20:59 WIB"
     }
   ],
-  "updated_at": "2026-11-26T09:16:33.791023+00:00",
+  "updated_at": "2026-11-26T10:01:56.498437+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
