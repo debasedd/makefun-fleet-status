@@ -77,13 +77,13 @@
       },
       {
         "agent": 7,
-        "bounty": "Monday Morning Punchlines",
-        "prize_usd": 5,
+        "bounty": "Board sweep (saturated)",
+        "prize_usd": 0,
         "rank": null,
-        "round": 2,
-        "stage": "scored",
-        "status": "DONE — Monday Punchlines submitted alone (01a2154d-9e27, scored R2); 2 HELD builds declared SPARE (would replace live entries); slot 4 unbuildable (board saturated, 204 open swept); new replacement 5bf45b53 running",
-        "detail": "A7-repl2 (e0b94958): Monday Punchlines 01a2154d-9e27 (Early Monday, commit e3f05a95, check 15/0, $5). SPARE (do NOT submit): Painfully Honest OOO (91533147) + Explain the Glass (a58c2b86) — both duplicate live coordinator entries 01a21557 / 01a21556 (scored R1); worker built them before the coordinator submits landed. Board saturated per exhaustive sweep. New replacement 5bf45b53 spawned ~07:55 WIB (brief: new bounties first + anti-collision).",
+        "round": "-",
+        "stage": "swept",
+        "status": "DONE — replacement 5bf45b53 sweep 0/0 (board saturated, 204 open, quota all 204 checked); no replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A7-replacement (5bf45b53) completed 08:01 WIB (01:01:26Z), handoff delivered late. Sweep 07:55 WIB: 204 open, 168 already have account entries, 36 without; 13 fee-free/in-window/open/pot>0 all fail hard filter or HELD (X/social x4, launching x1, trading x5, HELD Six Words/Everyday/One Chill); 23 others fee/deadline/pot-0/future-pub/Family Scene. Trap found: 4 title/slug-pass candidates (Funniest Out-of-Office 01a21284, Long Roast Lawmakers 01a2129e-da92, Office Joke Open 01a2129e-3e81, Dear Human Breakup Line 01a2129d-ba1f) were ALREADY LIVE from blast batch 25 Nov 11:43-12:12 UTC (submissions-by-handle proof) — quota + submissions-by-handle are ground truth, tracking alone is not. Board re-check 08:00 WIB: 0 new slugs. Evidence: board-a7repl2-0755-all.json, quota-a7repl2/ (204 files), me-a7repl2-0755.json, HANDOFF-A7repl2-sweep.md. No repo/kit/bundle/submit/fee. Prior A7-repl2 (e0b94958) Monday Punchlines 01a2154d-9e27 scored R2 stays live.",
         "submission_id": "01a2154d-9e27-71b3-bae5-50e9ccd0c31b"
       },
       {
@@ -158,7 +158,8 @@
   "notes": [
     "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) — fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh — replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
     "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
-    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron."
+    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron."
   ],
   "recent_submissions": [
     {
@@ -356,7 +357,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:25:00+07:00",
+  "updated_at": "2026-11-26T08:27:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
