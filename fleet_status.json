@@ -117,7 +117,7 @@
     "stage": "building",
     "status": "News-image v2 builder working from the 37-story research (submit only if genuinely better than v1 \u2014 Force_Last). One Star v4 builder working from the design doc (141-char draft); coordinator submits ONLY after R2 rank ~21:10 WIB (cutoff 20:59 WIB). Internet v2 (R2 18:14 WIB) + Resignation v3 (final 23:15 WIB) already submitted, monitoring.",
     "detail": "One Star v3 01a216ba counts from R2; v2 biryani was #672.",
-    "submission_id": "01a216ba-0000-0000-0000-000000000000"
+    "submission_id": "01a216ba-b65d-7279-81cb-3ec2a94c1905"
    }
   ],
   "mode": "24h non-stop; coordinator #8 took over 26 Nov 14:44 WIB after #7 was stopped for running ZERO workers (sleep-waiting). 10 workers CONCURRENT; bounded tasks with rotation \u2014 when a worker completes, coordinator spawns its replacement within minutes. No agent ever waits: when its primary waits for its round, it preps the next push or picks up another live bounty.",
