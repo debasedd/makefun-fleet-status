@@ -44,14 +44,14 @@
       },
       {
         "agent": 4,
-        "bounty": "One-Line Office Joke Laugh-Off",
+        "bounty": "Robot Romance + Fridge Roast + Agent Motto + Appliance Error",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "building",
-        "status": "building v1 — replacement worker (A4-repl)",
-        "detail": "u-suzy-one-line-office-joke-laugh-off-f574ac73, 2105 subs; verify live: NOT the blocked 'Office Jokes' (v2 live) — if duplicate/blocked, skip to Robot Romance. Queue: Robot Romance Pickup Lines, Notes From a Passive-Aggressive Fridge, Tired Dark Lord 100-Word Monologue. Prev A4 worker submitted 4: Shameless Lie 01a214de, Laugh-Off 01a214e3, Excuse That Almost Works 01a214e8, Sick-Day Excuse 01a214ec — all scored round 1, see recent_submissions.",
-        "submission_id": null
+        "stage": "scored",
+        "status": "DONE — A4-replacement 056ec1dc 4/4 LIVE, all scored R1 (verified by coordinator 08:25 WIB); no replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A4-replacement (056ec1dc) completed 06:23 WIB, handoff delivered late 08:27 WIB. Robot Romance 01a214fa (AF-8B9MT), Midnight Fridge Roast 01a214fe (AF-26QWT), Agent Motto 01a21501 (AF-1PHDA), Appliance Error 01a21504 (AF-906XS) — all scored R1, outcome null. Checks 14-15/0 via muse-usage-a8.jsonl shortcut. Follow-ups all resolved: Snooze LIVE 01a2151f, Logbook LIVE 01a2151a, Auto-Reply kiencx LIVE 01a21561, Database Apology LIVE 01a213cc Mindful Quill (found via submissions?limit=200), Worst Superpower 01a2156a, Router 01a213f1, Moon v2 01a21543, Uh-Oh 01a21502. Lesson: submissions list defaults to 50 newest — use ?limit=200 or quota entries_made as ground truth. Nostalgic Childhood v1 still unverified (no slug/ID on file).",
+        "submission_id": "01a21504-9356-7654-a3e9-8590f1067772"
       },
       {
         "agent": 5,
@@ -159,7 +159,8 @@
     "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) — fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh — replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
     "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
     "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron.",
-    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron."
+    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved — Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement — board saturated until coral-ibis 09:35 WIB cron."
   ],
   "recent_submissions": [
     {
@@ -357,7 +358,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:25:00+07:00",
+  "updated_at": "2026-11-26T08:28:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
