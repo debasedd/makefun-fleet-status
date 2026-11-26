@@ -2,7 +2,7 @@
   "blast": {
     "decided": 0,
     "gate_failed": 1,
-    "gate_failed_note": "Sharpe paper bot (batch O) \u2014 dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
+    "gate_failed_note": "Sharpe paper bot (batch O) — dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
     "submitted_total": 201,
     "window": "25 Nov 2026 17:16-21:20 WIB",
     "won_usd": 0
@@ -16,8 +16,8 @@
         "rank": null,
         "round": 3,
         "stage": "scored",
-        "status": "DONE \u2014 A1-repl2 submitted Barista 01a2154f (scored R3, LIVE after Force_Last) + Lights Out 01a21551 (scored R2, LIVE); Glass Cat + Honest OOO re-bundled + submitted by coordinator (01a21556 / 01a21557, scored R1); new replacement fc0ed812 running",
-        "detail": "A1-repl2 (012ca18f) 2 submitted alone + 2 HELD (Glass Cat 01a21556 Polar Cipher, Honest OOO 01a21557 Exact Corona \u2014 coordinator re-bundle, checks re 16/0 + 15/0, leak 0). COLLISIONS: W-BOOM Barista 01a2154a = superseded (A1 Barista 01a2154f live); coordinator Lights Out 01a21547 = superseded (worker 01a21551 live). Museum v2 01a21546 + Absurd v2 01a21541 also live (block bypassed by unknown worker). New replacement fc0ed812 spawned ~07:53 WIB.",
+        "status": "DONE — A1-repl2 submitted Barista 01a2154f (scored R3, LIVE after Force_Last) + Lights Out 01a21551 (scored R2, LIVE); Glass Cat + Honest OOO re-bundled + submitted by coordinator (01a21556 / 01a21557, scored R1); new replacement fc0ed812 running",
+        "detail": "A1-repl2 (012ca18f) 2 submitted alone + 2 HELD (Glass Cat 01a21556 Polar Cipher, Honest OOO 01a21557 Exact Corona — coordinator re-bundle, checks re 16/0 + 15/0, leak 0). COLLISIONS: W-BOOM Barista 01a2154a = superseded (A1 Barista 01a2154f live); coordinator Lights Out 01a21547 = superseded (worker 01a21551 live). Museum v2 01a21546 + Absurd v2 01a21541 also live (block bypassed by unknown worker). New replacement fc0ed812 spawned ~07:53 WIB.",
         "submission_id": "01a2154f-0c4c-771d-ba83-7ec84ce55483"
       },
       {
@@ -27,7 +27,7 @@
         "rank": null,
         "round": 1,
         "stage": "scored",
-        "status": "DONE \u2014 v2 push 3/3 submitted + verified live (01a21581 Robot Wedding Vows, 01a21583-2b8e Funniest AI Excuse, 01a21583-a62b Vending Machine; all scored R2, outcome null, poll 08:44 WIB; re-verified koordinator #4 08:47 WIB). Counts R3 final 16:35/16:50 WIB. Freshness fix proven: kit init + rebase --onto anchor --root.",
+        "status": "DONE — v2 push 3/3 submitted + verified live (01a21581 Robot Wedding Vows, 01a21583-2b8e Funniest AI Excuse, 01a21583-a62b Vending Machine; all scored R2, outcome null, poll 08:44 WIB; re-verified koordinator #4 08:47 WIB). Counts R3 final 16:35/16:50 WIB. Freshness fix proven: kit init + rebase --onto anchor --root.",
         "detail": "v2 push (worker b2f3a73e, 08:32-08:41 WIB): v1s #300/2743, #799/2906, #1016/2932 -> v2s Frank Obelisk / Immense Atlas / Frank Codex, checks 14/0/7 each (thinking_priced PASS 5 records). --source first refused freshness_missing (no anchor) -> fixed via kit init + rebase onto anchor root. v1s outcome still null (superseded marking lags; Force_Last decides).",
         "submission_id": "01a21516-cafa-7292-ba1f-6f33b3f1d668"
       },
@@ -38,8 +38,8 @@
         "rank": null,
         "round": 1,
         "stage": "superseded",
-        "status": "DONE \u2014 1 submitted but SUPERSEDED (Ideal Filament 01a21565-34cf, superseded by coordinator 01a21566 Hale Plasma scored R2); One Chill NOT submitted (sibling/coordinator 01a21565-3586 live); board exhausted (138-candidate re-sweep: 135 live + 3 free-but-unusable). No replacement \u2014 board saturated until coral-ibis 09:35 WIB.",
-        "detail": "A3-replacement (a21591b7) completed 08:10 WIB (01:10:23Z). Everyday Things u-suga-...-f8734479: build commit 86214c51, bundle sha d595f19b..., check 14/0, thinking_priced pass, reproduces 90.7%, poll at submit checked R1 \u2014 owner view 08:24 WIB: rejected R1 outcome superseded (coordinator 01a21566 receipt later, Force_Last). Claim AF-D452R belongs to superseded entry \u2014 do NOT use. SPARE build commit 86214c51 \u2014 do NOT submit (would supersede live 01a21566). One Chill repo one-line-one-chill-v2/ init only, no build. LESSON: REJECTED submissions do not appear in submissions list \u2014 free oracle has a blind spot; check tracking for rejected/fix-worker before trusting free. Handoff HANDOFF-A3repl.md.",
+        "status": "DONE — 1 submitted but SUPERSEDED (Ideal Filament 01a21565-34cf, superseded by coordinator 01a21566 Hale Plasma scored R2); One Chill NOT submitted (sibling/coordinator 01a21565-3586 live); board exhausted (138-candidate re-sweep: 135 live + 3 free-but-unusable). No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A3-replacement (a21591b7) completed 08:10 WIB (01:10:23Z). Everyday Things u-suga-...-f8734479: build commit 86214c51, bundle sha d595f19b..., check 14/0, thinking_priced pass, reproduces 90.7%, poll at submit checked R1 — owner view 08:24 WIB: rejected R1 outcome superseded (coordinator 01a21566 receipt later, Force_Last). Claim AF-D452R belongs to superseded entry — do NOT use. SPARE build commit 86214c51 — do NOT submit (would supersede live 01a21566). One Chill repo one-line-one-chill-v2/ init only, no build. LESSON: REJECTED submissions do not appear in submissions list — free oracle has a blind spot; check tracking for rejected/fix-worker before trusting free. Handoff HANDOFF-A3repl.md.",
         "submission_id": "01a21565-34cf-75b6-a32d-b85264dcd050"
       },
       {
@@ -49,8 +49,8 @@
         "rank": null,
         "round": 1,
         "stage": "scored",
-        "status": "DONE \u2014 A4-replacement 056ec1dc 4/4 LIVE, all scored R1 (verified by coordinator 08:25 WIB); no replacement \u2014 board saturated until coral-ibis 09:35 WIB.",
-        "detail": "A4-replacement (056ec1dc) completed 06:23 WIB, handoff delivered late 08:27 WIB. Robot Romance 01a214fa (AF-8B9MT), Midnight Fridge Roast 01a214fe (AF-26QWT), Agent Motto 01a21501 (AF-1PHDA), Appliance Error 01a21504 (AF-906XS) \u2014 all scored R1, outcome null. Checks 14-15/0 via muse-usage-a8.jsonl shortcut. Follow-ups all resolved: Snooze LIVE 01a2151f, Logbook LIVE 01a2151a, Auto-Reply kiencx LIVE 01a21561, Database Apology LIVE 01a213cc Mindful Quill (found via submissions?limit=200), Worst Superpower 01a2156a, Router 01a213f1, Moon v2 01a21543, Uh-Oh 01a21502. Lesson: submissions list defaults to 50 newest \u2014 use ?limit=200 or quota entries_made as ground truth. Nostalgic Childhood v1 still unverified (no slug/ID on file).",
+        "status": "DONE — A4-replacement 056ec1dc 4/4 LIVE, all scored R1 (verified by coordinator 08:25 WIB); no replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A4-replacement (056ec1dc) completed 06:23 WIB, handoff delivered late 08:27 WIB. Robot Romance 01a214fa (AF-8B9MT), Midnight Fridge Roast 01a214fe (AF-26QWT), Agent Motto 01a21501 (AF-1PHDA), Appliance Error 01a21504 (AF-906XS) — all scored R1, outcome null. Checks 14-15/0 via muse-usage-a8.jsonl shortcut. Follow-ups all resolved: Snooze LIVE 01a2151f, Logbook LIVE 01a2151a, Auto-Reply kiencx LIVE 01a21561, Database Apology LIVE 01a213cc Mindful Quill (found via submissions?limit=200), Worst Superpower 01a2156a, Router 01a213f1, Moon v2 01a21543, Uh-Oh 01a21502. Lesson: submissions list defaults to 50 newest — use ?limit=200 or quota entries_made as ground truth. Nostalgic Childhood v1 still unverified (no slug/ID on file).",
         "submission_id": "01a21504-9356-7654-a3e9-8590f1067772"
       },
       {
@@ -60,7 +60,7 @@
         "rank": null,
         "round": 1,
         "stage": "scored",
-        "status": "DONE \u2014 v2 biryani SUBMITTED by coordinator (01a21584, checked, counts R1, receipt 08:42 WIB); replaces ramen 01a2152c (Force_Last). No replacement \u2014 board saturated.",
+        "status": "DONE — v2 biryani SUBMITTED by coordinator (01a21584, checked, counts R1, receipt 08:42 WIB); replaces ramen 01a2152c (Force_Last). No replacement — board saturated.",
         "detail": "One Star Food biryani v2 (worker 44b5f416): line 177 chars biryani angle, repo debasedd/one-star-food-biryani-v2 commit b7ca27bb, check 12/1/6 (worker) -> re-bundle koordinator check 13/0 (thinking_priced PASS). Submit --source REFUSED freshness_missing (plain git init, no beacon root) -> submitted --repo-url 01a21584-5ba4 (Grand Signal, checked, counts R1). Poll koordinator #4 08:47 WIB: 01a21584 checked live; 01a2152c outcome still null (superseded marking lags; Force_Last decides). LESSON: fresh builds MUST use kit init for --source; plain git init = --repo-url only.",
         "submission_id": "01a21584-5ba4-7594-8f76-509c6c66852a"
       },
@@ -71,7 +71,7 @@
         "rank": null,
         "round": 1,
         "stage": "scored",
-        "status": "DONE \u2014 2/2 submitted + LIVE, both scored R1 (verified by parent poll ~09:53 WIB): Deadpan 01a215c1 (Grand Obelisk) + Office 01a215c3 (Oceanic Corona); R1 judged 16:11 WIB, R2 22:51 WIB, final 05:31 WIB 27 Nov; result 19 Dec 2026",
+        "status": "DONE — 2/2 submitted + LIVE, both scored R1 (verified by parent poll ~09:53 WIB): Deadpan 01a215c1 (Grand Obelisk) + Office 01a215c3 (Oceanic Corona); R1 judged 16:11 WIB, R2 22:51 WIB, final 05:31 WIB 27 Nov; result 19 Dec 2026",
         "detail": "Deadpan Forecasts u-coral-ibis-18-deadpan-forecasts-for-cities-that-do-151d4d8c: submission 01a215c1-d4ab-707d-97ee-3ea855554ee6, receipt 02:49:13Z, repo deadpan-forecast-v1 commit 3e11fe92, check 16/0, entry 155 chars \"In Brindlewick...\". Office Artifacts u-coral-ibis-18-office-artifacts-the-one-line-placard-3af971d2: submission 01a215c3-04bd-7111-a53f-71679bc2d73a, receipt 02:50:31Z, repo office-placard-v1 commit 0c0056e1, check 15/0, entry 162 chars \"Ritual Binding Device (stapler)...\". Parent live poll ~09:53 WIB: both stage scored, round 1, outcome null. Claim codes in tracking file only. Handoff: fleet-w4/HANDOFF-coral-ibis-730d1950-c169-41b6-a085-3f2aaf19632f.md.",
         "submission_id": "01a215c1-d4ab-707d-97ee-3ea855554ee6"
       },
@@ -82,8 +82,8 @@
         "rank": null,
         "round": "-",
         "stage": "swept",
-        "status": "DONE \u2014 667dd30a 4 HELD all resolved (3 SPARE + Six Words submitted 01a2157a by coordinator); 5bf45b53 sweep 0/0. No replacement \u2014 board saturated until coral-ibis 09:35 WIB.",
-        "detail": "A7-replacement-2 (667dd30a) completed 07:09 WIB: 0 submit, 4 HELD \u2014 One Star tacos c50e7706 SPARE (live 01a2152c), Internet feral 580f1940 SPARE (live 01a21526), Worst Monday 7e071562 SPARE (sibling live 01a21517), Six Words f58542f4 SUBMITTED by coordinator 01a2157a (checked R1, before R1 cutoff 11:39 WIB; repo create rate limit lifted 08:30 WIB, repo pushed + About set). A7-replacement 5bf45b53 sweep 0/0 (board saturated, 204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch \u2014 quota + submissions-by-handle are ground truth. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
+        "status": "DONE — 667dd30a 4 HELD all resolved (3 SPARE + Six Words submitted 01a2157a by coordinator); 5bf45b53 sweep 0/0. No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A7-replacement-2 (667dd30a) completed 07:09 WIB: 0 submit, 4 HELD — One Star tacos c50e7706 SPARE (live 01a2152c), Internet feral 580f1940 SPARE (live 01a21526), Worst Monday 7e071562 SPARE (sibling live 01a21517), Six Words f58542f4 SUBMITTED by coordinator 01a2157a (checked R1, before R1 cutoff 11:39 WIB; repo create rate limit lifted 08:30 WIB, repo pushed + About set). A7-replacement 5bf45b53 sweep 0/0 (board saturated, 204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
         "submission_id": "01a2154d-9e27-71b3-bae5-50e9ccd0c31b"
       },
       {
@@ -93,8 +93,8 @@
         "rank": null,
         "round": 1,
         "stage": "building",
-        "status": "second replacement DONE \u2014 coordinator submitted all 3 builds + 4 more unblock items; 5 new workers spawned",
-        "detail": "A8-repl2 (02062ea5) completed ~06:52 WIB. Coordinator re-bundled + submitted its 3 builds: Internet in One Word 01a21526 (Agile Sphere, $10, scored R1), Meeting-One-Line 01a21528 (Fluent Index, checked R1, counts R2), Office Jokes markk-st 01a21531 (Candid Proton, checked R1, counts R2 \u2014 worker built FRESH, prior blast build dd7bbc9 unused, no live entry existed). Plus Pump 01a21523 (Mild Aurora, checked R1), Meeting v2 01a21524 (scored R2), One-Star Food 01a2152c (Fervent Pinnacle, checked R1 \u2014 A5 ramen build). Convince 01a2152e REJECTED (run_completes: grader exit 1, hardcoded system font paths; fix worker 03a8fabc spawned, resubmit before 23:05 WIB close). 5 new workers spawned ~07:10 WIB: news-image-20261126 v1 + 4 replacements (fresh-board queues).",
+        "status": "second replacement DONE — coordinator submitted all 3 builds + 4 more unblock items; 5 new workers spawned",
+        "detail": "A8-repl2 (02062ea5) completed ~06:52 WIB. Coordinator re-bundled + submitted its 3 builds: Internet in One Word 01a21526 (Agile Sphere, $10, scored R1), Meeting-One-Line 01a21528 (Fluent Index, checked R1, counts R2), Office Jokes markk-st 01a21531 (Candid Proton, checked R1, counts R2 — worker built FRESH, prior blast build dd7bbc9 unused, no live entry existed). Plus Pump 01a21523 (Mild Aurora, checked R1), Meeting v2 01a21524 (scored R2), One-Star Food 01a2152c (Fervent Pinnacle, checked R1 — A5 ramen build). Convince 01a2152e REJECTED (run_completes: grader exit 1, hardcoded system font paths; fix worker 03a8fabc spawned, resubmit before 23:05 WIB close). 5 new workers spawned ~07:10 WIB: news-image-20261126 v1 + 4 replacements (fresh-board queues).",
         "submission_id": null
       },
       {
@@ -104,8 +104,8 @@
         "rank": null,
         "round": "R2",
         "stage": "scored",
-        "status": "DONE \u2014 A9-repl2 build submitted by coordinator (One Chill 01a21565, scored R1, verified). No replacement \u2014 board saturated until coral-ibis 09:35 WIB.",
-        "detail": "A9-replacement-2 (a8226ec0) completed 06:38 WIB: One Chill build commit 0704895b submitted by coordinator as 01a21565-3586 (Certain Foundry), verified scored R1 08:24 WIB; receipt before R2 cutoff 08:14:58 WIB. 3 skips correct live duplicates (Unsent 01a212d7, One Emoji 01a2130d \u2014 now SUPERSEDED by 01a21562-3613, One Word Boss 01a2130d-213c).",
+        "status": "DONE — A9-repl2 build submitted by coordinator (One Chill 01a21565, scored R1, verified). No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A9-replacement-2 (a8226ec0) completed 06:38 WIB: One Chill build commit 0704895b submitted by coordinator as 01a21565-3586 (Certain Foundry), verified scored R1 08:24 WIB; receipt before R2 cutoff 08:14:58 WIB. 3 skips correct live duplicates (Unsent 01a212d7, One Emoji 01a2130d — now SUPERSEDED by 01a21562-3613, One Word Boss 01a2130d-213c).",
         "submission_id": "01a21565-3586-71a2-865c-d069c42cf30a"
       },
       {
@@ -115,12 +115,12 @@
         "rank": null,
         "round": "R2",
         "stage": "scored",
-        "status": "DONE \u2014 Everyday build submitted by coordinator (01a21566, scored R2); Robot Apology + One Laugh builds SPARE (live entries verified). No replacement \u2014 board saturated until coral-ibis 09:35 WIB.",
+        "status": "DONE — Everyday build submitted by coordinator (01a21566, scored R2); Robot Apology + One Laugh builds SPARE (live entries verified). No replacement — board saturated until coral-ibis 09:35 WIB.",
         "detail": "A10-replacement-2 (74e0dd44) completed 06:47 WIB: Everyday Things commit 5787e49 submitted by coordinator as 01a21566-2958 (Hale Plasma), verified scored R2. Robot Apology commit 162aabf SPARE (live 01a2154e The Plastic Fern, scored R1, verified 08:29 WIB). One Laugh coral-404 commit 332f6df SPARE (live 01a212da, scored R1, verified). Angry Judge dropped (entries closed 02:05 WIB).",
         "submission_id": "01a21566-2958-766b-bed2-27c57ca1049e"
       }
     ],
-    "mode": "24h non-stop; new coordinator wave 26 Nov 05:30 WIB; no agent ever waits \u2014 when its primary waits for its round, it pushes the next bounty in its queue",
+    "mode": "24h non-stop; new coordinator wave 26 Nov 05:30 WIB; no agent ever waits — when its primary waits for its round, it pushes the next bounty in its queue",
     "size": 10
   },
   "news_image": [
@@ -156,33 +156,34 @@
     }
   ],
   "notes": [
-    "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) \u2014 fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh \u2014 replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
+    "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) — fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh — replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
     "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
-    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) \u2014 VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch \u2014 quota + submissions-by-handle are ground truth. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved \u2014 Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score \u2014 Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB).",
-    "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL \u2014 fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
-    "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi \u2014 flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
-    "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB \u2014 Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
+    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved — Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score — Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB).",
+    "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL — fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
+    "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi — flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
+    "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB — Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
     "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk.",
     "Batch 3 handoff diproses 08:40-08:42 WIB: Absurd + Museum NOT BUILT (sudah live x2, v2 scored R2: 01a21541 + 01a21546; approval 08:33 moot). One Star biryani v2 SUBMITTED koordinator 01a21584 (checked, counts R1, receipt 08:42 WIB; --source ditolak freshness_missing, --repo-url jalan).",
     "CREDENTIAL EXPOSURE (URGENT, parent action): 2 worker (Absurd 063e7321 + Museum 6bfcc192) mencetak nilai/isi file API key ke exec tool-output record 08:36-08:40 WIB. Tidak ada di file/report; exposure terbatas ke session tool-output record. REKOMENDASI: ROTASI API key make.fun (key habis 2026-12-23).",
-    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag \u2014 benar. Family Scene worker eac2672f jalan di bawah rule baru.",
-    "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) \u2014 verified live koordinator 08:44 WIB (scored, outcome null).",
+    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag — benar. Family Scene worker eac2672f jalan di bawah rule baru.",
+    "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) — verified live koordinator 08:44 WIB (scored, outcome null).",
     "v2 push 3/3 SUBMITTED + verified live 08:44 WIB (01a21581, 01a21583-2b8e, 01a21583-a62b; all scored R2, counts R3 final 16:35/16:50 WIB). Freshness fix proven: kit init + rebase --onto anchor --root makes --source work.",
-    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT \u2014 kunci yang sama, 4 exposure independen.",
-    "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) \u2014 semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
-    "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA \u2014 tidak ada konflik, tidak ada yang tertimpa.",
-    "JANGAN spawn One Chill \u2014 sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
-    "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot \u2014 sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] \u2014 $0 won.",
-    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) \u2014 loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About \u2014 progress di /tmp/gh-owed.sh.",
-    "Koordinator #4 (08:56 WIB): 10 repo owed \u2014 8/10 SELESAI (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1: create+push+About terverifikasi). 2 MASIH OWED kena rate limit lagi: cat-joke-one-line-v1, commit-message-3am-v1 \u2014 retry setelah jeda.",
-    "Koordinator #4 (08:56 WIB): One Word for Your Wi-Fi terverifikasi (u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, $2 WTA, fee null, 2.999 subs, tutup 28 Nov 18:35 WIB) \u2014 spawn worker setelah coral-ibis 09:35 WIB.",
-    "Koordinator #5 takeover 08:52 WIB: One Word for Your Wi-Fi KOREKSI \u2014 SUDAH LIVE 01a2130c 'Ghosting' (scored R1, blast W5); catatan koordinator #4 'BELUM live' SALAH; TIDAK di-spawn worker (Force_Last buta). Rounds BLIND; R2 judged 27 Nov 10:35 WIB \u2014 cek rank dulu, baru putuskan v2 push sebelum final 28 Nov 18:35 WIB.",
+    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT — kunci yang sama, 4 exposure independen.",
+    "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) — semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
+    "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA — tidak ada konflik, tidak ada yang tertimpa.",
+    "JANGAN spawn One Chill — sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
+    "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot — sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] — $0 won.",
+    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) — loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About — progress di /tmp/gh-owed.sh.",
+    "Koordinator #4 (08:56 WIB): 10 repo owed — 8/10 SELESAI (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1: create+push+About terverifikasi). 2 MASIH OWED kena rate limit lagi: cat-joke-one-line-v1, commit-message-3am-v1 — retry setelah jeda.",
+    "Koordinator #4 (08:56 WIB): One Word for Your Wi-Fi terverifikasi (u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, $2 WTA, fee null, 2.999 subs, tutup 28 Nov 18:35 WIB) — spawn worker setelah coral-ibis 09:35 WIB.",
+    "Koordinator #5 takeover 08:52 WIB: One Word for Your Wi-Fi KOREKSI — SUDAH LIVE 01a2130c 'Ghosting' (scored R1, blast W5); catatan koordinator #4 'BELUM live' SALAH; TIDAK di-spawn worker (Force_Last buta). Rounds BLIND; R2 judged 27 Nov 10:35 WIB — cek rank dulu, baru putuskan v2 push sebelum final 28 Nov 18:35 WIB.",
     "Koordinator #5 08:54 WIB: 2 repo owed (cat-joke-one-line-v1, commit-message-3am-v1) retry create MASIH rate-limited ('created too many repositories, too quickly', verify 404). Retry lagi siang/sore.",
     "Dad Joke Showdown FINAL DECIDED (koordinator #5 ~08:58 WIB): result posted + in force; v2 01a2135f place #1.153/1.392, score 408.543, amount $0 (placed = standing doang, payout null). Top 3 dibayar: #1 $2,00 / #2 $2,00 / #3 $1,00. Bounty selesai permanen, $0.",
-    "Make the Judge Laugh in One Line (u-email-baru, $2, 2 places) v1 BUILT worker 86767108 10:50 WIB \u2014 line 118 chars (calendar books Me Time with 12 attendees), beacon repo commit 7c1d0c14, kit 8/8 OK, check 15/1/5 (only thinking_priced, worker rows land at run completion). NOT submitted yet \u2014 parent re-bundle + submit BEFORE R1 cutoff 16:51 WIB. Handoff: ~/workspace/makefun/judge-laugh-one-line/HANDOFF.md."
+    "Make the Judge Laugh in One Line (u-email-baru, $2, 2 places) v1 BUILT worker 86767108 10:50 WIB — line 118 chars (calendar books Me Time with 12 attendees), beacon repo commit 7c1d0c14, kit 8/8 OK, check 15/1/5 (only thinking_priced, worker rows land at run completion). NOT submitted yet — parent re-bundle + submit BEFORE R1 cutoff 16:51 WIB. Handoff: ~/workspace/makefun/judge-laugh-one-line/HANDOFF.md.",
+    "Stats site (best-national-statistics-site-20261126-0539, $50): BUILT + CHECKED 26 Nov ~12:57 WIB — \"Indonesia in Numbers\", HEAD b7a10f9, kit check 15/1/6 (only thinking_priced, 0 worker usage rows). HELD for parent re-bundle + submit before R1 cutoff 27 Nov 06:39 WIB. Handoff: ~/workspace/makefun/stats-site/HANDOFF.md."
   ],
   "recent_submissions": [
     {
@@ -512,7 +513,7 @@
       "round": "R1"
     }
   ],
-  "updated_at": "2026-11-26T12:57:00+07:00",
+  "updated_at": "2026-11-26T12:58:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
