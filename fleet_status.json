@@ -138,10 +138,10 @@
       "competition": "news-image-20261125",
       "live_entry": "v4 — US tariffs on 14 economies, Asian chip rout, Volga refineries ablaze",
       "rank": null,
-      "rank_note": "v4 replaces v3 (#1884/13,569, gap 9,179 micro) via Force_Last; submitted 15:57 WIB, stage submitted at receipt (grading queue, re-poll 5 min); 36 stories/9 regions, tariffs hero + Tiangong lead grid + Hormuz CLAIM; entries close 27 Nov 07:00 WIB, final heat after close",
+      "rank_note": "v4 replaces v3 (#1884/13,569, gap 9,179 micro) via Force_Last; submitted 15:57 WIB, live poll 15:58 WIB: stage checked, round 4, outcome null; 36 stories/9 regions, tariffs hero + Tiangong lead grid + Hormuz CLAIM; entries close 27 Nov 07:00 WIB, final heat after close",
       "result_due": "11 Dec 2026 15:00 WIB",
       "round": 3,
-      "stage": "submitted",
+      "stage": "checked",
       "submission_id": "01a21713-162c-7591-a543-42d37559471a"
     },
     {
@@ -834,7 +834,7 @@
       "note": "v4 replaces v3 (#1884/13,569); check 16/0/5, cleanest yet; final heat after close 27 Nov 07:00 WIB"
     }
   ],
-  "updated_at": "2026-11-26T08:58:12.603668+00:00",
+  "updated_at": "2026-11-26T08:58:32.012023+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
