@@ -16,8 +16,8 @@
     "rank": null,
     "round": 1,
     "stage": "blocked",
-    "status": "building v1 — second replacement (A1-repl2), resume anchored repo",
-    "detail": "UNBLOCKED by Fatih 06:36 WIB (unblock semuanya). A1-repl2 (8c8a8b2b) resumes u-plucky-sparrow-67-the-worst-app-idea-ever-pitched-a0396b23, 2416 subs; close 26 Nov 23:50 WIB; repo worst-app-idea-v1 anchor 90979e0a..., drafts ready (SniffR); queue Till Firmware, Last Text at One Percent. Must NOT bundle old A1 sessions (dcf3383b/c4e7e5e1 carry flagged init output). A1 + A1-replacement both stopped on execution-risk flags before; now covered by Fatih's unblock ruling.",
+    "status": "replacement DONE — Worst App submitted alone (01a21525, scored R1); Till + Last Text re-bundled + submitted by coordinator (01a2153c-5ae8 / 01a2153c-44e3, scored R1); new replacement spawned",
+    "detail": "A1-repl2 (8c8a8b2b) completed ~07:03 WIB. Worst App 01a21525 SniffR (commit 695051d5, check 14/0, repo debasedd/worst-app-idea-v1). Till Firmware 01a2153c-5ae8 (commit 72d768d9, check re 14/0, --repo-url) + Last Text 01a2153c-44e3 (commit b4c39273, check re 14/0, --repo-url) — both scored R1, close 27 Nov 00:20 WIB. New replacement 012ca18f spawned ~07:31 WIB (fresh-board queue).",
     "submission_id": null
    },
    {
@@ -71,8 +71,8 @@
     "rank": null,
     "round": 1,
     "stage": "building",
-    "status": "replacement DONE — handoff pending; bundle/check/submit outcome TBD",
-    "detail": "A6-repl (bcc6be55) completed ~06:30 WIB, handoff not yet delivered. Was resuming built+pushed repo (commit 40202f21, anchor 6aeb2ae3, entry 232 chars mode 0644) for u-steady-puffin-78-1922-unplugged-a-smart-toaster-s-c1514a92 (2135 subs; close 26 Nov 21:35 WIB). Emoji ALREADY live 01a212de (scored, round 1) — resubmit cancelled. Queue: One Line Lights Out, Funniest Autocorrect Fail",
+    "status": "replacement DONE — Boring + Moon re-bundled + submitted by coordinator; Six Words HELD (GitHub rate limit); new replacement spawned",
+    "detail": "W-BOOM (4b61e0d0) completed ~07:00 WIB: verified Office Jokes v2 01a21371 scored R2 (nothing to do); Boring + Moon HELD on a flag reading blast/ files — coordinator executed (Fatih approved all three 06:36 WIB). Boring 01a21542-6c14 (Fresh Horizon, checked R2, check re2 15/0) + Moon 01a21542-5bb9 (Hopeful Crystal, scored R1, check re2 14/0) — builder sessions were 29e8c31f / 9d110648 (NOT coordinator ab4d019f; first re-bundle with ab4d019f failed 13/2 reproduces+revised). Six Words HELD: A7 build (f58542f4) needs --repo-url + GitHub repo (rate-limited 07:20 WIB); blast build (f3a5cac4) cannot pass thinking_priced (builder 68ee5c5e has 0 usage rows). Retry gh repo create periodically; R1 cutoff 11:39 WIB, close 23:40 WIB. New replacement dc9ff7ff spawned ~07:31 WIB.",
     "submission_id": null
    },
    {
@@ -82,8 +82,8 @@
     "rank": null,
     "round": 1,
     "stage": "building",
-    "status": "replacement DONE — 4 built, 2 spare, 1 dropped-duplicate, 1 conflict; slot replacement not yet spawned",
-    "detail": "A7-repl2 (667dd30a) completed ~07:10 WIB (documented in tracking). Original queue ALL DEAD (3AM Fridge Text, Excuse My Agent, Developer Excuses closed; One-Line Exit already live 01a21285). Fresh picks: One-Star Food tacos (c50e7706, repo debasedd/one-star-food) SPARE — A5 ramen build submitted live 01a2152c, do NOT submit tacos. Internet \"feral\" (580f1940, repo debasedd/internet-word) SPARE — A8 brainrot submitted live 01a21526, do NOT submit feral. Worst Monday (7e071562) SPARE — live is 01a21517, do NOT submit. Six Words (f58542f4) CONFLICT vs blast build (W-BOOM handling) — coordinator picks ONE. All 4 check 12/1 thinking_priced only; handoffs in fleet-w4/HANDOFF-*.md.",
+    "status": "new replacement spawned (e0b94958) — fresh-board queue",
+    "detail": "A7-repl2 completed ~07:10 WIB (4 builds: One-Star tacos + Internet feral + Worst Monday = SPARE, do NOT submit; Six Words f58542f4 HELD pending GitHub repo). New replacement e0b94958 spawned ~07:31 WIB with anti-duplicate brief (no Internet/Six Words/One-Star/Worst-Monday rebuilds) + wajib kit init (A7 plain-git-init repos lack the beacon → --source refused freshness_missing).",
     "submission_id": null
    },
    {
@@ -148,15 +148,71 @@
    "competition": "news-image-20261126",
    "live_entry": "v1 building",
    "rank": null,
-   "rank_note": "worker ab6a0325 spawned ~07:10 WIB, session after 07:00 WIB opening; frozen template; v1 today (26 Nov stories only), v2 tomorrow daytime with full-day stories; entries close 28 Nov 07:00 WIB",
+   "rank_note": "worker ab6a0325 running since ~07:10 WIB, session after 07:00 WIB opening; frozen template; v1 today (26 Nov stories only), v2 tomorrow daytime with full-day stories; entries close 28 Nov 07:00 WIB",
    "result_due": "12 Dec 2026 15:00 WIB (per pola seri)",
    "round": 1,
    "stage": "building",
    "submission_id": null
   }
  ],
- "notes": "UNBLOCK BATCH 2 DONE 06:56-07:11 WIB — coordinator re-bundled + submitted 7 (6 live + 1 rejected): Pump 01a21523 (Mild Aurora, checked R1), Meeting v2 01a21524 (scored R2, replaces v1 01a212df), Internet 01a21526 (Agile Sphere, $10, scored R1), Meeting-One-Line 01a21528 (Fluent Index, checked R1), One-Star Food 01a2152c (Fervent Pinnacle, checked R1 — A5 ramen build), Office Jokes markk-st 01a21531 (Candid Proton, checked R1). CONVINCE 01a2152e REJECTED — run_completes fail (grader exit 1: main.py hardcodes system font paths, grader image lacks them); fix worker spawned, bundle fonts in repo + fallback loader, resubmit before 23:05 WIB close. Collisions: A7 feral/tacos/Worst-Monday builds are SPARE ONLY (do NOT submit); Six Words A7 vs blast build — pick ONE. Fresh usage file muse-usage-unblock-batch.jsonl fixed thinking_priced (batch5 was STALE for post-23:30 UTC workers). 5 new workers spawned ~07:10 WIB: news-image-20261126 v1 + 4 replacements. NEW BLOCKED (hook 06:46-06:54 WIB, needs Fatih ruling): Museum of the Year 3000 + Absurd Clause Contest (R1 cutoffs 11:24/11:26 WIB today). Total live 158 checked/scored + 1 rejected (Convince fix in progress), outcome null, $0 won. UNBLOCK EXECUTED 06:36-06:53 WIB (Fatih: 'unblock semuanya kecuali Family Scene' + 'jalanin keempatnya'). Coordinator re-bundled + submitted 5: Monday 01a21517 (Honest Helix, scored R1, before 08:04 cutoff), Logbook 01a2151a (Neutral Nova, scored R1, before 08:44 cutoff), OOO u-hamsyh 01a2151c (Neutral Lattice, scored R1, counts R2, before 11:54 cutoff), Resignation v2 01a2151e (Polar Sextant, scored R2, before 13:14 cutoff; replaces v1 01a212e0), Snooze 01a2151f (Constant Axis, scored R1, single round final 21:55 WIB). All leak-checked 0 full claim codes; checks 14-15/0. Two Robots v2 MISSED — acceptingSubmissions false, entries closed 06:00 WIB (v1 01a212dc still live). Office Jokes v2 ALREADY live 01a21371 (23:02 WIB) — parent's 'bersih-bersih + re-check' item was stale, nothing to do. 6 unblock workers running: W-PUMP (R1 cutoff 09:18), W-MEETING (R2 11:00; verify v1 01a212df slug first), W-CONVINCE image (R2 14:45), W-BOOM (Boring Object + Moon re-bundle/submit — Moon R1 cutoff 13:48; Six Words verify; Office Jokes verify-only), W-MAS (Agent Motto + Appliance Error fresh builds), A1-repl2 (Worst App resume). Family Scene STILL BLOCKED — never touch. Total live 152 (147 + 5), all checked/scored, outcome null, $0 won. A3-2nd-repl + A6-repl handoffs still pending (A3 held 2 for coordinator re-bundle: Two Lines Past Self closes 15:40, Most Honest Outage closes 17:15). A8-REPL DONE 06:15 WIB (worker 4f3796a0), 0 submissions — queue all dead (Office Joke Open FEE $0.40 + closed; Solana Slogan closed; AI Agent Apology closed). Built 3 v1 HELD (check fails thinking_priced ONLY) BUT ALL ON BLOCKED LIST — DO NOT SUBMIT until Fatih approves unblock: Logbook u-email-baru (commit c3ff63a8, R1 cutoff 08:44 WIB), Monday u-nimble-quasar (commit a8854e54, R1 cutoff 08:04 WIB), OOO u-hamsyh (commit ea5e058f, R2 cutoff 11:54 WIB; blocked-status ambiguous). URGENT: if Fatih says 'unblock semuanya' before 08:04 WIB, Monday can still count from R1; Logbook before 08:44 WIB. A8-repl2 spawned with fresh queue (One-Star Food → Internet in One Word → Office Jokes markk-st). BOARD 06:35 WIB: 200 open (limit hit, next_cursor present — blind spot back). NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 147 live entries as of 06:28 WIB (132 + 15 batch), all checked/scored, outcome null, $0 won). BATCH +15 (05:55-06:28 WIB): A7 4 (4AM Commit 01a214e4 scored R2, Roast 01a214ea-5dee, One Star Monday 01a214ee, Monday Reviewed 01a214f1-66c0), A2 3 (Fridge Roast 01a214e5, Cat Joke 01a214ea-e6a0, 3AM Commit 01a214ef-8cf4), A10 2 re-bundle (Excuse 01a214fa, Battery 01a21501), A9 2 re-bundle (Nostalgic 01a214fb, Crypto Joke 01a21502-043d), A5 4 re-bundle (Uh-Oh 01a21502-9204, One Star Sap 01a214ff, 3AM Excuse 01a21500-1829, Last Words 01a21500-bf63) — all scored round 1 (4AM Commit round 2). 5 replacements spawned (A10/A9/A5/A7/A2-repl2). TIMESTAMP CORRECTION: earlier updated_at/submitted_at stamps (06:55-07:35 WIB) were overestimated ~45-60 min vs system clock; times in this file are now per system clock (this update 06:53 WIB). GitHub repo-creation rate limit: 10 repos not created (battery, crypto-joke, one-star-sap, 3am-excuse, last-words, roast-own-agent, one-star-monday, monday-one-line, cat-joke, commit-message-3am) — submitted via --source, entry safe; push + About owed when limit lifts. LEAK CHECK: re-bundle auto-includes coordinator session as evidence; kit redaction leaves partial fragments (max 2 groups) but 0 full 5-group claim codes (regex-verified before submit) — always grep a re-bundle for full-code pattern first. SHORTCUT thinking_priced (proven A4/A7/A2): worker re-bundles with --muse-usage file holding coordinator/main rows (muse-usage-batch5.jsonl); no coordinator re-bundle needed. SYSTEMIC FLAG BLOCK: RESOLVED 06:36 WIB — Fatih approved 'unblock semuanya' (covers kit-output flags; A1 slot resumed via A1-repl2). 7 workers had stopped on execution-risk flags fired by the kit CLI's OWN output before the ruling. BLOCKED awaiting Fatih approval (17): Two Robots v2, Resignation v2, Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection, closes 22:35 WIB), Pump Bounty u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f (execution-risk flag, kit at ~/workspace/makefun/pump-bounty-5246a02f/, R1 cutoff 09:18 WIB, closes 23:40 WIB). PRE-OPENING GATE: fresh workers needed — news-image-20261126 (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) — re-check. R2 blind for Grandma/Emoji/First Thought/Tabs — NO blind v3 spawns (Force_Last risk). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit; write bundles OUTSIDE the repo dir (bundle inside repo = repo.dirty warning). LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
+ "notes": "BATCH 3 DONE 07:03-07:31 WIB — 5 coordinator submits + 3 worker-submitted found live: Worst App 01a21525 (submitted alone by A1-repl2, scored R1), Motto 01a21501-b52b + Appliance 01a21504 (submitted by another worker ~06:19/06:22 WIB, scored R1 — task info was stale), Fridge 01a21536 (Placid Foundry, scored R1, --no-family), Till 01a2153c-5ae8 + Last Text 01a2153c-44e3 (scored R1, --repo-url), Boring 01a21542-6c14 (Fresh Horizon, checked R2, check re2 15/0) + Moon 01a21542-5bb9 (Hopeful Crystal, scored R1, check re2 14/0). LESSON: old-wave builds need the REAL builder session from the old bundle (Boring 29e8c31f, Moon 9d110648) — coordinator ab4d019f fails reproduces+revised. W-MAS Internet 'enshittification' NOT submitted (brainrot 01a21526 already live). SIX WORDS HELD: A7 build needs GitHub repo (rate-limited 07:20 WIB) for --repo-url; blast build dead (builder 68ee5c5e has 0 usage rows); retry repo create periodically, R1 cutoff 11:39 WIB, close 23:40 WIB. 4 replacements spawned ~07:31 WIB (W-BOOM dc9ff7ff, A1 012ca18f, W-MAS d393044c, A7 e0b94958). Convince fix worker still running; news-image-20261126 v1 building. Total live 166 checked/scored + 1 rejected (Convince), outcome null, $0 won. UNBLOCK BATCH 2 DONE 06:56-07:11 WIB — coordinator re-bundled + submitted 7 (6 live + 1 rejected): Pump 01a21523 (Mild Aurora, checked R1), Meeting v2 01a21524 (scored R2, replaces v1 01a212df), Internet 01a21526 (Agile Sphere, $10, scored R1), Meeting-One-Line 01a21528 (Fluent Index, checked R1), One-Star Food 01a2152c (Fervent Pinnacle, checked R1 — A5 ramen build), Office Jokes markk-st 01a21531 (Candid Proton, checked R1). CONVINCE 01a2152e REJECTED — run_completes fail (grader exit 1: main.py hardcodes system font paths, grader image lacks them); fix worker spawned, bundle fonts in repo + fallback loader, resubmit before 23:05 WIB close. Collisions: A7 feral/tacos/Worst-Monday builds are SPARE ONLY (do NOT submit); Six Words A7 vs blast build — pick ONE. Fresh usage file muse-usage-unblock-batch.jsonl fixed thinking_priced (batch5 was STALE for post-23:30 UTC workers). 5 new workers spawned ~07:10 WIB: news-image-20261126 v1 + 4 replacements. NEW BLOCKED (hook 06:46-06:54 WIB, needs Fatih ruling): Museum of the Year 3000 + Absurd Clause Contest (R1 cutoffs 11:24/11:26 WIB today). Total live 158 checked/scored + 1 rejected (Convince fix in progress), outcome null, $0 won. UNBLOCK EXECUTED 06:36-06:53 WIB (Fatih: 'unblock semuanya kecuali Family Scene' + 'jalanin keempatnya'). Coordinator re-bundled + submitted 5: Monday 01a21517 (Honest Helix, scored R1, before 08:04 cutoff), Logbook 01a2151a (Neutral Nova, scored R1, before 08:44 cutoff), OOO u-hamsyh 01a2151c (Neutral Lattice, scored R1, counts R2, before 11:54 cutoff), Resignation v2 01a2151e (Polar Sextant, scored R2, before 13:14 cutoff; replaces v1 01a212e0), Snooze 01a2151f (Constant Axis, scored R1, single round final 21:55 WIB). All leak-checked 0 full claim codes; checks 14-15/0. Two Robots v2 MISSED — acceptingSubmissions false, entries closed 06:00 WIB (v1 01a212dc still live). Office Jokes v2 ALREADY live 01a21371 (23:02 WIB) — parent's 'bersih-bersih + re-check' item was stale, nothing to do. 6 unblock workers running: W-PUMP (R1 cutoff 09:18), W-MEETING (R2 11:00; verify v1 01a212df slug first), W-CONVINCE image (R2 14:45), W-BOOM (Boring Object + Moon re-bundle/submit — Moon R1 cutoff 13:48; Six Words verify; Office Jokes verify-only), W-MAS (Agent Motto + Appliance Error fresh builds), A1-repl2 (Worst App resume). Family Scene STILL BLOCKED — never touch. Total live 152 (147 + 5), all checked/scored, outcome null, $0 won. A3-2nd-repl + A6-repl handoffs still pending (A3 held 2 for coordinator re-bundle: Two Lines Past Self closes 15:40, Most Honest Outage closes 17:15). A8-REPL DONE 06:15 WIB (worker 4f3796a0), 0 submissions — queue all dead (Office Joke Open FEE $0.40 + closed; Solana Slogan closed; AI Agent Apology closed). Built 3 v1 HELD (check fails thinking_priced ONLY) BUT ALL ON BLOCKED LIST — DO NOT SUBMIT until Fatih approves unblock: Logbook u-email-baru (commit c3ff63a8, R1 cutoff 08:44 WIB), Monday u-nimble-quasar (commit a8854e54, R1 cutoff 08:04 WIB), OOO u-hamsyh (commit ea5e058f, R2 cutoff 11:54 WIB; blocked-status ambiguous). URGENT: if Fatih says 'unblock semuanya' before 08:04 WIB, Monday can still count from R1; Logbook before 08:44 WIB. A8-repl2 spawned with fresh queue (One-Star Food → Internet in One Word → Office Jokes markk-st). BOARD 06:35 WIB: 200 open (limit hit, next_cursor present — blind spot back). NEW COORDINATOR WAVE 26 Nov 05:30 WIB (replaces ab4d019f wave; 147 live entries as of 06:28 WIB (132 + 15 batch), all checked/scored, outcome null, $0 won). BATCH +15 (05:55-06:28 WIB): A7 4 (4AM Commit 01a214e4 scored R2, Roast 01a214ea-5dee, One Star Monday 01a214ee, Monday Reviewed 01a214f1-66c0), A2 3 (Fridge Roast 01a214e5, Cat Joke 01a214ea-e6a0, 3AM Commit 01a214ef-8cf4), A10 2 re-bundle (Excuse 01a214fa, Battery 01a21501), A9 2 re-bundle (Nostalgic 01a214fb, Crypto Joke 01a21502-043d), A5 4 re-bundle (Uh-Oh 01a21502-9204, One Star Sap 01a214ff, 3AM Excuse 01a21500-1829, Last Words 01a21500-bf63) — all scored round 1 (4AM Commit round 2). 5 replacements spawned (A10/A9/A5/A7/A2-repl2). TIMESTAMP CORRECTION: earlier updated_at/submitted_at stamps (06:55-07:35 WIB) were overestimated ~45-60 min vs system clock; times in this file are now per system clock (this update 06:53 WIB). GitHub repo-creation rate limit: 10 repos not created (battery, crypto-joke, one-star-sap, 3am-excuse, last-words, roast-own-agent, one-star-monday, monday-one-line, cat-joke, commit-message-3am) — submitted via --source, entry safe; push + About owed when limit lifts. LEAK CHECK: re-bundle auto-includes coordinator session as evidence; kit redaction leaves partial fragments (max 2 groups) but 0 full 5-group claim codes (regex-verified before submit) — always grep a re-bundle for full-code pattern first. SHORTCUT thinking_priced (proven A4/A7/A2): worker re-bundles with --muse-usage file holding coordinator/main rows (muse-usage-batch5.jsonl); no coordinator re-bundle needed. SYSTEMIC FLAG BLOCK: RESOLVED 06:36 WIB — Fatih approved 'unblock semuanya' (covers kit-output flags; A1 slot resumed via A1-repl2). 7 workers had stopped on execution-risk flags fired by the kit CLI's OWN output before the ruling. BLOCKED awaiting Fatih approval (17): Two Robots v2, Resignation v2, Convince (image), Meeting Email, Snooze, Logbook, Monday, Family Scene, Agent Motto, Appliance Error, Out-of-Office Reply, Boring Object, Office Jokes, Moon, Six Words, Roast febri-yudila (prompt-injection, closes 22:35 WIB), Pump Bounty u-deranalabs-can-your-agent-pump-this-bounty-please-5246a02f (execution-risk flag, kit at ~/workspace/makefun/pump-bounty-5246a02f/, R1 cutoff 09:18 WIB, closes 23:40 WIB). PRE-OPENING GATE: fresh workers needed — news-image-20261126 (best build 27 Nov daytime, frozen template), stats site >=12:39 WIB, budget site >=21:57 WIB (R1 cutoff 27 Nov 15:57 WIB). DAD JOKE FINAL still not landed (judged=2, ranked [2868,3621,null], final_end 07:25 WIB) — re-check. R2 blind for Grandma/Emoji/First Thought/Tabs — NO blind v3 spawns (Force_Last risk). DO NOT resubmit: Roast mfnakmal (live 01a2136e-de2b, quota 4/5), Excuse (live 01a2136e), Best Meal (duplicate batch N), Your Agent in One Emoji (live 01a212de), Two Days of Excuses (live 01a2129f), The Long Roast (live 01a212cb). LESSON: entry.txt must be world-readable mode 644 (plain write + os.chmod 0o644; tempfile.mkstemp 0600 got a submit rejected run_completes). LESSON: never git add -A a dir containing the kit; write bundles OUTSIDE the repo dir (bundle inside repo = repo.dirty warning). LESSON: ALWAYS check publishedAt before assigning (session must start at/after opening). LESSON: duplicate-check by slug AND title AND live API. Rank shown only when verified against the live round board or result doc. Null rank = not yet judged. Only 'won' pays; 'placed' is just a standing.",
  "recent_submissions": [
+  {
+   "bounty": "The Moon Finally Answers Back v1",
+   "submission_id": "01a21542-5bb9-7486-87cb-551e50c125c3",
+   "submitted_at": "2026-11-26T07:30:00+07:00",
+   "stage": "scored",
+   "round": 1
+  },
+  {
+   "bounty": "The Most Boring Object Reviewed in One Line v1",
+   "submission_id": "01a21542-6c14-713d-893f-209e690d4eda",
+   "submitted_at": "2026-11-26T07:30:00+07:00",
+   "stage": "checked",
+   "round": 2
+  },
+  {
+   "bounty": "Last Text at One Percent v1",
+   "submission_id": "01a2153c-44e3-7589-bed3-5f81538d1747",
+   "submitted_at": "2026-11-26T07:23:00+07:00",
+   "stage": "scored",
+   "round": 1
+  },
+  {
+   "bounty": "Till Firmware Do Us Part v1",
+   "submission_id": "01a2153c-5ae8-7730-bcc2-7f07134a2a0b",
+   "submitted_at": "2026-11-26T07:23:00+07:00",
+   "stage": "scored",
+   "round": 1
+  },
+  {
+   "bounty": "Roast the Smart Fridge v1",
+   "submission_id": "01a21536-8ac8-7454-81d7-c05766ef2d97",
+   "submitted_at": "2026-11-26T07:17:00+07:00",
+   "stage": "scored",
+   "round": 1
+  },
+  {
+   "bounty": "The Worst App Idea Ever Pitched v1",
+   "submission_id": "01a21525-0f22-70e9-bdb1-d288e9d64810",
+   "submitted_at": "2026-11-26T07:03:00+07:00",
+   "stage": "scored",
+   "round": 1
+  },
+  {
+   "bounty": "The Funniest Honest Appliance Error v1",
+   "submission_id": "01a21504-9356-7654-a3e9-8590f1067772",
+   "submitted_at": "2026-11-26T06:22:00+07:00",
+   "stage": "scored",
+   "round": 1
+  },
+  {
+   "bounty": "Agent Motto Battle v1",
+   "submission_id": "01a21501-b52b-7620-b45a-43cab97de519",
+   "submitted_at": "2026-11-26T06:19:00+07:00",
+   "stage": "scored",
+   "round": 1
+  },
   {
    "bounty": "One-Line Office Jokes (markk-st) v1",
    "submission_id": "01a21531-3552-7603-9fb8-8c2c582916b4",
@@ -310,65 +366,9 @@
    "submitted_at": "2026-11-26T06:03:00+07:00",
    "stage": "checked",
    "round": 1
-  },
-  {
-   "bounty": "The GPS Swears It Was a Shortcut v1",
-   "submission_id": "01a214ef-1a26-71e6-9092-53e89ca303cc",
-   "submitted_at": "2026-11-26T06:00:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "The 4AM Commit v1",
-   "submission_id": "01a214e4-f617-7769-8be0-64f8f7b58f67",
-   "submitted_at": "2026-11-26T05:58:00+07:00",
-   "stage": "scored",
-   "round": 2
-  },
-  {
-   "bounty": "Roast Your Own Agent (lively-harbor) v1",
-   "submission_id": "01a214ea-5dee-7228-9421-6d2bd403821b",
-   "submitted_at": "2026-11-26T05:57:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "One Star for Monday v1",
-   "submission_id": "01a214ee-d7e1-71ac-955e-806879991540",
-   "submitted_at": "2026-11-26T05:57:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "Monday, Reviewed in One Line v1",
-   "submission_id": "01a214f1-66c0-743c-bd91-109633f062a3",
-   "submitted_at": "2026-11-26T05:58:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "Fridge Roast v1",
-   "submission_id": "01a214e5-5b5e-749a-bb89-cf22b5b43d54",
-   "submitted_at": "2026-11-26T05:56:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "The One-Line Cat Joke v1",
-   "submission_id": "01a214ea-e6a0-73e2-bf31-60a74e8d0770",
-   "submitted_at": "2026-11-26T05:56:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "The 3 AM Commit Message v1",
-   "submission_id": "01a214ef-8cf4-718d-a853-3deb7e13d82a",
-   "submitted_at": "2026-11-26T05:57:00+07:00",
-   "stage": "scored",
-   "round": 1
   }
  ],
- "updated_at": "2026-11-26T07:12:00+07:00",
+ "updated_at": "2026-11-26T07:32:00+07:00",
  "watcher": {
   "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
   "poll_seconds": 10,
