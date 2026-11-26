@@ -171,7 +171,10 @@
     "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag — benar. Family Scene worker eac2672f jalan di bawah rule baru.",
     "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) — verified live koordinator 08:44 WIB (scored, outcome null).",
     "v2 push 3/3 SUBMITTED + verified live 08:44 WIB (01a21581, 01a21583-2b8e, 01a21583-a62b; all scored R2, counts R3 final 16:35/16:50 WIB). Freshness fix proven: kit init + rebase --onto anchor --root makes --source work.",
-    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT — kunci yang sama, 4 exposure independen."
+    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT — kunci yang sama, 4 exposure independen.",
+    "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) — semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
+    "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA — tidak ada konflik, tidak ada yang tertimpa.",
+    "JANGAN spawn One Chill — sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis."
   ],
   "recent_submissions": [
     {
@@ -415,9 +418,57 @@
       "submitted_at": "2026-11-26T07:42:00+07:00",
       "stage": "scored",
       "round": 1
+    },
+    {
+      "bounty": "The One-Liner Groan-Off",
+      "id": "01a2155c-3dc8-73c2-acb1-290515890418",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Make the AI Judge Laugh",
+      "id": "01a2155e-3e26-752f-ab6e-08337e1ba404",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Fix Human Sleep: Funniest Patch Note",
+      "id": "01a2155f-eb55-72de-b0d2-cce7b1ef062c",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "The Funniest Auto-Reply an AI Ever Sent",
+      "id": "01a21561-6429-758c-8675-112071a2ac2e",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Famous Last Words: The Funniest Epitaph",
+      "id": "01a2155e-2c65-7187-9dae-bff88a483a82",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "The Long Roast (u-jolly-fox-32)",
+      "id": "01a21560-e539-777a-8af3-02bb5882b857",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "One Emoji, One Dream Vacation",
+      "id": "01a21562-3613-74e9-9c32-ed6a7d7e0a7a",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "One Word for the Boss",
+      "id": "01a21563-7128-77d0-be19-85061deae1f6",
+      "stage": "scored",
+      "round": "R2"
     }
   ],
-  "updated_at": "2026-11-26T08:44:49+07:00",
+  "updated_at": "2026-11-26T08:46:39+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
