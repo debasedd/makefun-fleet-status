@@ -103,9 +103,9 @@
         "prize_usd": 2,
         "rank": null,
         "round": 2,
-        "stage": "prep",
-        "status": "RUNNING — worker c1a9b49a designing v4 (prep only, NO build until R2 rank after 20:59 WIB cutoff)",
-        "detail": "Live v3 01a216ba 'Fried Chicken Was Worth the Abduction'. v2 was R1 #672/1,909. R3 final = entries close 27 Nov 04:20 WIB. Day cap 2/5.",
+        "stage": "prep-done",
+        "status": "DONE prep — worker c1a9b49a delivered v4 design (spicy-noodles line, 141 chars) + board facts; REPLACEMENT 420e916d running board sweep for best unentered free bounty (or news-image v2 research if none)",
+        "detail": "v4 draft: 'One star: the locals pay to set their own mouths on fire, weep, and ask for seconds — but the spicy noodles were worth every singed tentacle.' (141 chars). Single-grievance angle (v3's 3-complaint list is what criterion 5 penalises). R1 field 1,909; v2 #672 score 538909; top-500 = final-heat cut (v2 was 172 outside). R2 check ~21:10 WIB (cutoff 20:59); build v4 if v3 NOT top 10 (certainly if outside top 500); hold if top 10. R3 final entries close 27 Nov 04:20 WIB. Day cap 2/5. Design doc: ~/workspace/makefun/fleet-w4/one-star-food-v4-DESIGN.md.",
         "submission_id": "01a216ba-b65d-7279-81cb-3ec2a94c1905"
       },
       {
@@ -569,7 +569,7 @@
       "note": "One-liner $2 top-two split, counts from R1 cutoff 22:09 WIB 26 Nov"
     }
   ],
-  "updated_at": "2026-11-26T07:47:37.507900+00:00",
+  "updated_at": "2026-11-26T07:49:12.394909+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
