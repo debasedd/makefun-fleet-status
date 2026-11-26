@@ -3,7 +3,7 @@
     "decided": 0,
     "gate_failed": 1,
     "gate_failed_note": "Sharpe paper bot (batch O) \u2014 dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
-    "submitted_total": 201,
+    "submitted_total": 202,
     "window": "25 Nov 2026 17:16-21:20 WIB",
     "won_usd": 0
   },
@@ -535,9 +535,19 @@
       "id": "01a21680-79c4-75e8-98dc-d78a8650d630",
       "stage": "checked",
       "round": "R2 final"
+    },
+    {
+      "bounty": "best-flight-game-20261126-0057",
+      "title": "Ridge Runner",
+      "submission_id": "01a216b2-fbcb-7290-9304-dea9143f5246",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 500,
+      "note": "Flight game $500, counts from R1 cutoff 19:57 WIB 26 Nov"
     }
   ],
-  "updated_at": "2026-11-26T13:26:00+07:00",
+  "updated_at": "2026-11-26T14:17:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
