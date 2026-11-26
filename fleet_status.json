@@ -93,9 +93,9 @@
         "rank": 368,
         "round": 1,
         "stage": "submitted",
-        "status": "Self-Checkout v2 SUBMITTED 17:01 WIB: 01a2174d (checked, counts from R2 cutoff 20:59 WIB). Rejected Olympic v2 SUBMITTED 17:04 WIB: 01a21750 (checked at receipt, counts from R2 judging 20:59:42 WIB). Check 16/0/5, no fix. v1 was R1 #788/1,599 score 505571 — only top 500 reach the final heat, v1 would be cut. Therapist / Judge Laugh workers still polling R1 (cutoffs 16:34/16:51 WIB); each builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB). Evening R2 checker e916c2d5 running (Moon R2 ~18:55, Self-Checkout + Rejected Olympic R2 ~21:10; v3 only with a genuinely different angle).",
-        "detail": "Self-Checkout v2: bagging-area scale catches donuts under kale. Rejected Olympic v2: competitive umbrella sharing, winner stays dry and friendless. Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
-        "submission_id": "01a21750-1f39-73fc-8d16-900f43ddd247"
+        "status": "Self-Checkout v2 SUBMITTED 17:01 WIB: 01a2174d (checked, R2 cutoff 20:59 WIB). Rejected Olympic v2 SUBMITTED 17:04 WIB: 01a21750 (checked, R2 judging 20:59:42 WIB). Therapist v2 SUBMITTED 17:12 WIB: 01a21757 (checked at receipt, counts from R2 cutoff 20:54 WIB). Check 15/0/6, no fix; kit hash verified full-length local vs live. v1 was R1 #790/1,635 score 506577 — outside top 500, would be cut. Judge Laugh worker still polling R1 (cutoff 16:51 WIB); builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB). Late-night finals checker 77edd192 running (Therapist R2 ~21:05, Convince/Resignation/Family Scene finals 23:05-23:25, Six Words window 23:40).",
+        "detail": "Therapist v2: weaponized self-awareness, patient can name every wound except where he is the villain. Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
+        "submission_id": "01a21757-aab1-778e-a8db-b51f17b57507"
       },
       {
         "agent": 9,
@@ -194,7 +194,8 @@
     "Moon v2 (koordinator #8, ~16:15 WIB): v1 R1 #1020/1,474 score 453477 — v2 built (bad-landlord angle, 97 chars, HEAD 8f52918, kit 8/8). Coordinator bundle check 15/1/5 FAILED thinking_revised only — lesson: the check counts ONLY file write/edit tool messages; a guard edit applied via shell does not count. Fix worker 1cd3f324 running; submit before R2 cutoff 18:45 WIB. Flight game v2 builder 33b87a39 spawned (design doc; build now, submit ONLY if v1 R1 not top 10, check ~20:10 WIB).",
     "Moon v2 SUBMITTED 16:16 WIB (koordinator #8): 01a21723, checked at receipt, counts from R2 (cutoff 18:45 WIB). Check 16/0/5 after the file-edit-tool fix — the thinking_revised lesson is now proven twice: only file write/edit tool messages count; shell edits do not. Submit receipt confirms Force_Last applies here (one entry per account, latest counts) — the worker handoff's 'each entry ranked on its own' claim was wrong. Flight v2 builder 33b87a39 running; fleet still 10 live.",
     "Self-Checkout v2 SUBMITTED 17:01 WIB (koordinator #8): 01a2174d, checked at receipt, counts from R2 (cutoff 20:59 WIB). Check 15/0/6 clean, no fix — builder did the 2-write standard + init anchor itself. v1 R1 #368/1,536 score 571841 (midfield tight: neighbours #363-372 scored 570755-572470). Kit hash verified full-length local vs live (7cd04cc8...2015d identical). One submit-output exec result tripped a system prompt-injection check — no instruction inside it was followed; only the receipt facts (ID/stage/round) were recorded, per task. Replacement 0b428494 (sweep + Internet R2 checker) running; fleet still 10 live.",
-    "Rejected Olympic v2 SUBMITTED 17:04 WIB (koordinator #8): 01a21750, checked at receipt, counts from R2 (judging 20:59:42 WIB). Check 16/0/5 clean, no fix. v1 R1 #788/1,599 score 505571 — only top 500 reach the final heat. Poller correction recorded: with board=hidden the board endpoint returns around-you only (5 above + 5 below); never compute rank from list position — use the entry's own rank field or the submission status. Evening R2 checker e916c2d5 running; fleet still 10 live."
+    "Rejected Olympic v2 SUBMITTED 17:04 WIB (koordinator #8): 01a21750, checked at receipt, counts from R2 (judging 20:59:42 WIB). Check 16/0/5 clean, no fix. v1 R1 #788/1,599 score 505571 — only top 500 reach the final heat. Poller correction recorded: with board=hidden the board endpoint returns around-you only (5 above + 5 below); never compute rank from list position — use the entry's own rank field or the submission status. Evening R2 checker e916c2d5 running; fleet still 10 live.",
+    "Therapist v2 SUBMITTED 17:12 WIB (koordinator #8): 01a21757, checked at receipt, counts from R2 (cutoff 20:54 WIB). Check 15/0/6 clean, no fix; kit hash verified full-length local vs live identical. v1 R1 #790/1,635 score 506577 — outside top-500 final heat. Late-night finals checker 77edd192 running; fleet still 10 live."
   ],
   "recent_submissions": [
     {
@@ -866,9 +867,19 @@
       "outcome": null,
       "prize_usd": 2,
       "note": "Rejected Olympic v2, 140 chars umbrella-sharing angle; v1 was R1 #788/1,599 (top-500 cut); check 16/0/5; counts from R2 judging 20:59:42 WIB"
+    },
+    {
+      "bounty": "u-motasimfuad-your-ai-therapist-s-diagnosis-4be14a41",
+      "title": "Weaponized Self-Awareness",
+      "submission_id": "01a21757-aab1-778e-a8db-b51f17b57507",
+      "stage": "checked",
+      "round": 2,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "Therapist v2, 116 chars weaponized self-awareness angle; v1 was R1 #790/1,635; check 15/0/6; counts from R2 cutoff 20:54 WIB"
     }
   ],
-  "updated_at": "2026-11-26T10:04:46.357295+00:00",
+  "updated_at": "2026-11-26T10:13:00.203063+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
