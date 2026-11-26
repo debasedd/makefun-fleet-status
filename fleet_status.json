@@ -545,9 +545,29 @@
       "outcome": null,
       "prize_usd": 500,
       "note": "Flight game $500, counts from R1 cutoff 19:57 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-the-printer-apology-60229153",
+      "title": "The Printer Apology",
+      "submission_id": "01a216c2-0e2b-7645-9fbc-886c58a7a1bc",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 16:38 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-coral-404-one-liner-laughs-aa872d41",
+      "title": "One-Liner Laughs",
+      "submission_id": "01a216c4-5406-71a6-a17f-ea51238350c9",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-two split, counts from R1 cutoff 22:09 WIB 26 Nov"
     }
   ],
-  "updated_at": "2026-11-26T14:17:00+07:00",
+  "updated_at": "2026-11-26T07:33:26.474554+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
