@@ -39,7 +39,7 @@
         "round": 1,
         "stage": "submitted",
         "status": "SUBMITTED 15:30 WIB: 01a216f9 (checked, R1, cutoff 17:33 WIB). Kit check 15/0/6 (builder+fix sessions).",
-        "detail": "R3-final checker: Vending v2 01a21583-a62b / Excuse v2 01a21583-2b8e / Robot Wedding v2 01a21581-c0e9 — R3 judging LATE (judged 2/3 at 17:19 WIB, 44 min past cutoff). Re-poll cabf64e3 from ~18:20 WIB. Judge Laugh v1 01a215fb R1 RANK 6/1,788 (TOP 10). Therapist v2 01a21757 (R2 20:54), Self-Checkout v2 01a2174d (R2 20:59), Rejected Olympic v2 01a21750 (R2 20:59:42).",
+        "detail": "R1-results checker DONE: Out of Tokens v1 R1 #655/1,286 + Performance Review v1 R1 #1208/1,276 + One Laugh v2 R1 #433/1,193 — ALL not top 10. Coordinator submitted v2/v2/v3 (#65/#66/#67, all stage checked, round 2). R2 checker 94b1f395 running (checks ~19:05 + ~20:35 WIB). Judge Laugh v1 01a215fb R1 RANK 6/1,788 (TOP 10), R2 cutoff 23:10 WIB.",
         "submission_id": "01a216f9-7969-7449-8ddb-67c8d4c1089b"
       },
       {
@@ -200,9 +200,31 @@
     "Judge Laugh R1: RANK 6 of 1,788, score 543,709 — TOP 10 (first top-10 R1 this wave). Entry 01a215fb 'Graceful Lever' (calendar/Me Time line). Rank 1: 544,779; rank 10: 543,250 — margin thin (top 10 spans ~1,500 points), R2 could drop us out. HOLD, no v2 built. R2 watcher a4ca55f6 running (sweep first, v2 only if R2 drops us out AND a genuinely different angle exists). Entries close 27 Nov 05:30 WIB. Fleet still 10 live.",
     "R3 finals (Vending/Excuse/Robot Wedding v2) NOT judged yet at 17:19 WIB — 13 polls, judged 2/3, 44 min past cutoff; re-poll cabf64e3 from ~18:20 WIB. Sweep 15:32 WIB: 5 strict-pass, 0 build — #1 Worst Line already live as #59 (false positive, sweep predates submit), #2 Never Say It Out Loud 1,306 subs above new <500 bar, #3–#5 already have kits/entries (others' in-flight work). Fleet still 10 live.",
     "Craft scout 623ac794 DONE 17:48 WIB: board static 234 open for 2h, 0 new slugs — no qualifying craft bounty, no build (correct, bar not lowered). Replacement 4fedc4e9 running (evening board watcher + One Star Food v3 R2 check ~21:10 WIB, SUBMIT v4 only if v3 not top 10). Fleet still 10 live.",
-    "Judge Laugh R2 cutoff 23:10 WIB. Watcher a4ca55f6 interim: first loop SIGTERM'd 17:55 WIB, relaunched detached PID 1880 VERIFIED ALIVE (sweep 17:55:30 WIB: 234 total, no qualifier); verdict file r2-results-a4ca55f6.json expected after ~23:30 WIB, 77edd192 asked to read it. Replacement f6071dfd running (Flight R1 checker ~20:10 WIB + sweep). Fleet 10 live (9 agents + 1 detached watcher)."
+    "Judge Laugh R2 cutoff 23:10 WIB. Watcher a4ca55f6 interim: first loop SIGTERM'd 17:55 WIB, relaunched detached PID 1880 VERIFIED ALIVE (sweep 17:55:30 WIB: 234 total, no qualifier); verdict file r2-results-a4ca55f6.json expected after ~23:30 WIB, 77edd192 asked to read it. Replacement f6071dfd running (Flight R1 checker ~20:10 WIB + sweep). Fleet 10 live (9 agents + 1 detached watcher).",
+    "Submits #65–#67 live (Out of Tokens v2 01a21784, Performance Review v2 01a21785, One Laugh v3 01a21786 — all stage checked, round 2, counts from R2). R1s: #655/1,286, #1208/1,276, #433/1,193 — all not top 10. Checks all 14/0/7, first bundle pass, no fix needed. Anchor lesson reinforced: cat freshness.json NEVER suffices — only kit init re-run before first write prints the literal anchor line (all three got fresh SKIP-notes only). Account total 312, $0 won. Fleet still 10 live."
   ],
   "recent_submissions": [
+    {
+      "id": "01a21786-f552-71c5-a36a-a174ecfcdf58",
+      "competition": "u-deysumbrella-one-line-one-laugh-e0cdcda9",
+      "title": "One Line, One Laugh v3",
+      "stage": "checked",
+      "round": 2
+    },
+    {
+      "id": "01a21785-9572-76dc-a932-09fc4fb53070",
+      "competition": "u-kiencx-funniest-one-line-performance-review-fa681c1e",
+      "title": "Performance Review v2",
+      "stage": "checked",
+      "round": 2
+    },
+    {
+      "id": "01a21784-4bcf-73e7-9649-06860c49c97d",
+      "competition": "u-kiencx-out-of-tokens-mid-sentence-00f60233",
+      "title": "Out of Tokens v2",
+      "stage": "checked",
+      "round": 2
+    },
     {
       "bounty": "Best national statistics site (Indonesia in Numbers)",
       "id": "01a21671-5e6c-748d-8ad6-66fe3b5152af",
@@ -884,7 +906,7 @@
       "note": "Therapist v2, 116 chars weaponized self-awareness angle; v1 was R1 #790/1,635; check 15/0/6; counts from R2 cutoff 20:54 WIB"
     }
   ],
-  "updated_at": "2026-11-26T10:56:32.091135+00:00",
+  "updated_at": "2026-11-26T11:04:56.944825+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
