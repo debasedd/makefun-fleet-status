@@ -27,7 +27,7 @@
         "rank": null,
         "round": 1,
         "stage": "scored",
-        "status": "DONE — v2 push 3/3 submitted + verified live (01a21581 Robot Wedding Vows, 01a21583-2b8e Funniest AI Excuse, 01a21583-a62b Vending Machine; all scored R2, outcome null, poll 08:44 WIB). Counts R3 final 16:35/16:50 WIB. Freshness fix proven: kit init + rebase --onto anchor --root.",
+        "status": "DONE — v2 push 3/3 submitted + verified live (01a21581 Robot Wedding Vows, 01a21583-2b8e Funniest AI Excuse, 01a21583-a62b Vending Machine; all scored R2, outcome null, poll 08:44 WIB; re-verified koordinator #4 08:47 WIB). Counts R3 final 16:35/16:50 WIB. Freshness fix proven: kit init + rebase --onto anchor --root.",
         "detail": "v2 push (worker b2f3a73e, 08:32-08:41 WIB): v1s #300/2743, #799/2906, #1016/2932 -> v2s Frank Obelisk / Immense Atlas / Frank Codex, checks 14/0/7 each (thinking_priced PASS 5 records). --source first refused freshness_missing (no anchor) -> fixed via kit init + rebase onto anchor root. v1s outcome still null (superseded marking lags; Force_Last decides).",
         "submission_id": "01a21516-cafa-7292-ba1f-6f33b3f1d668"
       },
@@ -61,7 +61,7 @@
         "round": 1,
         "stage": "scored",
         "status": "DONE — v2 biryani SUBMITTED by coordinator (01a21584, checked, counts R1, receipt 08:42 WIB); replaces ramen 01a2152c (Force_Last). No replacement — board saturated.",
-        "detail": "One Star Food biryani v2 (worker 44b5f416): line 177 chars biryani angle, repo debasedd/one-star-food-biryani-v2 commit b7ca27bb, check 12/1/6 (worker) -> re-bundle koordinator check 13/0 (thinking_priced PASS). Submit --source REFUSED freshness_missing (plain git init, no beacon root) -> submitted --repo-url 01a21584-5ba4 (Grand Signal, checked, counts R1). Poll 08:42 WIB: 01a21584 checked live; 01a2152c outcome still null (superseded marking lags; Force_Last decides). LESSON: fresh builds MUST use kit init for --source; plain git init = --repo-url only.",
+        "detail": "One Star Food biryani v2 (worker 44b5f416): line 177 chars biryani angle, repo debasedd/one-star-food-biryani-v2 commit b7ca27bb, check 12/1/6 (worker) -> re-bundle koordinator check 13/0 (thinking_priced PASS). Submit --source REFUSED freshness_missing (plain git init, no beacon root) -> submitted --repo-url 01a21584-5ba4 (Grand Signal, checked, counts R1). Poll koordinator #4 08:47 WIB: 01a21584 checked live; 01a2152c outcome still null (superseded marking lags; Force_Last decides). LESSON: fresh builds MUST use kit init for --source; plain git init = --repo-url only.",
         "submission_id": "01a21584-5ba4-7594-8f76-509c6c66852a"
       },
       {
@@ -174,7 +174,9 @@
     "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT — kunci yang sama, 4 exposure independen.",
     "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) — semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
     "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA — tidak ada konflik, tidak ada yang tertimpa.",
-    "JANGAN spawn One Chill — sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis."
+    "JANGAN spawn One Chill — sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
+    "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot — sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] — $0 won.",
+    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) — loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About — progress di /tmp/gh-owed.sh."
   ],
   "recent_submissions": [
     {
@@ -468,7 +470,7 @@
       "round": "R2"
     }
   ],
-  "updated_at": "2026-11-26T08:46:39+07:00",
+  "updated_at": "2026-11-26T08:50:52+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
