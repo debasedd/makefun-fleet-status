@@ -66,14 +66,14 @@
       },
       {
         "agent": 6,
-        "bounty": "Board sweep (saturated)",
-        "prize_usd": 0,
+        "bounty": "Deadpan Forecasts + Office Artifacts (coral-ibis pair)",
+        "prize_usd": 2,
         "rank": null,
         "round": "-",
-        "stage": "swept",
-        "status": "holding — no buildable bounty until 09:31 WIB",
-        "detail": "A6-repl 568ad60f sweep independen 08:00 WIB: 204 open, 0 baru, 16 no-entry semua terblokir, 4 opening pre-gate. Worst Superpower (rekomendasi sweep) sudah disubmit koordinator 01a2156a. Slot ini tidak punya target sampai bounty baru terbit / coral-ibis buka 09:31 WIB.",
-        "submission_id": "01a2156a-7f07-759e-b711-08956ff6b36e"
+        "stage": "scheduled",
+        "status": "scheduled — worker spawn via cron makefun-coral-ibis-spawn at 09:35 WIB (post-opening 09:31 WIB); poller will NOT re-fire (slugs in seen-file from 08:11 WIB false-positive wake)",
+        "detail": "Deadpan Forecasts u-coral-ibis-18-deadpan-forecasts-for-cities-that-do-151d4d8c ($2 WTA, ≤160 chars, close 05:31 WIB 27 Nov) + Office Artifacts u-coral-ibis-18-office-artifacts-the-one-line-placard-3af971d2 ($2, close 05:31 WIB 27 Nov). Both 0 subs, fee null, verified open 02:31Z. Cron body carries full worker brief; worker handoff routes via parent to coordinator for live poll verification.",
+        "submission_id": null
       },
       {
         "agent": 7,
@@ -156,7 +156,8 @@
     }
   ],
   "notes": [
-    "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) — fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh — replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair)."
+    "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) — fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh — replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
+    "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled."
   ],
   "recent_submissions": [
     {
@@ -354,7 +355,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:16:00+07:00",
+  "updated_at": "2026-11-26T08:24:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
