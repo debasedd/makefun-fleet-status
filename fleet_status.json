@@ -189,7 +189,7 @@
   {
    "bounty": "Best national statistics site (Indonesia in Numbers)",
    "id": "01a21671-5e6c-748d-8ad6-66fe3b5152af",
-   "stage": "submitted",
+   "stage": "checked",
    "round": "R1"
   },
   {
@@ -531,7 +531,7 @@
    "round": "R1"
   }
  ],
- "updated_at": "2026-11-26T13:02:52+07:00",
+ "updated_at": "2026-11-26T13:07:24+07:00",
  "watcher": {
   "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
   "poll_seconds": 10,
