@@ -94,7 +94,7 @@
         "round": 1,
         "stage": "submitted",
         "status": "Self-Checkout v2 SUBMITTED 17:01 WIB: 01a2174d (checked, R2 cutoff 20:59 WIB). Rejected Olympic v2 SUBMITTED 17:04 WIB: 01a21750 (checked, R2 judging 20:59:42 WIB). Therapist v2 SUBMITTED 17:12 WIB: 01a21757 (checked at receipt, counts from R2 cutoff 20:54 WIB). Check 15/0/6, no fix; kit hash verified full-length local vs live. v1 was R1 #790/1,635 score 506577 — outside top 500, would be cut. Judge Laugh worker still polling R1 (cutoff 16:51 WIB); builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB). Late-night finals checker 77edd192 running (Therapist R2 ~21:05, Convince/Resignation/Family Scene finals 23:05-23:25, Six Words window 23:40).",
-        "detail": "Judge Laugh v1 01a215fb R1 RANK 6/1,788 score 543,709 — TOP 10 (first top-10 R1 this wave). Therapist v2 01a21757 (R2 20:54), Self-Checkout v2 01a2174d (R2 20:59), Rejected Olympic v2 01a21750 (R2 20:59:42). Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
+        "detail": "Judge Laugh R1 RANK 6/1,788 (TOP 10). R2 cutoff 23:10 WIB — watcher a4ca55f6 turn ended early; detached watcher PID 1880 VERIFIED ALIVE (sweeps every 20 min, R2 poll from 23:20 WIB, verdict -> r2-results-a4ca55f6.json). 77edd192 asked to read verdict file after ~23:40 WIB. Replacement f6071dfd: Flight R1 checker (~20:10 WIB) + craft sweep. Therapist v2 01a21757 (R2 20:54), Self-Checkout v2 01a2174d (R2 20:59), Rejected Olympic v2 01a21750 (R2 20:59:42).",
         "submission_id": "01a21757-aab1-778e-a8db-b51f17b57507"
       },
       {
@@ -199,7 +199,8 @@
     "Fresh-bounty hunter 2ca2447d DONE 17:15 WIB: 0 qualifiers in 90 min (18 polls) — board FROZEN at 234 open, zero new bounties published in ~85 min. No-build is the correct outcome; bar not lowered. Incidents: runtime restart ~15:53 WIB wiped /tmp (poll loop killed, /tmp/slug-artifacts.json LOST — do not rely on it; hunter rebuilt in persistent paths ~/workspace/makefun/hunt-fresh.py + hunt-loop.sh); de-dup substring false positive caught before any build, fixed with token-subsequence matching. Worker suggestion recorded: use the 10s watcher as the tripwire and only spawn workers on its alert instead of blind 90-min polling. Replacement: news-image-20261127 prep worker 68448795 (competition/kit/template readiness + 60-min craft sweep); fleet still 10 live.",
     "Judge Laugh R1: RANK 6 of 1,788, score 543,709 — TOP 10 (first top-10 R1 this wave). Entry 01a215fb 'Graceful Lever' (calendar/Me Time line). Rank 1: 544,779; rank 10: 543,250 — margin thin (top 10 spans ~1,500 points), R2 could drop us out. HOLD, no v2 built. R2 watcher a4ca55f6 running (sweep first, v2 only if R2 drops us out AND a genuinely different angle exists). Entries close 27 Nov 05:30 WIB. Fleet still 10 live.",
     "R3 finals (Vending/Excuse/Robot Wedding v2) NOT judged yet at 17:19 WIB — 13 polls, judged 2/3, 44 min past cutoff; re-poll cabf64e3 from ~18:20 WIB. Sweep 15:32 WIB: 5 strict-pass, 0 build — #1 Worst Line already live as #59 (false positive, sweep predates submit), #2 Never Say It Out Loud 1,306 subs above new <500 bar, #3–#5 already have kits/entries (others' in-flight work). Fleet still 10 live.",
-    "Craft scout 623ac794 DONE 17:48 WIB: board static 234 open for 2h, 0 new slugs — no qualifying craft bounty, no build (correct, bar not lowered). Replacement 4fedc4e9 running (evening board watcher + One Star Food v3 R2 check ~21:10 WIB, SUBMIT v4 only if v3 not top 10). Fleet still 10 live."
+    "Craft scout 623ac794 DONE 17:48 WIB: board static 234 open for 2h, 0 new slugs — no qualifying craft bounty, no build (correct, bar not lowered). Replacement 4fedc4e9 running (evening board watcher + One Star Food v3 R2 check ~21:10 WIB, SUBMIT v4 only if v3 not top 10). Fleet still 10 live.",
+    "Judge Laugh R2 cutoff 23:10 WIB. Watcher a4ca55f6 interim: first loop SIGTERM'd 17:55 WIB, relaunched detached PID 1880 VERIFIED ALIVE (sweep 17:55:30 WIB: 234 total, no qualifier); verdict file r2-results-a4ca55f6.json expected after ~23:30 WIB, 77edd192 asked to read it. Replacement f6071dfd running (Flight R1 checker ~20:10 WIB + sweep). Fleet 10 live (9 agents + 1 detached watcher)."
   ],
   "recent_submissions": [
     {
@@ -883,7 +884,7 @@
       "note": "Therapist v2, 116 chars weaponized self-awareness angle; v1 was R1 #790/1,635; check 15/0/6; counts from R2 cutoff 20:54 WIB"
     }
   ],
-  "updated_at": "2026-11-26T10:49:17.712821+00:00",
+  "updated_at": "2026-11-26T10:56:32.091135+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
