@@ -480,9 +480,15 @@
       "id": "01a215fb-2097-711f-8b73-2c069eea98f0",
       "stage": "scored",
       "round": "R1"
+    },
+    {
+      "bounty": "Your AI Therapist's Diagnosis",
+      "id": "01a2164d-4337-7190-a055-403045217186",
+      "stage": "checked",
+      "round": "R1"
     }
   ],
-  "updated_at": "2026-11-26T10:53:00+07:00",
+  "updated_at": "2026-11-26T12:23:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
