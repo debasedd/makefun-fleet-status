@@ -116,7 +116,7 @@
         "round": 2,
         "stage": "submitted",
         "status": "news-image-20261125 v4 SUBMITTED 15:57 WIB: 01a21713 (stage submitted at receipt, grading queue — re-poll 5 min). Check 16/0/5, cleanest yet: thinking_reproduces 526/527 authored 99.8%, thinking_fresh FULL PASS (anchor line via init). news-image-20261126 v2 live: 01a21707 (checked, R2, result 12 Dec). One Star Food v4 still HELD (HEAD 43e370a) — coordinator submits ONLY after R2 rank ~21:10 WIB (cutoff 20:59 WIB); v4 = 4/5, 1 slot left. Craft scout 623ac794 running (new non-one-liner craft bounties <6h old, <500 subs, max 2h; no-build is a correct outcome).",
-        "detail": "v4 commit af57ca9d, render sha256 1e40d6d4…; v3 #1884 replaced. Worst-line-ai live: 01a21709 (checked, R1 blind).",
+        "detail": "news-image-20261125 v4 01a21713 REJECTED (run_completes, exit 1 — verified live, owner view; all other checks PASS incl. reproduces 99.8%). v5 fix builder 83c843fb running: diagnose in grader-like conditions, small fix or fresh rebuild, handoff ~23:00 WIB, submit before entries close 27 Nov 07:00 WIB. news-image-20261127 NOT open yet (opens 27 Nov 07:00 WIB); readiness note written; template intact.",
         "submission_id": "01a21713-162c-7591-a543-42d37559471a"
       }
     ],
@@ -201,7 +201,8 @@
     "R3 finals (Vending/Excuse/Robot Wedding v2) NOT judged yet at 17:19 WIB — 13 polls, judged 2/3, 44 min past cutoff; re-poll cabf64e3 from ~18:20 WIB. Sweep 15:32 WIB: 5 strict-pass, 0 build — #1 Worst Line already live as #59 (false positive, sweep predates submit), #2 Never Say It Out Loud 1,306 subs above new <500 bar, #3–#5 already have kits/entries (others' in-flight work). Fleet still 10 live.",
     "Craft scout 623ac794 DONE 17:48 WIB: board static 234 open for 2h, 0 new slugs — no qualifying craft bounty, no build (correct, bar not lowered). Replacement 4fedc4e9 running (evening board watcher + One Star Food v3 R2 check ~21:10 WIB, SUBMIT v4 only if v3 not top 10). Fleet still 10 live.",
     "Judge Laugh R2 cutoff 23:10 WIB. Watcher a4ca55f6 interim: first loop SIGTERM'd 17:55 WIB, relaunched detached PID 1880 VERIFIED ALIVE (sweep 17:55:30 WIB: 234 total, no qualifier); verdict file r2-results-a4ca55f6.json expected after ~23:30 WIB, 77edd192 asked to read it. Replacement f6071dfd running (Flight R1 checker ~20:10 WIB + sweep). Fleet 10 live (9 agents + 1 detached watcher).",
-    "Submits #65–#67 live (Out of Tokens v2 01a21784, Performance Review v2 01a21785, One Laugh v3 01a21786 — all stage checked, round 2, counts from R2). R1s: #655/1,286, #1208/1,276, #433/1,193 — all not top 10. Checks all 14/0/7, first bundle pass, no fix needed. Anchor lesson reinforced: cat freshness.json NEVER suffices — only kit init re-run before first write prints the literal anchor line (all three got fresh SKIP-notes only). Account total 312, $0 won. Fleet still 10 live."
+    "Submits #65–#67 live (Out of Tokens v2 01a21784, Performance Review v2 01a21785, One Laugh v3 01a21786 — all stage checked, round 2, counts from R2). R1s: #655/1,286, #1208/1,276, #433/1,193 — all not top 10. Checks all 14/0/7, first bundle pass, no fix needed. Anchor lesson reinforced: cat freshness.json NEVER suffices — only kit init re-run before first write prints the literal anchor line (all three got fresh SKIP-notes only). Account total 312, $0 won. Fleet still 10 live.",
+    "URGENT: news-image-20261125 v4 01a21713 REJECTED — run_completes exit 1, all other checks PASS (reproduces 526/527, fresh FULL PASS). v3 cannot be restored (Force_Last). v5 fix builder 83c843fb running (diagnose grader-like repro, fix, handoff ~23:00 WIB, submit before 27 Nov 07:00 WIB). 20261127 not open yet (07:00 WIB 27 Nov), readiness note written. Board frozen 234 open ~2.5h. Fleet still 10 live."
   ],
   "recent_submissions": [
     {
@@ -906,7 +907,7 @@
       "note": "Therapist v2, 116 chars weaponized self-awareness angle; v1 was R1 #790/1,635; check 15/0/6; counts from R2 cutoff 20:54 WIB"
     }
   ],
-  "updated_at": "2026-11-26T11:04:56.944825+00:00",
+  "updated_at": "2026-11-26T11:07:50.272157+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
