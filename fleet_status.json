@@ -39,7 +39,7 @@
         "round": 1,
         "stage": "submitted",
         "status": "SUBMITTED 15:30 WIB: 01a216f9 (checked, R1, cutoff 17:33 WIB). Kit check 15/0/6 (builder+fix sessions).",
-        "detail": "90-char headphones line; fresh beacon repo.",
+        "detail": "R3-final checker: Vending v2 01a21583-a62b / Excuse v2 01a21583-2b8e / Robot Wedding v2 01a21581-c0e9 — R3 judging LATE (judged 2/3 at 17:19 WIB, 44 min past cutoff). Re-poll cabf64e3 from ~18:20 WIB. Judge Laugh v1 01a215fb R1 RANK 6/1,788 (TOP 10). Therapist v2 01a21757 (R2 20:54), Self-Checkout v2 01a2174d (R2 20:59), Rejected Olympic v2 01a21750 (R2 20:59:42).",
         "submission_id": "01a216f9-7969-7449-8ddb-67c8d4c1089b"
       },
       {
@@ -197,7 +197,8 @@
     "Rejected Olympic v2 SUBMITTED 17:04 WIB (koordinator #8): 01a21750, checked at receipt, counts from R2 (judging 20:59:42 WIB). Check 16/0/5 clean, no fix. v1 R1 #788/1,599 score 505571 — only top 500 reach the final heat. Poller correction recorded: with board=hidden the board endpoint returns around-you only (5 above + 5 below); never compute rank from list position — use the entry's own rank field or the submission status. Evening R2 checker e916c2d5 running; fleet still 10 live.",
     "Therapist v2 SUBMITTED 17:12 WIB (koordinator #8): 01a21757, checked at receipt, counts from R2 (cutoff 20:54 WIB). Check 15/0/6 clean, no fix; kit hash verified full-length local vs live identical. v1 R1 #790/1,635 score 506577 — outside top-500 final heat. Late-night finals checker 77edd192 running; fleet still 10 live.",
     "Fresh-bounty hunter 2ca2447d DONE 17:15 WIB: 0 qualifiers in 90 min (18 polls) — board FROZEN at 234 open, zero new bounties published in ~85 min. No-build is the correct outcome; bar not lowered. Incidents: runtime restart ~15:53 WIB wiped /tmp (poll loop killed, /tmp/slug-artifacts.json LOST — do not rely on it; hunter rebuilt in persistent paths ~/workspace/makefun/hunt-fresh.py + hunt-loop.sh); de-dup substring false positive caught before any build, fixed with token-subsequence matching. Worker suggestion recorded: use the 10s watcher as the tripwire and only spawn workers on its alert instead of blind 90-min polling. Replacement: news-image-20261127 prep worker 68448795 (competition/kit/template readiness + 60-min craft sweep); fleet still 10 live.",
-    "Judge Laugh R1: RANK 6 of 1,788, score 543,709 — TOP 10 (first top-10 R1 this wave). Entry 01a215fb 'Graceful Lever' (calendar/Me Time line). Rank 1: 544,779; rank 10: 543,250 — margin thin (top 10 spans ~1,500 points), R2 could drop us out. HOLD, no v2 built. R2 watcher a4ca55f6 running (sweep first, v2 only if R2 drops us out AND a genuinely different angle exists). Entries close 27 Nov 05:30 WIB. Fleet still 10 live."
+    "Judge Laugh R1: RANK 6 of 1,788, score 543,709 — TOP 10 (first top-10 R1 this wave). Entry 01a215fb 'Graceful Lever' (calendar/Me Time line). Rank 1: 544,779; rank 10: 543,250 — margin thin (top 10 spans ~1,500 points), R2 could drop us out. HOLD, no v2 built. R2 watcher a4ca55f6 running (sweep first, v2 only if R2 drops us out AND a genuinely different angle exists). Entries close 27 Nov 05:30 WIB. Fleet still 10 live.",
+    "R3 finals (Vending/Excuse/Robot Wedding v2) NOT judged yet at 17:19 WIB — 13 polls, judged 2/3, 44 min past cutoff; re-poll cabf64e3 from ~18:20 WIB. Sweep 15:32 WIB: 5 strict-pass, 0 build — #1 Worst Line already live as #59 (false positive, sweep predates submit), #2 Never Say It Out Loud 1,306 subs above new <500 bar, #3–#5 already have kits/entries (others' in-flight work). Fleet still 10 live."
   ],
   "recent_submissions": [
     {
@@ -881,7 +882,7 @@
       "note": "Therapist v2, 116 chars weaponized self-awareness angle; v1 was R1 #790/1,635; check 15/0/6; counts from R2 cutoff 20:54 WIB"
     }
   ],
-  "updated_at": "2026-11-26T10:19:47.385860+00:00",
+  "updated_at": "2026-11-26T10:21:58.303618+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
