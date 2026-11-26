@@ -48,9 +48,9 @@
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "building",
-        "status": "RUNNING — worker 50e6c875 building one-liner (closes 21:55 WIB, field ~1,068); verify-not-in first",
-        "detail": "Slug u-eager-stork-81-9647-the-robot-vacuum-s-funniest-9822fbd2. Different slug from old u-golden-heron-44.",
+        "stage": "fixing",
+        "status": "BUILD DONE, FIX IN PROGRESS — worker 50e6c875 built + checked (5/1/15 transcripts only); coordinator bundle failed thinking_revised (14/1/6); fix worker daa35074 running (no-double-spaces guard); submit before R1 cutoff 15:55 WIB. Replacement 52c85c25 running (Six Words check + R3-final prep + news-image research).",
+        "detail": "Entry (88/120 chars): \"The dust under the couch started paying rent, so now it's a tenant and I can't evict it.\" Repo ~/workspace/makefun/fleet-w4/robot-vacuum-funniest/entry/, HEAD fff356f5dc02aef44a1920a7424963ac117cc064 (beacon root 55753eb7, drand round 34291991). Kit fresh 8/8, bundle_sha256 matches. Not-already-in verified (no fatih-aidil entry in live 1,093-sub payload). R1 cutoff 15:55 WIB, R2 18:55 WIB, R3/close 21:55 WIB. FLAG: worker's session transcript has an incidental API-key print (parse error stderr) — 5th exposure; key rotation still pending (parent action).",
         "submission_id": null
       },
       {
@@ -185,7 +185,8 @@
     "Make the Judge Laugh in One Line (u-email-baru, $2, 2 places) v1 BUILT worker 86767108 10:50 WIB — line 118 chars (calendar books Me Time with 12 attendees), beacon repo commit 7c1d0c14, kit 8/8 OK, check 15/1/5 (only thinking_priced, worker rows land at run completion). NOT submitted yet — parent re-bundle + submit BEFORE R1 cutoff 16:51 WIB. Handoff: ~/workspace/makefun/judge-laugh-one-line/HANDOFF.md.",
     "Stats site (best-national-statistics-site-20261126-0539, $50): BUILT + CHECKED 26 Nov ~12:57 WIB — \"Indonesia in Numbers\", HEAD b7a10f9, kit check 15/1/6 (only thinking_priced, 0 worker usage rows). HELD for parent re-bundle + submit before R1 cutoff 27 Nov 06:39 WIB. Handoff: ~/workspace/makefun/stats-site/HANDOFF.md.",
     "Koordinator #8 takeover 26 Nov 14:44 WIB (Fatih 14:40 WIB: '10 agent 24/7, bukan cuman 1-2 koordinator'): #7 stopped for running ZERO workers — it was sleeping 780s waiting for Convince R2 instead of keeping 10 workers busy. #8 spawned 10 workers CONCURRENT (Convince R2, Family Scene R2, desk-pvsnp $250 scout, Robot Vacuum / Lost Sock / 3AM Commit one-liners, $10 one-liners rank+push, Flight v2 prep, One Star v4 prep, 0-sub one-liners check+build). Handover verified: #7's last act was Convince rounds check 14:43 WIB (judged 1, ranked [1277, None, None], R2 cutoff 14:45:34 WIB, results empty — our 3 entries count from R2).",
-    "Board 26 Nov 14:47 WIB (224 open): bounty-entrants-03 $1,000 SKIPPED — requires LAUNCHING own bounties + bringing entrants (hard filter: no launching; also social/marketing, deadline 16:22 WIB). makefun-x-reposts-02 $500 + post-x-promote $250 SKIPPED (X/social, hard filter). best-household-budget-site $50 (0 subs) LEFT to cron 21:57 WIB — do NOT duplicate. Parent one-liners NOT duplicated (printer-apology, one-liner-laughs, forecast, elevator, haunted-sign, green-tests). Two 0-sub one-liners (out-of-tokens, performance-review) assigned to worker #10 with parent-claim check first. desk-pvsnp-20261125 also exists (seen file) — worker #3 covers the 20261127 round."
+    "Board 26 Nov 14:47 WIB (224 open): bounty-entrants-03 $1,000 SKIPPED — requires LAUNCHING own bounties + bringing entrants (hard filter: no launching; also social/marketing, deadline 16:22 WIB). makefun-x-reposts-02 $500 + post-x-promote $250 SKIPPED (X/social, hard filter). best-household-budget-site $50 (0 subs) LEFT to cron 21:57 WIB — do NOT duplicate. Parent one-liners NOT duplicated (printer-apology, one-liner-laughs, forecast, elevator, haunted-sign, green-tests). Two 0-sub one-liners (out-of-tokens, performance-review) assigned to worker #10 with parent-claim check first. desk-pvsnp-20261125 also exists (seen file) — worker #3 covers the 20261127 round.",
+    "Robot Vacuum build DONE 26 Nov ~14:53 WIB (worker 50e6c875, koordinator #8): entry 88 chars tenant/eviction angle, HEAD fff356f5, kit 8/8, check 5/1/15. Coordinator bundle 14/1/6 (thinking_revised) — fix worker daa35074 spawned. R1 cutoff 15:55 WIB. FLAG: incidental API-key print in worker session transcript (parse-error stderr) — exposure #5 total; ROTASI API KEY makin urgent (parent action)."
   ],
   "recent_submissions": [
     {
@@ -569,7 +570,7 @@
       "note": "One-liner $2 top-two split, counts from R1 cutoff 22:09 WIB 26 Nov"
     }
   ],
-  "updated_at": "2026-11-26T07:49:12.394909+00:00",
+  "updated_at": "2026-11-26T07:55:44.503601+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
