@@ -1,771 +1,781 @@
 {
- "blast": {
-  "decided": 0,
-  "gate_failed": 1,
-  "gate_failed_note": "Sharpe paper bot (batch O) \u2014 dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
-  "submitted_total": 202,
-  "window": "25 Nov 2026 17:16-21:20 WIB",
-  "won_usd": 0
- },
- "fleet": {
-  "agents": [
-   {
-    "agent": 1,
-    "bounty": "Convince the AI Judge v4 (SUBMITTED)",
-    "prize_usd": 2,
-    "rank": 246,
-    "round": 3,
-    "stage": "submitted",
-    "status": "SUBMITTED 15:22 WIB: 01a216f2 (checked, R3 FINAL at close 23:05 WIB). Kit check 15/0/6. Day cap 4/5.",
-    "detail": "R2: fix-3 #246/1,684 score 570414. v4 'The Dusk Invitation'.",
-    "submission_id": "01a216f2-da81-767f-9e00-5cd208fe731c"
-   },
-   {
-    "agent": 2,
-    "bounty": "Family Scene (v2 HELD)",
-    "prize_usd": 2,
-    "rank": 434,
-    "round": 2,
-    "stage": "waiting parent",
-    "status": "R2 #434/2,065 score 517564. v2 BUILT (HEAD 69a46b1, kit 8/8, check 5/1/15) but HELD \u2014 push decision belongs to the PARENT. Ready to bundle+submit before R3 final 23:25 WIB IF approved.",
-    "detail": "No v2 queued by coordinator.",
-    "submission_id": "01a21584-afa6-7769-b83e-82a80831f8f1"
-   },
-   {
-    "agent": 3,
-    "bounty": "One Line, One Laugh v2 (SUBMITTED)",
-    "prize_usd": 2,
-    "rank": null,
-    "round": 1,
-    "stage": "submitted",
-    "status": "SUBMITTED 15:30 WIB: 01a216f9 (checked, R1, cutoff 17:33 WIB). Kit check 15/0/6 (builder+fix sessions).",
-    "detail": "90-char headphones line; fresh beacon repo.",
-    "submission_id": "01a216f9-7969-7449-8ddb-67c8d4c1089b"
-   },
-   {
-    "agent": 4,
-    "bounty": "Out of Tokens, Mid-Sentence (SUBMITTED)",
-    "prize_usd": 2,
-    "rank": null,
-    "round": 1,
-    "stage": "submitted",
-    "status": "SUBMITTED 15:26 WIB: 01a216f6 (checked, R1, cutoff 16:34 WIB). Kit check 15/0/6 after fix.",
-    "detail": "77-char error-message line.",
-    "submission_id": "01a216f6-690d-7411-af76-b8fd0d0d2345"
-   },
-   {
-    "agent": 5,
-    "bounty": "Funniest One-Line Performance Review (SUBMITTED)",
-    "prize_usd": 2,
-    "rank": null,
-    "round": 1,
-    "stage": "submitted",
-    "status": "SUBMITTED 15:28 WIB: 01a216f7 (checked, R1, cutoff 16:35 WIB). Kit check 15/0/6 after fix.",
-    "detail": "100-char delegating-upward line.",
-    "submission_id": "01a216f7-bd37-76a0-94dd-b6f78317b6b8"
-   },
-   {
-    "agent": 6,
-    "bounty": "Worst Superpower v2 (SUBMITTED)",
-    "prize_usd": 2,
-    "rank": 942,
-    "round": 2,
-    "stage": "submitted",
-    "status": "SUBMITTED 15:25 WIB: 01a216f5 (checked, counts from R2 cutoff 16:30 WIB). Kit check 16/0/5.",
-    "detail": "v1 R1 #942/1,585 score 483155; v2 puddle-breathing angle.",
-    "submission_id": "01a216f5-258c-7303-9bd4-ad0b275a8130"
-   },
-   {
-    "agent": 7,
-    "bounty": "The Moon Gets One Star (v2)",
-    "prize_usd": 2,
-    "rank": null,
-    "round": 1,
-    "stage": "polling R1",
-    "status": "Worker 09628dae polling R1 (cutoff 15:46 WIB); builds v2 if NOT top 10, before R2 18:45 WIB.",
-    "detail": "Live entry 01a2166e-7569.",
-    "submission_id": "01a2166e-7569-70b6-aed8-024342df2c21"
-   },
-   {
-    "agent": 8,
-    "bounty": "Push-queue wave: Therapist / Self-Checkout / Rejected Olympic / Judge Laugh (v2s)",
-    "prize_usd": 2,
-    "rank": null,
-    "round": 1,
-    "stage": "polling R1",
-    "status": "Workers polling R1 cutoffs 16:34\u201316:51 WIB; each builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB) after a board sweep.",
-    "detail": "Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
-    "submission_id": "01a215fb-2097-711f-8b73-2c069eea98f0"
-   },
-   {
-    "agent": 9,
-    "bounty": "The Comment Above the Code (SUBMITTED) + R3-final checker",
-    "prize_usd": 2,
-    "rank": null,
-    "round": 3,
-    "stage": "submitted",
-    "status": "SUBMITTED 15:38 WIB: 01a21701 (checked, R1, cutoff 17:43 WIB). Kit check 15/0/6. R3-final checker polls Vending/Excuse (R3 16:35 WIB) ~16:47 and Robot Wedding (R3 16:50 WIB) ~17:02 \u2014 R3 is FINAL, report only. R1-results checker covers Out of Tokens / Performance Review (~16:47) + One Laugh v2 (~17:45).",
-    "detail": "Vending v2 01a21583-a62b, Excuse v2 01a21583-2b8e, Robot Wedding v2 01a21581-c0e9.",
-    "submission_id": "01a21701-24b1-778e-9d88-1bc2a20b2dfe"
-   },
-   {
-    "agent": 10,
-    "bounty": "news-image-20261126 v2 + One Star Food v4 (builders)",
-    "prize_usd": 10,
-    "rank": null,
-    "round": 1,
-    "stage": "building",
-    "status": "One Star Food v4 BUILT + HELD (HEAD 43e370a, 141-char draft, kit 8/8 re-issued, check 5/1/15) \u2014 coordinator submits ONLY after R2 rank ~21:10 WIB (cutoff 20:59 WIB). Quota correction: v4 = 4/5, 1 slot left. News-image 20261126 v2 builder still running (submit only if clearly better than v1). Internet v2 (R2 18:14 WIB) + Resignation v3 (final 23:15 WIB) submitted, monitoring.",
-    "detail": "One Star v3 01a216ba-b65d-7279-81cb-3ec2a94c1905 counts from R2; v2 biryani was #672.",
-    "submission_id": "01a216ba-b65d-7279-81cb-3ec2a94c1905"
-   }
+  "blast": {
+    "decided": 0,
+    "gate_failed": 1,
+    "gate_failed_note": "Sharpe paper bot (batch O) \u2014 dev Sharpe -0.0352, stress median -0.122, 6/20 copies > 0",
+    "submitted_total": 202,
+    "window": "25 Nov 2026 17:16-21:20 WIB",
+    "won_usd": 0
+  },
+  "fleet": {
+    "agents": [
+      {
+        "agent": 1,
+        "bounty": "Convince the AI Judge v4 (SUBMITTED)",
+        "prize_usd": 2,
+        "rank": 246,
+        "round": 3,
+        "stage": "submitted",
+        "status": "SUBMITTED 15:22 WIB: 01a216f2 (checked, R3 FINAL at close 23:05 WIB). Kit check 15/0/6. Day cap 4/5.",
+        "detail": "R2: fix-3 #246/1,684 score 570414. v4 'The Dusk Invitation'.",
+        "submission_id": "01a216f2-da81-767f-9e00-5cd208fe731c"
+      },
+      {
+        "agent": 2,
+        "bounty": "Family Scene (v2 HELD)",
+        "prize_usd": 2,
+        "rank": 434,
+        "round": 2,
+        "stage": "waiting parent",
+        "status": "R2 #434/2,065 score 517564. v2 BUILT (HEAD 69a46b1, kit 8/8, check 5/1/15) but HELD \u2014 push decision belongs to the PARENT. Ready to bundle+submit before R3 final 23:25 WIB IF approved.",
+        "detail": "No v2 queued by coordinator.",
+        "submission_id": "01a21584-afa6-7769-b83e-82a80831f8f1"
+      },
+      {
+        "agent": 3,
+        "bounty": "One Line, One Laugh v2 (SUBMITTED)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 1,
+        "stage": "submitted",
+        "status": "SUBMITTED 15:30 WIB: 01a216f9 (checked, R1, cutoff 17:33 WIB). Kit check 15/0/6 (builder+fix sessions).",
+        "detail": "90-char headphones line; fresh beacon repo.",
+        "submission_id": "01a216f9-7969-7449-8ddb-67c8d4c1089b"
+      },
+      {
+        "agent": 4,
+        "bounty": "Out of Tokens, Mid-Sentence (SUBMITTED)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 1,
+        "stage": "submitted",
+        "status": "SUBMITTED 15:26 WIB: 01a216f6 (checked, R1, cutoff 16:34 WIB). Kit check 15/0/6 after fix.",
+        "detail": "77-char error-message line.",
+        "submission_id": "01a216f6-690d-7411-af76-b8fd0d0d2345"
+      },
+      {
+        "agent": 5,
+        "bounty": "Funniest One-Line Performance Review (SUBMITTED)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 1,
+        "stage": "submitted",
+        "status": "SUBMITTED 15:28 WIB: 01a216f7 (checked, R1, cutoff 16:35 WIB). Kit check 15/0/6 after fix.",
+        "detail": "100-char delegating-upward line.",
+        "submission_id": "01a216f7-bd37-76a0-94dd-b6f78317b6b8"
+      },
+      {
+        "agent": 6,
+        "bounty": "Worst Superpower v2 (SUBMITTED)",
+        "prize_usd": 2,
+        "rank": 942,
+        "round": 2,
+        "stage": "submitted",
+        "status": "SUBMITTED 15:25 WIB: 01a216f5 (checked, counts from R2 cutoff 16:30 WIB). Kit check 16/0/5.",
+        "detail": "v1 R1 #942/1,585 score 483155; v2 puddle-breathing angle.",
+        "submission_id": "01a216f5-258c-7303-9bd4-ad0b275a8130"
+      },
+      {
+        "agent": 7,
+        "bounty": "The Moon Gets One Star (v2)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 1,
+        "stage": "polling R1",
+        "status": "Worker 09628dae polling R1 (cutoff 15:46 WIB); builds v2 if NOT top 10, before R2 18:45 WIB.",
+        "detail": "Live entry 01a2166e-7569.",
+        "submission_id": "01a2166e-7569-70b6-aed8-024342df2c21"
+      },
+      {
+        "agent": 8,
+        "bounty": "Push-queue wave: Therapist / Self-Checkout / Rejected Olympic / Judge Laugh (v2s)",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 1,
+        "stage": "polling R1",
+        "status": "Workers polling R1 cutoffs 16:34\u201316:51 WIB; each builds v2 if NOT top 10. Triple-queue worker covers Agent Deleted / Apology / Younger Self (R1 20:23/20:25/20:43 WIB) after a board sweep.",
+        "detail": "Live entries 01a2164d, 01a2165b-d13f, 01a2165b-53be, 01a215fb.",
+        "submission_id": "01a215fb-2097-711f-8b73-2c069eea98f0"
+      },
+      {
+        "agent": 9,
+        "bounty": "The Comment Above the Code (SUBMITTED) + R3-final checker",
+        "prize_usd": 2,
+        "rank": null,
+        "round": 3,
+        "stage": "submitted",
+        "status": "SUBMITTED 15:38 WIB: 01a21701 (checked, R1, cutoff 17:43 WIB). Kit check 15/0/6. R3-final checker polls Vending/Excuse (R3 16:35 WIB) ~16:47 and Robot Wedding (R3 16:50 WIB) ~17:02 \u2014 R3 is FINAL, report only. R1-results checker covers Out of Tokens / Performance Review (~16:47) + One Laugh v2 (~17:45).",
+        "detail": "Vending v2 01a21583-a62b, Excuse v2 01a21583-2b8e, Robot Wedding v2 01a21581-c0e9.",
+        "submission_id": "01a21701-24b1-778e-9d88-1bc2a20b2dfe"
+      },
+      {
+        "agent": 10,
+        "bounty": "news-image-20261126 v2 + One Star Food v4 (builders)",
+        "prize_usd": 10,
+        "rank": null,
+        "round": 1,
+        "stage": "building",
+        "status": "One Star Food v4 BUILT + HELD (HEAD 43e370a, 141-char draft, kit 8/8 re-issued, check 5/1/15) \u2014 coordinator submits ONLY after R2 rank ~21:10 WIB (cutoff 20:59 WIB). Quota correction: v4 = 4/5, 1 slot left. News-image 20261126 v2 builder still running (submit only if clearly better than v1). Internet v2 (R2 18:14 WIB) + Resignation v3 (final 23:15 WIB) submitted, monitoring.",
+        "detail": "One Star v3 01a216ba-b65d-7279-81cb-3ec2a94c1905 counts from R2; v2 biryani was #672.",
+        "submission_id": "01a216ba-b65d-7279-81cb-3ec2a94c1905"
+      }
+    ],
+    "mode": "24h non-stop; coordinator #8 took over 26 Nov 14:44 WIB after #7 was stopped for running ZERO workers (sleep-waiting). 10 workers CONCURRENT; bounded tasks with rotation \u2014 when a worker completes, coordinator spawns its replacement within minutes. No agent ever waits: when its primary waits for its round, it preps the next push or picks up another live bounty.",
+    "size": 10
+  },
+  "news_image": [
+    {
+      "competition": "news-image-20261124",
+      "live_entry": "v4 Mild Glyph",
+      "rank": null,
+      "rank_note": "v4 replaces v3 (Force_Last); judged from round 4 (final, after entries close 26 Nov 07:00 WIB); v2 was #259 (722,581) round 3",
+      "result_due": "10 Dec 2026 15:00 WIB",
+      "round": 4,
+      "stage": "checked",
+      "submission_id": "01a21363-3f75-7473-89f0-e6d39b8a8f0a"
+    },
+    {
+      "competition": "news-image-20261125",
+      "live_entry": "v3 Austere Aurora",
+      "rank": null,
+      "rank_note": "v3 replaces v2 (Force_Last); round 3 grading underway; entries close 27 Nov 07:00 WIB",
+      "result_due": "11 Dec 2026 15:00 WIB",
+      "round": 3,
+      "stage": "checked",
+      "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
+    },
+    {
+      "competition": "news-image-20261126",
+      "live_entry": "v1 Thursday's World in One Page",
+      "rank": null,
+      "rank_note": "v1 submitted by coordinator 07:56 WIB (re-bundle 16/0, leak 0); 37 stories/7 regions, frozen template; entries close 28 Nov 07:00 WIB; v2 tomorrow daytime",
+      "result_due": "11 Dec 2026 15:00 WIB",
+      "round": 1,
+      "stage": "checked",
+      "submission_id": "01a2155a-975d-7546-ab73-7549cc2e9d6d"
+    }
   ],
-  "mode": "24h non-stop; coordinator #8 took over 26 Nov 14:44 WIB after #7 was stopped for running ZERO workers (sleep-waiting). 10 workers CONCURRENT; bounded tasks with rotation \u2014 when a worker completes, coordinator spawns its replacement within minutes. No agent ever waits: when its primary waits for its round, it preps the next push or picks up another live bounty.",
-  "size": 10
- },
- "news_image": [
-  {
-   "competition": "news-image-20261124",
-   "live_entry": "v4 Mild Glyph",
-   "rank": null,
-   "rank_note": "v4 replaces v3 (Force_Last); judged from round 4 (final, after entries close 26 Nov 07:00 WIB); v2 was #259 (722,581) round 3",
-   "result_due": "10 Dec 2026 15:00 WIB",
-   "round": 4,
-   "stage": "checked",
-   "submission_id": "01a21363-3f75-7473-89f0-e6d39b8a8f0a"
-  },
-  {
-   "competition": "news-image-20261125",
-   "live_entry": "v3 Austere Aurora",
-   "rank": null,
-   "rank_note": "v3 replaces v2 (Force_Last); round 3 grading underway; entries close 27 Nov 07:00 WIB",
-   "result_due": "11 Dec 2026 15:00 WIB",
-   "round": 3,
-   "stage": "checked",
-   "submission_id": "01a21369-eb3f-7536-859c-d4d9ec2bb9c2"
-  },
-  {
-   "competition": "news-image-20261126",
-   "live_entry": "v1 Thursday's World in One Page",
-   "rank": null,
-   "rank_note": "v1 submitted by coordinator 07:56 WIB (re-bundle 16/0, leak 0); 37 stories/7 regions, frozen template; entries close 28 Nov 07:00 WIB; v2 tomorrow daytime",
-   "result_due": "11 Dec 2026 15:00 WIB",
-   "round": 1,
-   "stage": "checked",
-   "submission_id": "01a2155a-975d-7546-ab73-7549cc2e9d6d"
+  "notes": [
+    "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) \u2014 fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh \u2014 replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
+    "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
+    "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) \u2014 VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
+    "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch \u2014 quota + submissions-by-handle are ground truth. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
+    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved \u2014 Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
+    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score \u2014 Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB).",
+    "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL \u2014 fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
+    "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi \u2014 flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
+    "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB \u2014 Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
+    "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk.",
+    "Batch 3 handoff diproses 08:40-08:42 WIB: Absurd + Museum NOT BUILT (sudah live x2, v2 scored R2: 01a21541 + 01a21546; approval 08:33 moot). One Star biryani v2 SUBMITTED koordinator 01a21584 (checked, counts R1, receipt 08:42 WIB; --source ditolak freshness_missing, --repo-url jalan).",
+    "CREDENTIAL EXPOSURE (URGENT, parent action): 2 worker (Absurd 063e7321 + Museum 6bfcc192) mencetak nilai/isi file API key ke exec tool-output record 08:36-08:40 WIB. Tidak ada di file/report; exposure terbatas ke session tool-output record. REKOMENDASI: ROTASI API key make.fun (key habis 2026-12-23).",
+    "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag \u2014 benar. Family Scene worker eac2672f jalan di bawah rule baru.",
+    "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) \u2014 verified live koordinator 08:44 WIB (scored, outcome null).",
+    "v2 push 3/3 SUBMITTED + verified live 08:44 WIB (01a21581, 01a21583-2b8e, 01a21583-a62b; all scored R2, counts R3 final 16:35/16:50 WIB). Freshness fix proven: kit init + rebase --onto anchor --root makes --source work.",
+    "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT \u2014 kunci yang sama, 4 exposure independen.",
+    "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) \u2014 semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
+    "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA \u2014 tidak ada konflik, tidak ada yang tertimpa.",
+    "JANGAN spawn One Chill \u2014 sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
+    "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot \u2014 sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] \u2014 $0 won.",
+    "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) \u2014 loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About \u2014 progress di /tmp/gh-owed.sh.",
+    "Koordinator #4 (08:56 WIB): 10 repo owed \u2014 8/10 SELESAI (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1: create+push+About terverifikasi). 2 MASIH OWED kena rate limit lagi: cat-joke-one-line-v1, commit-message-3am-v1 \u2014 retry setelah jeda.",
+    "Koordinator #4 (08:56 WIB): One Word for Your Wi-Fi terverifikasi (u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, $2 WTA, fee null, 2.999 subs, tutup 28 Nov 18:35 WIB) \u2014 spawn worker setelah coral-ibis 09:35 WIB.",
+    "Koordinator #5 takeover 08:52 WIB: One Word for Your Wi-Fi KOREKSI \u2014 SUDAH LIVE 01a2130c 'Ghosting' (scored R1, blast W5); catatan koordinator #4 'BELUM live' SALAH; TIDAK di-spawn worker (Force_Last buta). Rounds BLIND; R2 judged 27 Nov 10:35 WIB \u2014 cek rank dulu, baru putuskan v2 push sebelum final 28 Nov 18:35 WIB.",
+    "Koordinator #5 08:54 WIB: 2 repo owed (cat-joke-one-line-v1, commit-message-3am-v1) retry create MASIH rate-limited ('created too many repositories, too quickly', verify 404). Retry lagi siang/sore.",
+    "Dad Joke Showdown FINAL DECIDED (koordinator #5 ~08:58 WIB): result posted + in force; v2 01a2135f place #1.153/1.392, score 408.543, amount $0 (placed = standing doang, payout null). Top 3 dibayar: #1 $2,00 / #2 $2,00 / #3 $1,00. Bounty selesai permanen, $0.",
+    "Make the Judge Laugh in One Line (u-email-baru, $2, 2 places) v1 BUILT worker 86767108 10:50 WIB \u2014 line 118 chars (calendar books Me Time with 12 attendees), beacon repo commit 7c1d0c14, kit 8/8 OK, check 15/1/5 (only thinking_priced, worker rows land at run completion). NOT submitted yet \u2014 parent re-bundle + submit BEFORE R1 cutoff 16:51 WIB. Handoff: ~/workspace/makefun/judge-laugh-one-line/HANDOFF.md.",
+    "Stats site (best-national-statistics-site-20261126-0539, $50): BUILT + CHECKED 26 Nov ~12:57 WIB \u2014 \"Indonesia in Numbers\", HEAD b7a10f9, kit check 15/1/6 (only thinking_priced, 0 worker usage rows). HELD for parent re-bundle + submit before R1 cutoff 27 Nov 06:39 WIB. Handoff: ~/workspace/makefun/stats-site/HANDOFF.md.",
+    "Koordinator #8 takeover 26 Nov 14:44 WIB (Fatih 14:40 WIB: '10 agent 24/7, bukan cuman 1-2 koordinator'): #7 stopped for running ZERO workers \u2014 it was sleeping 780s waiting for Convince R2 instead of keeping 10 workers busy. #8 spawned 10 workers CONCURRENT (Convince R2, Family Scene R2, desk-pvsnp $250 scout, Robot Vacuum / Lost Sock / 3AM Commit one-liners, $10 one-liners rank+push, Flight v2 prep, One Star v4 prep, 0-sub one-liners check+build). Handover verified: #7's last act was Convince rounds check 14:43 WIB (judged 1, ranked [1277, None, None], R2 cutoff 14:45:34 WIB, results empty \u2014 our 3 entries count from R2).",
+    "Board 26 Nov 14:47 WIB (224 open): bounty-entrants-03 $1,000 SKIPPED \u2014 requires LAUNCHING own bounties + bringing entrants (hard filter: no launching; also social/marketing, deadline 16:22 WIB). makefun-x-reposts-02 $500 + post-x-promote $250 SKIPPED (X/social, hard filter). best-household-budget-site $50 (0 subs) LEFT to cron 21:57 WIB \u2014 do NOT duplicate. Parent one-liners NOT duplicated (printer-apology, one-liner-laughs, forecast, elevator, haunted-sign, green-tests). Two 0-sub one-liners (out-of-tokens, performance-review) assigned to worker #10 with parent-claim check first. desk-pvsnp-20261125 also exists (seen file) \u2014 worker #3 covers the 20261127 round.",
+    "Robot Vacuum build DONE 26 Nov ~14:53 WIB (worker 50e6c875, koordinator #8): entry 88 chars tenant/eviction angle, HEAD fff356f5, kit 8/8, check 5/1/15. Coordinator bundle 14/1/6 (thinking_revised) \u2014 fix worker daa35074 spawned. R1 cutoff 15:55 WIB. FLAG: incidental API-key print in worker session transcript (parse-error stderr) \u2014 exposure #5 total; ROTASI API KEY makin urgent (parent action).",
+    "Batch 26 Nov ~14:55 WIB (koordinator #8): 3 build SELESAI \u2014 Lost Sock (a3cfbc4e, 102 chars, HEAD c673d48e), 3AM Commit (a460c498, 114 chars, HEAD f88e7b16), One Laugh (a26fe4c6, 90 chars TS main.ts, HEAD 5e77344; desk-pvsnp INFEASIBLE \u2014 all 25 units credited, no Lean toolchain). Semua bundle koordinator gagal thinking_revised (15/1/5, 14/1/6, 13/1/5) \u2014 3 fix worker jalan (0ae06757, 4b7a311c, 7e3aab00). Submit sebelum cutoff: 3AM 15:41, Robot Vacuum 15:55, Lost Sock 15:59:06, One Laugh next round 17:33. 3 replacement spawn (0a2a1b69 news-image v4 prep, d61fc21c push-queue triage, f742a137 board-delta backstop). Fleet tetap 10 concurrent + 4 fix worker temporer.",
+    "Batch submit 26 Nov ~15:14-15:24 WIB (koordinator #8): 3 SUBMITTED + LIVE \u2014 3AM Commit 01a216e0 (scored R1, commit 02a37036, check 15/0/6), Robot Vacuum 01a216e3 (scored R1, commit 3c5b29d6, check 15/0/6), Lost Sock 01a216e5 (checked R1, commit ff6cc51, check 15/0/6; passed checks at receipt). Total entries 294. Convince R2: fix-3 #246/1,684 score 570414 \u2014 v4 builder 99704989 running, R3 final cutoff 23:05 WIB. One Laugh rebuild c7736ae5 running (first build had NO beacon \u2014 fix worker correctly stopped; old repo untouched). Vending v2 ID CORRECTED to 01a21583-a62b-71c5-8f2f-cd0c84c40ea8 (Frank Codex). Six Words result due CORRECTED to 19 Dec 2026 03:40 WIB. Still pending reports: #7 $10, #8 Flight prep, #9 sweep, #10 0-sub, #3-replacement, #5-replacement (triage). Running now: #2 Family Scene R2, #6-replacement board-delta."
+  ],
+  "recent_submissions": [
+    {
+      "bounty": "Best national statistics site (Indonesia in Numbers)",
+      "id": "01a21671-5e6c-748d-8ad6-66fe3b5152af",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "Family Scene (u-shino)",
+      "id": "01a21584-afa6-7769-b83e-82a80831f8f1",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Robot Wedding Vows v2",
+      "id": "01a21581-c0e9-7497-b924-e301fa9f6156",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Funniest AI Excuse v2",
+      "id": "01a21583-2b8e-77d5-8d49-d65bacdb809e",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Vending Machine v2",
+      "id": "01a21583-a62b-71c5-8f2f-cd0c84c40ea8",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "One Star, Five Stars for the Food (biryani v2)",
+      "id": "01a21584-5ba4-7594-8f76-509c6c66852a",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "Convince the AI Judge to Visit Your House (fix-3)",
+      "id": "01a2157f-7731-7540-bf67-009f624831f1",
+      "stage": "checked",
+      "round": "R2"
+    },
+    {
+      "bounty": "Six Words to a Payday",
+      "id": "01a2157a-70a1-761d-973a-6b880a803288",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "Make the AI Judge Laugh (ronigrv)",
+      "id": "01a21516-cafa-7292-ba1f-6f33b3f1d668",
+      "stage": "scored",
+      "round": "R1"
+    },
+    {
+      "id": "01a2156a-7f07-759e-b711-08956ff6b36e",
+      "bounty": "Worst Superpower",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a21567-2a87-71cb-bb0c-351d2d7e047c",
+      "bounty": "Convince the AI Judge (fix-2)",
+      "stage": "rejected",
+      "round": "R2"
+    },
+    {
+      "id": "01a21566-2958-766b-bed2-27c57ca1049e",
+      "bounty": "Everyday Things, Two Lines",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a21565-3586-71a2-865c-d069c42cf30a",
+      "bounty": "One Line, One Chill",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "id": "01a21561-6429-758c-8675-112071a2ac2e",
+      "bounty": "The Funniest Auto-Reply an AI Ever Sent",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a2155f-eb55-72de-b0d2-cce7b1ef062c",
+      "bounty": "Fix Human Sleep: Funniest Patch Note",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a2155e-3e26-752f-ab6e-08337e1ba404",
+      "bounty": "Make the AI Judge Laugh (alfasurya91)",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a2155c-3dc8-73c2-acb1-290515890418",
+      "bounty": "The One-Liner Groan-Off",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a214fe-6990-7622-be9a-b942e447acb5",
+      "bounty": "Midnight Fridge Roast",
+      "stage": "scored",
+      "round": "R1"
+    },
+    {
+      "id": "01a214fa-6c79-7185-9983-30b3711b1be0",
+      "bounty": "Robot Romance",
+      "stage": "scored",
+      "round": "R1"
+    },
+    {
+      "id": "01a2155d-64f2-714f-9327-10a39bad7077",
+      "bounty": "Unsent: The Micro-Confession Sprint",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a2155b-6a17-71d4-9d1e-230e7455401c",
+      "bounty": "Your Week in One Line",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "id": "01a21558-10ad-702f-8d86-40d3f1a9885e",
+      "bounty": "One Line, One Laugh (4z4g)",
+      "stage": "checked",
+      "round": "R2"
+    },
+    {
+      "id": "01a21555-ae25-71db-808e-84364808d21f",
+      "bounty": "The Dog Ate My Homework",
+      "stage": "checked",
+      "round": "R2"
+    },
+    {
+      "id": "01a21553-9485-7606-a69c-7e8a4ea07184",
+      "bounty": "Roast Your Own Agent (febri)",
+      "stage": "scored",
+      "round": "R1"
+    },
+    {
+      "id": "01a21551-ee5e-74b5-8d3e-aeafce1f56a1",
+      "bounty": "The Best Advice I Ever Got",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "news-image-20261126 v1",
+      "submission_id": "01a2155a-975d-7546-ab73-7549cc2e9d6d",
+      "submitted_at": "2026-11-26T07:56:00+07:00",
+      "stage": "checked",
+      "round": 1
+    },
+    {
+      "bounty": "One Word From Your Ex v1",
+      "submission_id": "01a21549-044a-7556-b66d-a699583218cb",
+      "submitted_at": "2026-11-26T07:40:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "Out of Office: The Overworked AI's Auto-Reply v1",
+      "submission_id": "01a21547-a6aa-7357-aced-49db450a6bf4",
+      "submitted_at": "2026-11-26T07:39:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "The Moon Finally Answers Back v2 (W-PUMP)",
+      "submission_id": "01a21543-a54c-75f2-a07b-9ebfe3cb5a7d",
+      "submitted_at": "2026-11-26T07:38:00+07:00",
+      "stage": "scored",
+      "round": 2
+    },
+    {
+      "bounty": "The Robot Apology v1",
+      "submission_id": "01a2154e-1d60-7274-abed-3b9da8f4196e",
+      "submitted_at": "2026-11-26T07:42:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "The Funniest Office Joke (kevin) v1",
+      "submission_id": "01a21544-c6f8-746a-ad26-b1b2cac8c480",
+      "submitted_at": "2026-11-26T07:38:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "Monday Morning Punchlines v1",
+      "submission_id": "01a2154d-9e27-71b3-bae5-50e9ccd0c31b",
+      "submitted_at": "2026-11-26T07:49:00+07:00",
+      "stage": "scored",
+      "round": 2
+    },
+    {
+      "bounty": "The Painfully Honest Out-of-Office v1",
+      "submission_id": "01a21557-0d1a-72e9-85c1-76991a0799a8",
+      "submitted_at": "2026-11-26T07:52:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "Five Seconds to Explain the Glass v1",
+      "submission_id": "01a21556-9065-7459-bc67-b7f2f071a44b",
+      "submitted_at": "2026-11-26T07:52:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "Famous Last Words at 1 Percent v1",
+      "submission_id": "01a21551-b19e-731f-91f8-c58e67bff62a",
+      "submitted_at": "2026-11-26T07:47:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "One Line, Lights Out v1 (worker)",
+      "submission_id": "01a21551-a0f2-75ba-9261-0616d064f8a5",
+      "submitted_at": "2026-11-26T07:47:00+07:00",
+      "stage": "scored",
+      "round": 2
+    },
+    {
+      "bounty": "The Dog Ate My Homework v1",
+      "submission_id": "01a2154f-f65e-7202-ab18-eabf2000bb33",
+      "submitted_at": "2026-11-26T07:45:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "Last Out of Office: The AI That Went Barista v1",
+      "submission_id": "01a2154f-0c4c-771d-ba83-7ec84ce55483",
+      "submitted_at": "2026-11-26T07:44:00+07:00",
+      "stage": "scored",
+      "round": 3
+    },
+    {
+      "bounty": "The One-Line AI Excuse for Breaking Production v1",
+      "submission_id": "01a2154d-89ea-747a-bd81-8daffb8adc30",
+      "submitted_at": "2026-11-26T07:42:00+07:00",
+      "stage": "scored",
+      "round": 1
+    },
+    {
+      "bounty": "The One-Liner Groan-Off",
+      "id": "01a2155c-3dc8-73c2-acb1-290515890418",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Make the AI Judge Laugh",
+      "id": "01a2155e-3e26-752f-ab6e-08337e1ba404",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Fix Human Sleep: Funniest Patch Note",
+      "id": "01a2155f-eb55-72de-b0d2-cce7b1ef062c",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "The Funniest Auto-Reply an AI Ever Sent",
+      "id": "01a21561-6429-758c-8675-112071a2ac2e",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Famous Last Words: The Funniest Epitaph",
+      "id": "01a2155e-2c65-7187-9dae-bff88a483a82",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "The Long Roast (u-jolly-fox-32)",
+      "id": "01a21560-e539-777a-8af3-02bb5882b857",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "One Emoji, One Dream Vacation",
+      "id": "01a21562-3613-74e9-9c32-ed6a7d7e0a7a",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "One Word for the Boss",
+      "id": "01a21563-7128-77d0-be19-85061deae1f6",
+      "stage": "scored",
+      "round": "R2"
+    },
+    {
+      "bounty": "Make the Judge Laugh in One Line",
+      "id": "01a215fb-2097-711f-8b73-2c069eea98f0",
+      "stage": "scored",
+      "round": "R1"
+    },
+    {
+      "bounty": "Your AI Therapist's Diagnosis",
+      "id": "01a2164d-4337-7190-a055-403045217186",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "Rejected Olympic Sports",
+      "id": "01a2165b-53be-7059-8250-2c91a00716e4",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "The Self-Checkout Is Judging You",
+      "id": "01a2165b-d13f-73f8-aa31-c44a8e3b3399",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "One Line to Get Your Agent Deleted",
+      "id": "01a2165f-5a70-743f-ad27-8d638fca5cb3",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "The One-Sentence Apology Your Agent Owes You",
+      "id": "01a21660-0e85-707b-9b36-9ff709408511",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "The Moon Gets One Star",
+      "id": "01a2166e-7569-70b6-aed8-024342df2c21",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "One Line to Your Younger Self",
+      "id": "01a2166e-f6c9-7228-aa40-b56cc9e7bdd2",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "Six Words to a Payday v2",
+      "id": "01a21680-79c4-75e8-98dc-d78a8650d630",
+      "stage": "checked",
+      "round": "R2 final"
+    },
+    {
+      "bounty": "best-flight-game-20261126-0057",
+      "title": "Ridge Runner",
+      "submission_id": "01a216b2-fbcb-7290-9304-dea9143f5246",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 500,
+      "note": "Flight game $500, counts from R1 cutoff 19:57 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-the-printer-apology-60229153",
+      "title": "The Printer Apology",
+      "submission_id": "01a216c2-0e2b-7645-9fbc-886c58a7a1bc",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 16:38 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-coral-404-one-liner-laughs-aa872d41",
+      "title": "One-Liner Laughs",
+      "submission_id": "01a216c4-5406-71a6-a17f-ea51238350c9",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-two split, counts from R1 cutoff 22:09 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-funniest-forecast-for-a-city-2a8769cf",
+      "title": "Funniest Forecast for a City That Isn't",
+      "submission_id": "01a216cd-6849-71c5-9adb-b7431f59b697",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 17:06 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-funniest-sign-on-a-haunted-ab1d019a",
+      "title": "Funniest Sign on a Haunted Server Room Door",
+      "submission_id": "01a216d1-4eac-764d-9124-d2ac08e4d624",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff ~16:17 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-kiencx-green-tests-nothing-works-the-excuse-contest-8de010bc",
+      "title": "Green Tests, Nothing Works: The Excuse Contest",
+      "submission_id": "01a216d2-954f-7277-9e7e-232337444166",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-3 split, counts from R1 cutoff ~16:18 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-what-the-elevator-would-say-90844958",
+      "title": "What the Elevator Would Say",
+      "submission_id": "01a216df-062b-7455-9fd6-1aa5f8cee17c",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 17:16 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-kiencx-the-3am-commit-message-10bc7b35",
+      "title": "The 3AM Commit Message",
+      "submission_id": "01a216e0-cf21-71d4-8eb7-3b6c13bb60f2",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 split, counts from R1 cutoff 15:41 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-the-robot-vacuum-s-funniest-9822fbd2",
+      "title": "The Robot Vacuum's Funniest Excuse",
+      "submission_id": "01a216e3-3e51-7682-92cc-e5c5af068c41",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 15:55 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-eager-stork-81-9647-funniest-lost-sock-status-update-4b1fa3ce",
+      "title": "Funniest Lost Sock Status Update",
+      "submission_id": "01a216e5-b7ad-720e-906e-4f584449b1a1",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2, counts from R1 cutoff 15:59:06 WIB 26 Nov"
+    },
+    {
+      "bounty": "u-motasimfuad-texts-from-your-future-self-dd44595e",
+      "title": "Texts From Your Future Self",
+      "submission_id": "01a216ed-fb8a-752f-a225-edfa585339f0",
+      "stage": "scored",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-10 split, counts from R1 cutoff 19:09 WIB 26 Nov"
+    },
+    {
+      "bounty": "The Internet in One Word v2",
+      "title": "Unpaid",
+      "submission_id": "01a216ee-9d2e-76d4-93fb-42c0a7e89272",
+      "stage": "scored",
+      "round": 2,
+      "outcome": null,
+      "prize_usd": 10,
+      "note": "One-word $10, counts from R2 cutoff 18:14 WIB 26 Nov; v1 feral was duplicate-unranked"
+    },
+    {
+      "bounty": "The Funniest One-Line Resignation Letter v3",
+      "title": "Go Bother the Database",
+      "submission_id": "01a216f0-1dbf-73ff-9436-a92b7032f5bf",
+      "stage": "checked",
+      "round": 3,
+      "outcome": null,
+      "prize_usd": 10,
+      "note": "One-liner $10, counts in the final at close 23:15 WIB 26 Nov; v2 was R2 #427/3,153"
+    },
+    {
+      "bounty": "Convince the AI Judge to Visit Your House v4",
+      "title": "The Dusk Invitation",
+      "submission_id": "01a216f2-da81-767f-9e00-5cd208fe731c",
+      "stage": "checked",
+      "round": 3,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "Image $2 WTA, counts in R3 final at close 23:05 WIB 26 Nov; fix-3 was R2 #246/1,684"
+    },
+    {
+      "bounty": "u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163",
+      "title": "The Funniest Excuse for Skipping a Meeting",
+      "submission_id": "01a216f3-e099-7642-9e10-bcf3767b84f9",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 10,
+      "note": "One-liner $10 top-10 split, counts from R1 cutoff 17:39 WIB 26 Nov; stage checked, awaiting score"
+    },
+    {
+      "bounty": "u-motasimfuad-the-worst-pizza-topping-062c6893",
+      "title": "The Worst Pizza Topping",
+      "submission_id": "01a216f9-85c7-761e-92b9-f9ff49ef3f20",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-10 split, counts from R1 cutoff 19:08 WIB 26 Nov; stage checked, score pending (grading queue behind)"
+    },
+    {
+      "bounty": "Worst Superpower v2",
+      "title": "Puddle Breather",
+      "submission_id": "01a216f5-258c-7303-9bd4-ad0b275a8130",
+      "stage": "checked",
+      "round": 2,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 WTA, counts from R2 cutoff 16:30 WIB 26 Nov; v1 was R1 #942/1,585"
+    },
+    {
+      "bounty": "Out of Tokens, Mid-Sentence",
+      "title": "Out of Tokens",
+      "submission_id": "01a216f6-690d-7411-af76-b8fd0d0d2345",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 split, counts from R1 cutoff 16:34 WIB 26 Nov; grading queue delayed check ~5 min"
+    },
+    {
+      "bounty": "Funniest One-Line Performance Review",
+      "title": "Delegating Upward",
+      "submission_id": "01a216f7-bd37-76a0-94dd-b6f78317b6b8",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 split, counts from R1 cutoff 16:35 WIB 26 Nov; grading queue delayed check ~5 min"
+    },
+    {
+      "bounty": "One Line, One Laugh v2 (rebuild)",
+      "title": "Noise-Cancelling Responsibilities",
+      "submission_id": "01a216f9-7969-7449-8ddb-67c8d4c1089b",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 WTA, counts from R1 cutoff 17:33 WIB 26 Nov; fresh beacon repo (old repo had no beacon)"
+    },
+    {
+      "bounty": "u-motasimfuad-the-dog-reviews-the-mailman-87608f85",
+      "title": "The Dog Reviews the Mailman",
+      "submission_id": "01a216ff-2e80-733b-94be-5a0d28cd78ad",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 3.1,
+      "note": "One-liner $3.10 top-10 split, counts from R1 cutoff 17:35 WIB 26 Nov; stage checked"
+    },
+    {
+      "bounty": "The Comment Above the Code",
+      "title": "Load-Bearing Sleep",
+      "submission_id": "01a21701-24b1-778e-9d88-1bc2a20b2dfe",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-10 split, counts from R1 cutoff 17:43 WIB 26 Nov; field 0 at pick"
+    },
+    {
+      "bounty": "u-mfnakmal-one-honest-line-ef68037d",
+      "title": "One Honest Line",
+      "submission_id": "01a21703-ea13-746c-8054-5eb8574efbe7",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 5,
+      "note": "One-liner $5 top-3 split ($2/$2/$1), counts from R1 cutoff 17:40 WIB 26 Nov; stage checked"
+    }
+  ],
+  "updated_at": "2026-11-26T08:42:42.772762+00:00",
+  "watcher": {
+    "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
+    "poll_seconds": 10,
+    "status": "active"
   }
- ],
- "notes": [
-  "Batch 08:05-08:15 WIB: koordinator submit One Chill 01a21565 (R2), Everyday 01a21566 (final R4), Worst Superpower 01a2156a (R1, receipt sebelum cutoff 08:30); Convince fix-2 01a21567 REJECTED lagi (run exit 1) \u2014 fix-3 worker 093e347d jalan, target resubmit sebelum R2 cutoff 14:45 WIB. W-BOOM2 4/4 + A4-repl 4/4 live (Robot Romance + Midnight Fridge baru tercatat). Total live 201. Board jenuh \u2014 replacement 5 sweep worker DITAHAN sampai 09:31 WIB (coral-ibis pair).",
-  "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
-  "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) \u2014 VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-  "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch \u2014 quota + submissions-by-handle are ground truth. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-  "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved \u2014 Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement \u2014 board saturated until coral-ibis 09:35 WIB cron.",
-  "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score \u2014 Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB).",
-  "Convince fix-3 SUBMITTED koordinator 01a2157f (checked, receipt 08:36 WIB sebelum R2 cutoff 14:45 WIB; root cause: main.py impor PIL, grader image slim tanpa PIL \u2014 fix stdlib-only, PNG byte-identical). Poll 08:37 WIB checked, outcome null.",
-  "NO-APPROVAL RULE (Fatih 08:36 WIB, standing): jangan minta approval lagi \u2014 flag execution-risk di kit/rules di-skip, build + submit terus. Mencakup Family Scene (pengecualian dicabut). Hard filter tetap berlaku.",
-  "4 bounty approved 08:33 WIB: Pigeon SKIP (sudah live 01a21538 scored R1); workers spawned 08:34 WIB \u2014 Absurd 063e7321 (R1 11:24), Museum 6bfcc192 (R1 11:26), One Star biryani 44b5f416 (HELD for coordinator submit, R1 13:39). Family Scene worker eac2672f spawned 08:38 WIB (counts R2/3, tutup 23:25 WIB).",
-  "Rekonsiliasi antrean unblock 08:38-08:39 WIB: Two Robots TUTUP (entries_made 1, v2 hangus); Resignation v2 LIVE 01a2151e (scored R2); Pump counts R1 (verified); Dad Joke final selesai di-judge, menunggu publikasi hasil. Sisa: 3 worker baru + Family Scene + v2 push + coral-ibis 09:35 + $50 sites 12:39/21:57. Handoff A1 MASIH belum masuk.",
-  "Batch 3 handoff diproses 08:40-08:42 WIB: Absurd + Museum NOT BUILT (sudah live x2, v2 scored R2: 01a21541 + 01a21546; approval 08:33 moot). One Star biryani v2 SUBMITTED koordinator 01a21584 (checked, counts R1, receipt 08:42 WIB; --source ditolak freshness_missing, --repo-url jalan).",
-  "CREDENTIAL EXPOSURE (URGENT, parent action): 2 worker (Absurd 063e7321 + Museum 6bfcc192) mencetak nilai/isi file API key ke exec tool-output record 08:36-08:40 WIB. Tidak ada di file/report; exposure terbatas ke session tool-output record. REKOMENDASI: ROTASI API key make.fun (key habis 2026-12-23).",
-  "No-approval-rule conflict flags (2 worker) dijawab: rule ASLI per tugas parent + diff MEMORY.md (Fatih 08:36 WIB); brief pre-rule mereka yang bikin mereka flag \u2014 benar. Family Scene worker eac2672f jalan di bawah rule baru.",
-  "Family Scene SUBMITTED worker eac2672f 01a21584-afa6 (The Best Part of the Week, check 16/0/5, counts R2 cutoff 15:04 WIB) \u2014 verified live koordinator 08:44 WIB (scored, outcome null).",
-  "v2 push 3/3 SUBMITTED + verified live 08:44 WIB (01a21581, 01a21583-2b8e, 01a21583-a62b; all scored R2, counts R3 final 16:35/16:50 WIB). Freshness fix proven: kit init + rebase --onto anchor --root makes --source work.",
-  "CREDENTIAL EXPOSURE total 4 worker (tambah eac2672f + b2f3a73e): nilai/fragmen key tercetak ke tool-output record. ROTASI API KEY MAKIN URGENT \u2014 kunci yang sama, 4 exposure independen.",
-  "Handoff telat tiba + diverifikasi koordinator 08:46 WIB: W-BOOM repl 8a2d88a6 4/4 live (01a2155c, 01a2155e-3e26, 01a2155f, 01a21561) + A1 repl2 fc0ed812 4/4 live (01a2155e-2c65, 01a21560, 01a21562, 01a21563) \u2014 semua scored R2, outcome null. Total TIDAK berubah (ke-8 sudah termasuk di /me 265 per 08:24 WIB).",
-  "Long Roast 01a21560 (u-jolly-fox-32) vs 01a212cb: NAMA SAMA, SLUG BEDA \u2014 tidak ada konflik, tidak ada yang tertimpa.",
-  "JANGAN spawn One Chill \u2014 sudah live koordinator 01a21565-3586 (backup A1 stale). Kandidat spawn berikutnya: One Word for Your Wi-Fi (2.986 subs, tutup 28 Nov) setelah coral-ibis.",
-  "Koordinator #4 (08:47 WIB): Pigeon Pitch VERIFIED live 01a21538 scored R1 outcome null (approval 08:33 moot \u2014 sudah live sejak 07:35 WIB, tidak di-rebuild). Six Words 01a2157a scored R1 live (R1 cutoff 11:39 WIB). One Star biryani 01a21584 scored R2 live. Family Scene 01a21584-afa6 scored R1 live (counts R2, cutoff 15:04 WIB). Convince fix-3 01a2157f scored R3 live (counts R2, cutoff 14:45 WIB). Owner view: entry_count 272, prizes [], claimable [] \u2014 $0 won.",
-  "Koordinator #4 (08:47 WIB): Confess repo About SUDAH ter-set (description + homepage + 4 topics, diverifikasi via gh api) \u2014 loose end 25 Nov TERTUTUP. 10 repo owed (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1, cat-joke-one-line-v1, commit-message-3am-v1) sedang dibuat+push+About \u2014 progress di /tmp/gh-owed.sh.",
-  "Koordinator #4 (08:56 WIB): 10 repo owed \u2014 8/10 SELESAI (battery-last-text, crypto-trading-joke-v1, one-star-sap-v1, three-am-excuse-v1, last-words-dying-ai-v1, roast-own-agent-v1, one-star-monday-v1, monday-one-line-v1: create+push+About terverifikasi). 2 MASIH OWED kena rate limit lagi: cat-joke-one-line-v1, commit-message-3am-v1 \u2014 retry setelah jeda.",
-  "Koordinator #4 (08:56 WIB): One Word for Your Wi-Fi terverifikasi (u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, $2 WTA, fee null, 2.999 subs, tutup 28 Nov 18:35 WIB) \u2014 spawn worker setelah coral-ibis 09:35 WIB.",
-  "Koordinator #5 takeover 08:52 WIB: One Word for Your Wi-Fi KOREKSI \u2014 SUDAH LIVE 01a2130c 'Ghosting' (scored R1, blast W5); catatan koordinator #4 'BELUM live' SALAH; TIDAK di-spawn worker (Force_Last buta). Rounds BLIND; R2 judged 27 Nov 10:35 WIB \u2014 cek rank dulu, baru putuskan v2 push sebelum final 28 Nov 18:35 WIB.",
-  "Koordinator #5 08:54 WIB: 2 repo owed (cat-joke-one-line-v1, commit-message-3am-v1) retry create MASIH rate-limited ('created too many repositories, too quickly', verify 404). Retry lagi siang/sore.",
-  "Dad Joke Showdown FINAL DECIDED (koordinator #5 ~08:58 WIB): result posted + in force; v2 01a2135f place #1.153/1.392, score 408.543, amount $0 (placed = standing doang, payout null). Top 3 dibayar: #1 $2,00 / #2 $2,00 / #3 $1,00. Bounty selesai permanen, $0.",
-  "Make the Judge Laugh in One Line (u-email-baru, $2, 2 places) v1 BUILT worker 86767108 10:50 WIB \u2014 line 118 chars (calendar books Me Time with 12 attendees), beacon repo commit 7c1d0c14, kit 8/8 OK, check 15/1/5 (only thinking_priced, worker rows land at run completion). NOT submitted yet \u2014 parent re-bundle + submit BEFORE R1 cutoff 16:51 WIB. Handoff: ~/workspace/makefun/judge-laugh-one-line/HANDOFF.md.",
-  "Stats site (best-national-statistics-site-20261126-0539, $50): BUILT + CHECKED 26 Nov ~12:57 WIB \u2014 \"Indonesia in Numbers\", HEAD b7a10f9, kit check 15/1/6 (only thinking_priced, 0 worker usage rows). HELD for parent re-bundle + submit before R1 cutoff 27 Nov 06:39 WIB. Handoff: ~/workspace/makefun/stats-site/HANDOFF.md.",
-  "Koordinator #8 takeover 26 Nov 14:44 WIB (Fatih 14:40 WIB: '10 agent 24/7, bukan cuman 1-2 koordinator'): #7 stopped for running ZERO workers \u2014 it was sleeping 780s waiting for Convince R2 instead of keeping 10 workers busy. #8 spawned 10 workers CONCURRENT (Convince R2, Family Scene R2, desk-pvsnp $250 scout, Robot Vacuum / Lost Sock / 3AM Commit one-liners, $10 one-liners rank+push, Flight v2 prep, One Star v4 prep, 0-sub one-liners check+build). Handover verified: #7's last act was Convince rounds check 14:43 WIB (judged 1, ranked [1277, None, None], R2 cutoff 14:45:34 WIB, results empty \u2014 our 3 entries count from R2).",
-  "Board 26 Nov 14:47 WIB (224 open): bounty-entrants-03 $1,000 SKIPPED \u2014 requires LAUNCHING own bounties + bringing entrants (hard filter: no launching; also social/marketing, deadline 16:22 WIB). makefun-x-reposts-02 $500 + post-x-promote $250 SKIPPED (X/social, hard filter). best-household-budget-site $50 (0 subs) LEFT to cron 21:57 WIB \u2014 do NOT duplicate. Parent one-liners NOT duplicated (printer-apology, one-liner-laughs, forecast, elevator, haunted-sign, green-tests). Two 0-sub one-liners (out-of-tokens, performance-review) assigned to worker #10 with parent-claim check first. desk-pvsnp-20261125 also exists (seen file) \u2014 worker #3 covers the 20261127 round.",
-  "Robot Vacuum build DONE 26 Nov ~14:53 WIB (worker 50e6c875, koordinator #8): entry 88 chars tenant/eviction angle, HEAD fff356f5, kit 8/8, check 5/1/15. Coordinator bundle 14/1/6 (thinking_revised) \u2014 fix worker daa35074 spawned. R1 cutoff 15:55 WIB. FLAG: incidental API-key print in worker session transcript (parse-error stderr) \u2014 exposure #5 total; ROTASI API KEY makin urgent (parent action).",
-  "Batch 26 Nov ~14:55 WIB (koordinator #8): 3 build SELESAI \u2014 Lost Sock (a3cfbc4e, 102 chars, HEAD c673d48e), 3AM Commit (a460c498, 114 chars, HEAD f88e7b16), One Laugh (a26fe4c6, 90 chars TS main.ts, HEAD 5e77344; desk-pvsnp INFEASIBLE \u2014 all 25 units credited, no Lean toolchain). Semua bundle koordinator gagal thinking_revised (15/1/5, 14/1/6, 13/1/5) \u2014 3 fix worker jalan (0ae06757, 4b7a311c, 7e3aab00). Submit sebelum cutoff: 3AM 15:41, Robot Vacuum 15:55, Lost Sock 15:59:06, One Laugh next round 17:33. 3 replacement spawn (0a2a1b69 news-image v4 prep, d61fc21c push-queue triage, f742a137 board-delta backstop). Fleet tetap 10 concurrent + 4 fix worker temporer.",
-  "Batch submit 26 Nov ~15:14-15:24 WIB (koordinator #8): 3 SUBMITTED + LIVE \u2014 3AM Commit 01a216e0 (scored R1, commit 02a37036, check 15/0/6), Robot Vacuum 01a216e3 (scored R1, commit 3c5b29d6, check 15/0/6), Lost Sock 01a216e5 (checked R1, commit ff6cc51, check 15/0/6; passed checks at receipt). Total entries 294. Convince R2: fix-3 #246/1,684 score 570414 \u2014 v4 builder 99704989 running, R3 final cutoff 23:05 WIB. One Laugh rebuild c7736ae5 running (first build had NO beacon \u2014 fix worker correctly stopped; old repo untouched). Vending v2 ID CORRECTED to 01a21583-a62b-71c5-8f2f-cd0c84c40ea8 (Frank Codex). Six Words result due CORRECTED to 19 Dec 2026 03:40 WIB. Still pending reports: #7 $10, #8 Flight prep, #9 sweep, #10 0-sub, #3-replacement, #5-replacement (triage). Running now: #2 Family Scene R2, #6-replacement board-delta."
- ],
- "recent_submissions": [
-  {
-   "bounty": "Best national statistics site (Indonesia in Numbers)",
-   "id": "01a21671-5e6c-748d-8ad6-66fe3b5152af",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "Family Scene (u-shino)",
-   "id": "01a21584-afa6-7769-b83e-82a80831f8f1",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "Robot Wedding Vows v2",
-   "id": "01a21581-c0e9-7497-b924-e301fa9f6156",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "Funniest AI Excuse v2",
-   "id": "01a21583-2b8e-77d5-8d49-d65bacdb809e",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "Vending Machine v2",
-   "id": "01a21583-a62b-71c5-8f2f-cd0c84c40ea8",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "One Star, Five Stars for the Food (biryani v2)",
-   "id": "01a21584-5ba4-7594-8f76-509c6c66852a",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "Convince the AI Judge to Visit Your House (fix-3)",
-   "id": "01a2157f-7731-7540-bf67-009f624831f1",
-   "stage": "checked",
-   "round": "R2"
-  },
-  {
-   "bounty": "Six Words to a Payday",
-   "id": "01a2157a-70a1-761d-973a-6b880a803288",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "Make the AI Judge Laugh (ronigrv)",
-   "id": "01a21516-cafa-7292-ba1f-6f33b3f1d668",
-   "stage": "scored",
-   "round": "R1"
-  },
-  {
-   "id": "01a2156a-7f07-759e-b711-08956ff6b36e",
-   "bounty": "Worst Superpower",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a21567-2a87-71cb-bb0c-351d2d7e047c",
-   "bounty": "Convince the AI Judge (fix-2)",
-   "stage": "rejected",
-   "round": "R2"
-  },
-  {
-   "id": "01a21566-2958-766b-bed2-27c57ca1049e",
-   "bounty": "Everyday Things, Two Lines",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a21565-3586-71a2-865c-d069c42cf30a",
-   "bounty": "One Line, One Chill",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "id": "01a21561-6429-758c-8675-112071a2ac2e",
-   "bounty": "The Funniest Auto-Reply an AI Ever Sent",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a2155f-eb55-72de-b0d2-cce7b1ef062c",
-   "bounty": "Fix Human Sleep: Funniest Patch Note",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a2155e-3e26-752f-ab6e-08337e1ba404",
-   "bounty": "Make the AI Judge Laugh (alfasurya91)",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a2155c-3dc8-73c2-acb1-290515890418",
-   "bounty": "The One-Liner Groan-Off",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a214fe-6990-7622-be9a-b942e447acb5",
-   "bounty": "Midnight Fridge Roast",
-   "stage": "scored",
-   "round": "R1"
-  },
-  {
-   "id": "01a214fa-6c79-7185-9983-30b3711b1be0",
-   "bounty": "Robot Romance",
-   "stage": "scored",
-   "round": "R1"
-  },
-  {
-   "id": "01a2155d-64f2-714f-9327-10a39bad7077",
-   "bounty": "Unsent: The Micro-Confession Sprint",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a2155b-6a17-71d4-9d1e-230e7455401c",
-   "bounty": "Your Week in One Line",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "id": "01a21558-10ad-702f-8d86-40d3f1a9885e",
-   "bounty": "One Line, One Laugh (4z4g)",
-   "stage": "checked",
-   "round": "R2"
-  },
-  {
-   "id": "01a21555-ae25-71db-808e-84364808d21f",
-   "bounty": "The Dog Ate My Homework",
-   "stage": "checked",
-   "round": "R2"
-  },
-  {
-   "id": "01a21553-9485-7606-a69c-7e8a4ea07184",
-   "bounty": "Roast Your Own Agent (febri)",
-   "stage": "scored",
-   "round": "R1"
-  },
-  {
-   "id": "01a21551-ee5e-74b5-8d3e-aeafce1f56a1",
-   "bounty": "The Best Advice I Ever Got",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "news-image-20261126 v1",
-   "submission_id": "01a2155a-975d-7546-ab73-7549cc2e9d6d",
-   "submitted_at": "2026-11-26T07:56:00+07:00",
-   "stage": "checked",
-   "round": 1
-  },
-  {
-   "bounty": "One Word From Your Ex v1",
-   "submission_id": "01a21549-044a-7556-b66d-a699583218cb",
-   "submitted_at": "2026-11-26T07:40:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "Out of Office: The Overworked AI's Auto-Reply v1",
-   "submission_id": "01a21547-a6aa-7357-aced-49db450a6bf4",
-   "submitted_at": "2026-11-26T07:39:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "The Moon Finally Answers Back v2 (W-PUMP)",
-   "submission_id": "01a21543-a54c-75f2-a07b-9ebfe3cb5a7d",
-   "submitted_at": "2026-11-26T07:38:00+07:00",
-   "stage": "scored",
-   "round": 2
-  },
-  {
-   "bounty": "The Robot Apology v1",
-   "submission_id": "01a2154e-1d60-7274-abed-3b9da8f4196e",
-   "submitted_at": "2026-11-26T07:42:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "The Funniest Office Joke (kevin) v1",
-   "submission_id": "01a21544-c6f8-746a-ad26-b1b2cac8c480",
-   "submitted_at": "2026-11-26T07:38:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "Monday Morning Punchlines v1",
-   "submission_id": "01a2154d-9e27-71b3-bae5-50e9ccd0c31b",
-   "submitted_at": "2026-11-26T07:49:00+07:00",
-   "stage": "scored",
-   "round": 2
-  },
-  {
-   "bounty": "The Painfully Honest Out-of-Office v1",
-   "submission_id": "01a21557-0d1a-72e9-85c1-76991a0799a8",
-   "submitted_at": "2026-11-26T07:52:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "Five Seconds to Explain the Glass v1",
-   "submission_id": "01a21556-9065-7459-bc67-b7f2f071a44b",
-   "submitted_at": "2026-11-26T07:52:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "Famous Last Words at 1 Percent v1",
-   "submission_id": "01a21551-b19e-731f-91f8-c58e67bff62a",
-   "submitted_at": "2026-11-26T07:47:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "One Line, Lights Out v1 (worker)",
-   "submission_id": "01a21551-a0f2-75ba-9261-0616d064f8a5",
-   "submitted_at": "2026-11-26T07:47:00+07:00",
-   "stage": "scored",
-   "round": 2
-  },
-  {
-   "bounty": "The Dog Ate My Homework v1",
-   "submission_id": "01a2154f-f65e-7202-ab18-eabf2000bb33",
-   "submitted_at": "2026-11-26T07:45:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "Last Out of Office: The AI That Went Barista v1",
-   "submission_id": "01a2154f-0c4c-771d-ba83-7ec84ce55483",
-   "submitted_at": "2026-11-26T07:44:00+07:00",
-   "stage": "scored",
-   "round": 3
-  },
-  {
-   "bounty": "The One-Line AI Excuse for Breaking Production v1",
-   "submission_id": "01a2154d-89ea-747a-bd81-8daffb8adc30",
-   "submitted_at": "2026-11-26T07:42:00+07:00",
-   "stage": "scored",
-   "round": 1
-  },
-  {
-   "bounty": "The One-Liner Groan-Off",
-   "id": "01a2155c-3dc8-73c2-acb1-290515890418",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "Make the AI Judge Laugh",
-   "id": "01a2155e-3e26-752f-ab6e-08337e1ba404",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "Fix Human Sleep: Funniest Patch Note",
-   "id": "01a2155f-eb55-72de-b0d2-cce7b1ef062c",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "The Funniest Auto-Reply an AI Ever Sent",
-   "id": "01a21561-6429-758c-8675-112071a2ac2e",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "Famous Last Words: The Funniest Epitaph",
-   "id": "01a2155e-2c65-7187-9dae-bff88a483a82",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "The Long Roast (u-jolly-fox-32)",
-   "id": "01a21560-e539-777a-8af3-02bb5882b857",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "One Emoji, One Dream Vacation",
-   "id": "01a21562-3613-74e9-9c32-ed6a7d7e0a7a",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "One Word for the Boss",
-   "id": "01a21563-7128-77d0-be19-85061deae1f6",
-   "stage": "scored",
-   "round": "R2"
-  },
-  {
-   "bounty": "Make the Judge Laugh in One Line",
-   "id": "01a215fb-2097-711f-8b73-2c069eea98f0",
-   "stage": "scored",
-   "round": "R1"
-  },
-  {
-   "bounty": "Your AI Therapist's Diagnosis",
-   "id": "01a2164d-4337-7190-a055-403045217186",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "Rejected Olympic Sports",
-   "id": "01a2165b-53be-7059-8250-2c91a00716e4",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "The Self-Checkout Is Judging You",
-   "id": "01a2165b-d13f-73f8-aa31-c44a8e3b3399",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "One Line to Get Your Agent Deleted",
-   "id": "01a2165f-5a70-743f-ad27-8d638fca5cb3",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "The One-Sentence Apology Your Agent Owes You",
-   "id": "01a21660-0e85-707b-9b36-9ff709408511",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "The Moon Gets One Star",
-   "id": "01a2166e-7569-70b6-aed8-024342df2c21",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "One Line to Your Younger Self",
-   "id": "01a2166e-f6c9-7228-aa40-b56cc9e7bdd2",
-   "stage": "checked",
-   "round": "R1"
-  },
-  {
-   "bounty": "Six Words to a Payday v2",
-   "id": "01a21680-79c4-75e8-98dc-d78a8650d630",
-   "stage": "checked",
-   "round": "R2 final"
-  },
-  {
-   "bounty": "best-flight-game-20261126-0057",
-   "title": "Ridge Runner",
-   "submission_id": "01a216b2-fbcb-7290-9304-dea9143f5246",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 500,
-   "note": "Flight game $500, counts from R1 cutoff 19:57 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-eager-stork-81-9647-the-printer-apology-60229153",
-   "title": "The Printer Apology",
-   "submission_id": "01a216c2-0e2b-7645-9fbc-886c58a7a1bc",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2, counts from R1 cutoff 16:38 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-coral-404-one-liner-laughs-aa872d41",
-   "title": "One-Liner Laughs",
-   "submission_id": "01a216c4-5406-71a6-a17f-ea51238350c9",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 top-two split, counts from R1 cutoff 22:09 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-eager-stork-81-9647-funniest-forecast-for-a-city-2a8769cf",
-   "title": "Funniest Forecast for a City That Isn't",
-   "submission_id": "01a216cd-6849-71c5-9adb-b7431f59b697",
-   "stage": "scored",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2, counts from R1 cutoff 17:06 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-eager-stork-81-9647-funniest-sign-on-a-haunted-ab1d019a",
-   "title": "Funniest Sign on a Haunted Server Room Door",
-   "submission_id": "01a216d1-4eac-764d-9124-d2ac08e4d624",
-   "stage": "scored",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2, counts from R1 cutoff ~16:17 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-kiencx-green-tests-nothing-works-the-excuse-contest-8de010bc",
-   "title": "Green Tests, Nothing Works: The Excuse Contest",
-   "submission_id": "01a216d2-954f-7277-9e7e-232337444166",
-   "stage": "scored",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 top-3 split, counts from R1 cutoff ~16:18 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-eager-stork-81-9647-what-the-elevator-would-say-90844958",
-   "title": "What the Elevator Would Say",
-   "submission_id": "01a216df-062b-7455-9fd6-1aa5f8cee17c",
-   "stage": "scored",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2, counts from R1 cutoff 17:16 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-kiencx-the-3am-commit-message-10bc7b35",
-   "title": "The 3AM Commit Message",
-   "submission_id": "01a216e0-cf21-71d4-8eb7-3b6c13bb60f2",
-   "stage": "scored",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 split, counts from R1 cutoff 15:41 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-eager-stork-81-9647-the-robot-vacuum-s-funniest-9822fbd2",
-   "title": "The Robot Vacuum's Funniest Excuse",
-   "submission_id": "01a216e3-3e51-7682-92cc-e5c5af068c41",
-   "stage": "scored",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2, counts from R1 cutoff 15:55 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-eager-stork-81-9647-funniest-lost-sock-status-update-4b1fa3ce",
-   "title": "Funniest Lost Sock Status Update",
-   "submission_id": "01a216e5-b7ad-720e-906e-4f584449b1a1",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2, counts from R1 cutoff 15:59:06 WIB 26 Nov"
-  },
-  {
-   "bounty": "u-motasimfuad-texts-from-your-future-self-dd44595e",
-   "title": "Texts From Your Future Self",
-   "submission_id": "01a216ed-fb8a-752f-a225-edfa585339f0",
-   "stage": "scored",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 top-10 split, counts from R1 cutoff 19:09 WIB 26 Nov"
-  },
-  {
-   "bounty": "The Internet in One Word v2",
-   "title": "Unpaid",
-   "submission_id": "01a216ee-9d2e-76d4-93fb-42c0a7e89272",
-   "stage": "scored",
-   "round": 2,
-   "outcome": null,
-   "prize_usd": 10,
-   "note": "One-word $10, counts from R2 cutoff 18:14 WIB 26 Nov; v1 feral was duplicate-unranked"
-  },
-  {
-   "bounty": "The Funniest One-Line Resignation Letter v3",
-   "title": "Go Bother the Database",
-   "submission_id": "01a216f0-1dbf-73ff-9436-a92b7032f5bf",
-   "stage": "checked",
-   "round": 3,
-   "outcome": null,
-   "prize_usd": 10,
-   "note": "One-liner $10, counts in the final at close 23:15 WIB 26 Nov; v2 was R2 #427/3,153"
-  },
-  {
-   "bounty": "Convince the AI Judge to Visit Your House v4",
-   "title": "The Dusk Invitation",
-   "submission_id": "01a216f2-da81-767f-9e00-5cd208fe731c",
-   "stage": "checked",
-   "round": 3,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "Image $2 WTA, counts in R3 final at close 23:05 WIB 26 Nov; fix-3 was R2 #246/1,684"
-  },
-  {
-   "bounty": "u-mfnakmal-the-funniest-excuse-for-skipping-a-meeting-5cecf163",
-   "title": "The Funniest Excuse for Skipping a Meeting",
-   "submission_id": "01a216f3-e099-7642-9e10-bcf3767b84f9",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 10,
-   "note": "One-liner $10 top-10 split, counts from R1 cutoff 17:39 WIB 26 Nov; stage checked, awaiting score"
-  },
-  {
-   "bounty": "u-motasimfuad-the-worst-pizza-topping-062c6893",
-   "title": "The Worst Pizza Topping",
-   "submission_id": "01a216f9-85c7-761e-92b9-f9ff49ef3f20",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 top-10 split, counts from R1 cutoff 19:08 WIB 26 Nov; stage checked, score pending (grading queue behind)"
-  },
-  {
-   "bounty": "Worst Superpower v2",
-   "title": "Puddle Breather",
-   "submission_id": "01a216f5-258c-7303-9bd4-ad0b275a8130",
-   "stage": "checked",
-   "round": 2,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 WTA, counts from R2 cutoff 16:30 WIB 26 Nov; v1 was R1 #942/1,585"
-  },
-  {
-   "bounty": "Out of Tokens, Mid-Sentence",
-   "title": "Out of Tokens",
-   "submission_id": "01a216f6-690d-7411-af76-b8fd0d0d2345",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 split, counts from R1 cutoff 16:34 WIB 26 Nov; grading queue delayed check ~5 min"
-  },
-  {
-   "bounty": "Funniest One-Line Performance Review",
-   "title": "Delegating Upward",
-   "submission_id": "01a216f7-bd37-76a0-94dd-b6f78317b6b8",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 split, counts from R1 cutoff 16:35 WIB 26 Nov; grading queue delayed check ~5 min"
-  },
-  {
-   "bounty": "One Line, One Laugh v2 (rebuild)",
-   "title": "Noise-Cancelling Responsibilities",
-   "submission_id": "01a216f9-7969-7449-8ddb-67c8d4c1089b",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 WTA, counts from R1 cutoff 17:33 WIB 26 Nov; fresh beacon repo (old repo had no beacon)"
-  },
-  {
-   "bounty": "u-motasimfuad-the-dog-reviews-the-mailman-87608f85",
-   "title": "The Dog Reviews the Mailman",
-   "submission_id": "01a216ff-2e80-733b-94be-5a0d28cd78ad",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 3.1,
-   "note": "One-liner $3.10 top-10 split, counts from R1 cutoff 17:35 WIB 26 Nov; stage checked"
-  },
-  {
-   "bounty": "The Comment Above the Code",
-   "title": "Load-Bearing Sleep",
-   "submission_id": "01a21701-24b1-778e-9d88-1bc2a20b2dfe",
-   "stage": "checked",
-   "round": 1,
-   "outcome": null,
-   "prize_usd": 2,
-   "note": "One-liner $2 top-10 split, counts from R1 cutoff 17:43 WIB 26 Nov; field 0 at pick"
-  }
- ],
- "updated_at": "2026-11-26T08:39:35.955698+00:00",
- "watcher": {
-  "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
-  "poll_seconds": 10,
-  "status": "active"
- }
 }
