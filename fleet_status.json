@@ -811,9 +811,19 @@
       "outcome": null,
       "prize_usd": 3,
       "note": "One-liner $3 top-10 split, counts from R1 cutoff 17:35 WIB 26 Nov; stage checked"
+    },
+    {
+      "bounty": "u-motasimfuad-rename-the-planet-094b0369",
+      "title": "Rename the Planet",
+      "submission_id": "01a2170e-ddac-7711-9a48-c9ab5b06dacd",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 3.1,
+      "note": "One-liner $3.10 top-10 split, counts from R1 cutoff 17:46 WIB 26 Nov; stage checked"
     }
   ],
-  "updated_at": "2026-11-26T08:51:56.220182+00:00",
+  "updated_at": "2026-11-26T08:54:55.004222+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
