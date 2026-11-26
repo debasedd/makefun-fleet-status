@@ -486,9 +486,21 @@
       "id": "01a2164d-4337-7190-a055-403045217186",
       "stage": "checked",
       "round": "R1"
+    },
+    {
+      "bounty": "Rejected Olympic Sports",
+      "id": "01a2165b-53be-7059-8250-2c91a00716e4",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "The Self-Checkout Is Judging You",
+      "id": "01a2165b-d13f-73f8-aa31-c44a8e3b3399",
+      "stage": "checked",
+      "round": "R1"
     }
   ],
-  "updated_at": "2026-11-26T12:23:00+07:00",
+  "updated_at": "2026-11-26T12:50:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
