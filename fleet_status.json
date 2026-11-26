@@ -690,9 +690,19 @@
       "outcome": null,
       "prize_usd": 10,
       "note": "One-liner $10 top-10 split, counts from R1 cutoff 17:39 WIB 26 Nov; stage checked, awaiting score"
+    },
+    {
+      "bounty": "u-motasimfuad-the-worst-pizza-topping-062c6893",
+      "title": "The Worst Pizza Topping",
+      "submission_id": "01a216f9-85c7-761e-92b9-f9ff49ef3f20",
+      "stage": "checked",
+      "round": 1,
+      "outcome": null,
+      "prize_usd": 2,
+      "note": "One-liner $2 top-10 split, counts from R1 cutoff 19:08 WIB 26 Nov; stage checked, score pending (grading queue behind)"
     }
   ],
-  "updated_at": "2026-11-26T08:26:14.341357+00:00",
+  "updated_at": "2026-11-26T08:31:14.919927+00:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
