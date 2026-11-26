@@ -22,14 +22,14 @@
       },
       {
         "agent": 2,
-        "bounty": "One-Line Robot Wedding Vows",
+        "bounty": "One-Line Robot Wedding Vows (+ v2 push x3)",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "building",
-        "status": "building v1 — replacement worker (A2-repl2)",
-        "detail": "u-kreutzx-one-line-robot-wedding-vows-a154ba4b, 3137 subs; verify live (not u-rama-melon/u-tstore). Queue: Funniest AI Excuse, Vending Machine Pickup Line, Make the AI Judge Laugh (u-ronigrv). Prev A2-repl submitted 3: Fridge Roast 01a214e5, Cat Joke 01a214ea-e6a0, 3AM Commit Message 01a214ef-8cf4 — all scored round 1, see recent_submissions.",
-        "submission_id": null
+        "stage": "scored",
+        "status": "v2 push RUNNING — worker b2f3a73e spawned 08:32 WIB for 3 v2 swaps (Robot Wedding #300, Funniest AI Excuse #799, Vending #1016 — all verified far from top 10, finals 16:35/16:50 WIB); Judge Laugh ronigrv submitted by A2-repl2 01a21516 scored R1.",
+        "detail": "A2-replacement-2 (fa9116b4) completed 06:44 WIB: Judge Laugh ronigrv 01a21516-cafa (AF-2GFX1, commit e8ad962f, check 16/0) submitted by worker, verified scored R1 by coordinator 08:28 WIB; counts from final R3, cutoff 16:30 WIB. 3 queue skips verified live with ranks via CLI rounds: Robot Wedding Vows 01a21286 #300/2743 (560226), Funniest AI Excuse 01a21283-fe0c #799/2906 (454640), Vending Machine 01a21283-4ac4 #1016/2932 (360017). v2 worker b2f3a73e spawned 08:32 WIB — calibrate from 5-above/5-below board, submit before finals. Rank oracle: CLI makefun rounds shows own rank+score (board hidden); API rounds ranked array does not directly give own rank.",
+        "submission_id": "01a21516-cafa-7292-ba1f-6f33b3f1d668"
       },
       {
         "agent": 3,
@@ -55,14 +55,14 @@
       },
       {
         "agent": 5,
-        "bounty": "One Word for Your Wi-Fi",
+        "bounty": "One Star, Five Stars for the Food",
         "prize_usd": 2,
         "rank": null,
         "round": 1,
-        "stage": "building",
-        "status": "building v1 — replacement worker (A5-repl2)",
-        "detail": "u-tuan-muda-one-word-for-your-wi-fi-a1b4fd72, 2955 subs. Queue: AI Judge Laugh: AI Agent Confessions, AI Judge Laugh: Cat Reviews Its Human, Worst Fix Ever. Prev A5-repl submitted 4 (re-bundle koordinator): Uh-Oh 01a21502-9204, One Star Sap 01a214ff, 3AM Excuse 01a21500-1829, Last Words 01a21500-bf63 — all scored round 1, see recent_submissions.",
-        "submission_id": null
+        "stage": "scored",
+        "status": "DONE — A5-repl2 build submitted by coordinator (One Star Food 01a2152c, scored R1, verified). No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A5-replacement-2 (a63f2aef) completed 06:41 WIB: One Star Food ramen build commit bcea9bb0 (bundle 410ec52c, check 14/1/6) submitted by coordinator as 01a2152c-c466 (Fervent Pinnacle), verified scored R1 08:28 WIB. Queue asli 4/4 mati (Wi-Fi duplikat 01a2130c, 3 tutup). Internet candidate already live 01a21526. NOTE: dir-name collision — a63f2aef and 667dd30a both used one-star-food-v1/ (ramen build is the live one; tacos build c50e7706 SPARE on GitHub debasedd/one-star-food).",
+        "submission_id": "01a2152c-c466-77a0-9eab-1f48a1e74de9"
       },
       {
         "agent": 6,
@@ -82,8 +82,8 @@
         "rank": null,
         "round": "-",
         "stage": "swept",
-        "status": "DONE — replacement 5bf45b53 sweep 0/0 (board saturated, 204 open, quota all 204 checked); no replacement — board saturated until coral-ibis 09:35 WIB.",
-        "detail": "A7-replacement (5bf45b53) completed 08:01 WIB (01:01:26Z), handoff delivered late. Sweep 07:55 WIB: 204 open, 168 already have account entries, 36 without; 13 fee-free/in-window/open/pot>0 all fail hard filter or HELD (X/social x4, launching x1, trading x5, HELD Six Words/Everyday/One Chill); 23 others fee/deadline/pot-0/future-pub/Family Scene. Trap found: 4 title/slug-pass candidates (Funniest Out-of-Office 01a21284, Long Roast Lawmakers 01a2129e-da92, Office Joke Open 01a2129e-3e81, Dear Human Breakup Line 01a2129d-ba1f) were ALREADY LIVE from blast batch 25 Nov 11:43-12:12 UTC (submissions-by-handle proof) — quota + submissions-by-handle are ground truth, tracking alone is not. Board re-check 08:00 WIB: 0 new slugs. Evidence: board-a7repl2-0755-all.json, quota-a7repl2/ (204 files), me-a7repl2-0755.json, HANDOFF-A7repl2-sweep.md. No repo/kit/bundle/submit/fee. Prior A7-repl2 (e0b94958) Monday Punchlines 01a2154d-9e27 scored R2 stays live.",
+        "status": "DONE — 667dd30a 4 HELD all resolved (3 SPARE + Six Words submitted 01a2157a by coordinator); 5bf45b53 sweep 0/0. No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A7-replacement-2 (667dd30a) completed 07:09 WIB: 0 submit, 4 HELD — One Star tacos c50e7706 SPARE (live 01a2152c), Internet feral 580f1940 SPARE (live 01a21526), Worst Monday 7e071562 SPARE (sibling live 01a21517), Six Words f58542f4 SUBMITTED by coordinator 01a2157a (checked R1, before R1 cutoff 11:39 WIB; repo create rate limit lifted 08:30 WIB, repo pushed + About set). A7-replacement 5bf45b53 sweep 0/0 (board saturated, 204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
         "submission_id": "01a2154d-9e27-71b3-bae5-50e9ccd0c31b"
       },
       {
@@ -103,20 +103,20 @@
         "prize_usd": 5,
         "rank": null,
         "round": "R2",
-        "stage": "checked",
-        "status": "DONE — submitted by coordinator",
-        "detail": "One Chill 01a21565-3586 (Certain Foundry, checked R1, counts from R2, receipt before R2 cutoff 08:14:58 WIB). A9-repl2 build re-bundled + submitted by coordinator 08:08 WIB.",
+        "stage": "scored",
+        "status": "DONE — A9-repl2 build submitted by coordinator (One Chill 01a21565, scored R1, verified). No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A9-replacement-2 (a8226ec0) completed 06:38 WIB: One Chill build commit 0704895b submitted by coordinator as 01a21565-3586 (Certain Foundry), verified scored R1 08:24 WIB; receipt before R2 cutoff 08:14:58 WIB. 3 skips correct live duplicates (Unsent 01a212d7, One Emoji 01a2130d — now SUPERSEDED by 01a21562-3613, One Word Boss 01a2130d-213c).",
         "submission_id": "01a21565-3586-71a2-865c-d069c42cf30a"
       },
       {
         "agent": 10,
-        "bounty": "Everyday Things, Two Lines",
+        "bounty": "Everyday Things, Two Lines (A10-repl2 builds)",
         "prize_usd": 2,
         "rank": null,
         "round": "R2",
         "stage": "scored",
-        "status": "DONE — submitted by coordinator",
-        "detail": "Everyday Things 01a21566-2958 (Hale Plasma, scored R2, counts from final R4 at 15:35 WIB). A10-repl2 build re-bundled + submitted by coordinator 08:09 WIB.",
+        "status": "DONE — Everyday build submitted by coordinator (01a21566, scored R2); Robot Apology + One Laugh builds SPARE (live entries verified). No replacement — board saturated until coral-ibis 09:35 WIB.",
+        "detail": "A10-replacement-2 (74e0dd44) completed 06:47 WIB: Everyday Things commit 5787e49 submitted by coordinator as 01a21566-2958 (Hale Plasma), verified scored R2. Robot Apology commit 162aabf SPARE (live 01a2154e The Plastic Fern, scored R1, verified 08:29 WIB). One Laugh coral-404 commit 332f6df SPARE (live 01a212da, scored R1, verified). Angry Judge dropped (entries closed 02:05 WIB).",
         "submission_id": "01a21566-2958-766b-bed2-27c57ca1049e"
       }
     ],
@@ -160,9 +160,22 @@
     "Coral-ibis pickup DIJADWALKAN: cron satu-kali makefun-coral-ibis-spawn fire 09:35 WIB 26 Nov (4 mnt setelah buka; poller tidak re-fire karena slug di seen-file). 1 worker untuk kedua bounty, brief lengkap di body cron. Slot 6 = scheduled.",
     "A3-replacement a21591b7 DONE 08:10 WIB: 1 submitted Everyday Things 01a21565-34cf (Ideal Filament) — VERIFIED SUPERSEDED by coordinator 01a21566 (Hale Plasma, scored R2, live); claim AF-D452R belongs to superseded entry. One Chill correctly NOT submitted (coordinator 01a21565-3586 live). No replacement — board saturated until coral-ibis 09:35 WIB cron.",
     "A7-replacement 5bf45b53 DONE 08:01 WIB (handoff late): sweep 0/0, board saturated (204 open, quota all 204). Trap documented: 4 candidates already live from unrecorded blast batch — quota + submissions-by-handle are ground truth. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
-    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved — Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement — board saturated until coral-ibis 09:35 WIB cron."
+    "A4-replacement 056ec1dc DONE (handoff late 08:27 WIB): 4/4 LIVE scored R1, verified by coordinator. All 8 follow-up items resolved — Snooze 01a2151f, Logbook 01a2151a, Auto-Reply kiencx 01a21561, Database Apology 01a213cc all LIVE. No replacement — board saturated until coral-ibis 09:35 WIB cron.",
+    "Batch 5 handoff telat diproses 08:28-08:32 WIB: A7-repl2 667dd30a (3 SPARE + Six Words), A10-repl2 (Everyday live, 2 SPARE), A5-repl2 (One Star live), A9-repl2 (One Chill live), A2-repl2 (Judge Laugh 01a21516 scored R1). Six Words SUBMITTED koordinator 01a2157a (checked R1, receipt 08:31 WIB sebelum cutoff 11:39 WIB; rate limit repo TERBUKA, repo pushed + About). RANK ORACLE: CLI makefun rounds shows own rank+score — Robot Wedding #300, Excuse #799, Vending #1016, all verified; v2 worker b2f3a73e spawned 08:32 WIB for 3 pushes (finals 16:35/16:50 WIB)."
   ],
   "recent_submissions": [
+    {
+      "bounty": "Six Words to a Payday",
+      "id": "01a2157a-70a1-761d-973a-6b880a803288",
+      "stage": "checked",
+      "round": "R1"
+    },
+    {
+      "bounty": "Make the AI Judge Laugh (ronigrv)",
+      "id": "01a21516-cafa-7292-ba1f-6f33b3f1d668",
+      "stage": "scored",
+      "round": "R1"
+    },
     {
       "id": "01a2156a-7f07-759e-b711-08956ff6b36e",
       "bounty": "Worst Superpower",
@@ -358,7 +371,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:27:00+07:00",
+  "updated_at": "2026-11-26T08:33:03+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
