@@ -66,14 +66,14 @@
       },
       {
         "agent": 6,
-        "bounty": "Best Advice / Roast febri / Dog Homework / One Laugh (4z4g)",
-        "prize_usd": 2,
+        "bounty": "Board sweep (saturated)",
+        "prize_usd": 0,
         "rank": null,
-        "round": "R2 / R1 / R2 / R2",
-        "stage": "scored",
-        "status": "pushing fresh board (replacement 568ad60f)",
-        "detail": "f804453b 4/4 SUBMITTED: Best Advice 01a21551-ee5e (scored R2, swap of 01a21550), Roast febri 01a21553-9485 (scored R1, NEW), Dog Homework 01a21555-ae25 (checked R2, swap of W-BOOM 01a2154f), One Laugh 4z4g 01a21558-10ad (checked R2, NEW slug). Replacement 568ad60f spawned 08:00 WIB hunting new bounties (board saturated).",
-        "submission_id": "01a21551-ee5e-74b5-8d3e-aeafce1f56a1"
+        "round": "-",
+        "stage": "swept",
+        "status": "holding — no buildable bounty until 09:31 WIB",
+        "detail": "A6-repl 568ad60f sweep independen 08:00 WIB: 204 open, 0 baru, 16 no-entry semua terblokir, 4 opening pre-gate. Worst Superpower (rekomendasi sweep) sudah disubmit koordinator 01a2156a. Slot ini tidak punya target sampai bounty baru terbit / coral-ibis buka 09:31 WIB.",
+        "submission_id": "01a2156a-7f07-759e-b711-08956ff6b36e"
       },
       {
         "agent": 7,
@@ -354,7 +354,7 @@
       "round": 1
     }
   ],
-  "updated_at": "2026-11-26T08:15:00+07:00",
+  "updated_at": "2026-11-26T08:16:00+07:00",
   "watcher": {
     "last_new_bounty": "news-image-20261126 + best-national-statistics-site + best-household-budget-site (0 subs each, board 05:30 WIB)",
     "poll_seconds": 10,
